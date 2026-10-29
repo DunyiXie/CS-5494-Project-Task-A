@@ -1,0 +1,24 @@
+{
+  "scope": "Task A only",
+  "method": "baseline",
+  "weights_updated": false,
+  "n_shot": 0,
+  "adapter": null,
+  "expected_test_rows": 1007,
+  "references_access": "Only after all test predictions have been generated and saved",
+  "test_input_fields": [
+    "Sample_id",
+    "Task",
+    "Question",
+    "Context"
+  ],
+  "prediction_columns": [
+    "Sample_id",
+    "Answer"
+  ],
+  "before_generation": "Verify freeze, runtime, pinned model snapshot and all input token lengths; reject any over-budget input",
+  "generation": "Use only the frozen sources, method=baseline, no demonstrations, no adapter; save all raw outputs",
+  "evaluation": "Use frozen evaluation_v2 after complete prediction export; empty, incorrect and truncated outputs stay in denominator",
+  "after_test": "Do not tune prompts, decoding or scoring based on final-test answers or scores",
+  "failure": "Preserve failed-run logs; any retry must keep the same frozen settings and be documented"
+}

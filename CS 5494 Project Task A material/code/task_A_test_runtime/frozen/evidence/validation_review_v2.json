@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "checks_passed": 35,
+  "checks": [
+    "paths_within_workspace_and_compressed_size_bounded",
+    "12_unique_case_insensitive_members",
+    "exact_10_file_allowlist",
+    "only_two_expected_directories",
+    "safe_paths_no_symlinks_no_encryption_and_regular_types",
+    "bounded_file_total_sizes_and_compression_ratios",
+    "all_CRCs_pass",
+    "four_scoring_sources_match_trusted_and_issued_v2_SHA",
+    "safe_extraction_complete",
+    "summary_matches_local_except_seconds",
+    "source_manifest_matches_local_and_evidence",
+    "original_model_archive_and_raw_hashes_unchanged",
+    "all_six_evidence_hashes_match",
+    "all_six_evidence_files_match_original_GPU_archive_bytes",
+    "local_bytes_match_predictions_v2.csv",
+    "local_bytes_match_changed_answers.csv",
+    "local_bytes_match_evaluation/per_sample.csv",
+    "local_bytes_match_scoring_source/evaluation.py",
+    "local_bytes_match_scoring_source/evaluation_config.json",
+    "local_bytes_match_scoring_source/evaluate.py",
+    "local_bytes_match_scoring_source/data_utils.py",
+    "metrics_JSON_matches_local",
+    "five_tables_have_907_unique_matching_IDs_and_order",
+    "task_counts_300_320_287",
+    "new_predictions_reconstructed_from_same_raw_without_gold",
+    "exactly_42_math_empty_to_numeric_repairs_no_truncation",
+    "26_new_correct_16_still_wrong_change_scores_match_tables",
+    "other_865_per_sample_scores_unchanged",
+    "QA_and_RAG_all_metrics_unchanged",
+    "math_44_of_287_and_51_total_empty",
+    "version_markers_no_model_regeneration_no_test_use",
+    "trusted_workspace_CLI_recalculation_passes",
+    "independent_metrics_exactly_match_Colab",
+    "independent_per_sample_CSV_bytes_match_Colab",
+    "seconds_field_is_finite_nonnegative"
+  ],
+  "archive": "project\\evaluation_v2_20261026_141736_210798_UTC.zip",
+  "archive_sha256": "0e04b959667a55c8694d5e5d276c356e432f4fdba81410a5071fb0766fc9ad3d",
+  "count": 907,
+  "comparison_local_run": "project\\step4_evaluation_v2\\runs\\evaluation_v2_20261026_140835_949875_UTC",
+  "only_summary_difference_allowed": "seconds",
+  "source_archive_sha256": "d2e551061379c6ce40b88bc38d6ba6bf7bb2d2d0463cb73b677b1f9f537aabc4",
+  "raw_model_output_sha256": "d83f9ca862dcc9c32a099160ebb8bb41949827276d7db1c94ce035504711a86e",
+  "changed_math_extractions": 42,
+  "newly_correct": 26,
+  "newly_parsed_but_wrong": 16,
+  "unchanged_scores": 865,
+  "math_correct": 44,
+  "math_accuracy": 15.331010452961673,
+  "total_extracted_empty": 51,
+  "QA_RAG_unchanged": true,
+  "per_task": {
+    "qa": {
+      "count": 300,
+      "empty_extracted_answers": 1,
+      "extraction_status_counts": {
+        "text": 299,
+        "truncated": 1
+      },
+      "exact_match": 13.0,
+      "token_f1": 19.588889487294388,
+      "strict_exact_match": 10.0
+    },
+    "rag": {
+      "count": 320,
+      "empty_extracted_answers": 0,
+      "extraction_status_counts": {
+        "text": 320
+      },
+      "exact_match": 34.6875,
+      "token_f1": 47.68207880853964,
+      "strict_exact_match": 34.6875,
+      "unanswerable_count": 56,
+      "unanswerable_accuracy": 76.78571428571429
+    },
+    "math": {
+      "count": 287,
+      "empty_extracted_answers": 50,
+      "extraction_status_counts": {
+        "complete_number": 195,
+        "unparseable": 49,
+        "explicit_final_number": 42,
+        "truncated": 1
+      },
+      "numeric_accuracy": 15.331010452961673
+    }
+  },
+  "macro_primary_score": 21.006170150987224,
+  "colab_rescore_seconds": 0.17134895300023345,
+  "model_regenerated": false,
+  "actual_test_data_opened": false,
+  "returned_code_executed": false,
+  "independent_scoring": "exact metrics and per-sample CSV match"
+}

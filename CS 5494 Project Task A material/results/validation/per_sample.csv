@@ -1,0 +1,1130 @@
+Sample_id,Task,raw_answer,answer,extraction_status,exact_match,token_f1,strict_exact_match,numeric_correct,reference_unanswerable
+TRAIN_00010,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_00022,qa,igneous,igneous,text,0.0,0.0,0.0,,
+TRAIN_00032,qa,St. James,St. James,text,0.0,0.0,0.0,,
+TRAIN_00034,math,10,10,complete_number,,,,0.0,
+TRAIN_00036,math,20 + (20 * 2) = 20 + 40 = 60,,unparseable,,,,0.0,
+TRAIN_00041,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_00062,qa,Freedom Day,Freedom Day,text,0.0,0.5,0.0,,
+TRAIN_00084,rag,Simone Klein,Simone Klein,text,1.0,1.0,1.0,,False
+TRAIN_00098,math,6,6,complete_number,,,,0.0,
+TRAIN_00099,qa,George IV,George IV,text,0.0,0.0,0.0,,
+TRAIN_00170,math,120,120,complete_number,,,,0.0,
+TRAIN_00185,math,126,126,complete_number,,,,0.0,
+TRAIN_00186,qa,Drake,Drake,text,0.0,0.0,0.0,,
+TRAIN_00189,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_00194,rag,0.5B; Apache 2.0,0.5B; Apache 2.0,text,1.0,1.0,1.0,,False
+TRAIN_00198,rag,$777 million,$777 million,text,1.0,1.0,1.0,,False
+TRAIN_00199,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_00209,qa,'LORA','LORA',text,1.0,1.0,1.0,,
+TRAIN_00210,math,"22 + 24 = 46
+
+65 - 46 = 19
+
+The answer is 19.",,unparseable,,,,0.0,
+TRAIN_00217,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_00225,math,150*4 + 150*3*2 - 16 = 600 + 900 - 16 = 1484,,unparseable,,,,0.0,
+TRAIN_00236,qa,ovary,ovary,text,0.0,0.0,0.0,,
+TRAIN_00240,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_00259,qa,Flora Georgia Line,Flora Georgia Line,text,0.0,0.0,0.0,,
+TRAIN_00267,math,1250,1250,complete_number,,,,0.0,
+TRAIN_00268,rag,Aonuma,Aonuma,text,0.0,0.0,0.0,,True
+TRAIN_00277,math,"10% of 25.00 is 2.50, so 25.00 - 2.50 = 22.50. Monica will make $22.50 from the party.",,unparseable,,,,0.0,
+TRAIN_00310,rag,cirque,cirque,text,0.0,0.0,0.0,,True
+TRAIN_00311,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_00333,qa,Peter Sellers,Peter Sellers,text,0.0,0.0,0.0,,
+TRAIN_00347,rag,Montesquieu,Montesquieu,text,0.0,0.0,0.0,,False
+TRAIN_00373,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_00385,rag,"175,000+","175,000+",text,1.0,1.0,1.0,,False
+TRAIN_00396,math,40,40,complete_number,,,,0.0,
+TRAIN_00414,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_00422,rag,The full name of the viral respiratory disease in which Yi Guan's research helped to prevent the outbreak of is SARS.,The full name of the viral respiratory disease in which Yi Guan's research helped to prevent the outbreak of is SARS.,text,0.0,0.07142857142857142,0.0,,False
+TRAIN_00441,qa,left-ordered tree,left-ordered tree,text,0.0,0.2857142857142857,0.0,,
+TRAIN_00448,qa,Fidel Castro,Fidel Castro,text,0.0,0.0,0.0,,
+TRAIN_00455,math,10,10,complete_number,,,,0.0,
+TRAIN_00458,qa,Meryl Streep,Meryl Streep,text,0.0,0.0,0.0,,
+TRAIN_00463,qa,Document Retrieval with Language Model Answer Generation,Document Retrieval with Language Model Answer Generation,text,0.0,0.36363636363636365,0.0,,
+TRAIN_00467,math,3,3,complete_number,,,,0.0,
+TRAIN_00479,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_00481,qa,Lock & Lock,Lock & Lock,text,0.0,0.2857142857142857,0.0,,
+TRAIN_00486,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_00497,rag,"Liver, stomach, and esophagus cancers","Liver, stomach, and esophagus cancers",text,0.0,0.0,0.0,,False
+TRAIN_00498,qa,Wigan Rock,Wigan Rock,text,0.0,0.0,0.0,,
+TRAIN_00504,qa,2014,2014,text,0.0,0.6666666666666666,0.0,,
+TRAIN_00505,qa,carrot,carrot,text,0.0,0.0,0.0,,
+TRAIN_00518,rag,675,675,text,1.0,1.0,1.0,,False
+TRAIN_00523,qa,earth,earth,text,0.0,0.0,0.0,,
+TRAIN_00535,qa,1990,1990,text,0.0,0.0,0.0,,
+TRAIN_00554,qa,"chocolate, strawberry, lemon, orange, and pineapple","chocolate, strawberry, lemon, orange, and pineapple",text,0.0,0.7,0.0,,
+TRAIN_00586,math,120,120,complete_number,,,,0.0,
+TRAIN_00609,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_00614,qa,The U.S. Department of Labor is under the jurisdiction of the U.S. Department of Commerce.,The U.S. Department of Labor is under the jurisdiction of the U.S. Department of Commerce.,text,0.0,0.0,0.0,,
+TRAIN_00618,math,130,130,complete_number,,,,0.0,
+TRAIN_00632,qa,Megan Fox,Megan Fox,text,0.0,0.0,0.0,,
+TRAIN_00639,rag,2001 UEFA Champions League Final,2001 UEFA Champions League Final,text,0.0,0.0,0.0,,True
+TRAIN_00666,qa,Illinois,Illinois,text,0.0,0.0,0.0,,
+TRAIN_00677,qa,"The answer phrase is: The 1973 classic is ""Taxi Driver.""","The answer phrase is: The 1973 classic is ""Taxi Driver.""",text,0.0,0.25,0.0,,
+TRAIN_00680,rag,United States.,United States.,text,0.0,0.0,0.0,,False
+TRAIN_00686,qa,Loughinisland,Loughinisland,text,0.0,0.0,0.0,,
+TRAIN_00698,math,15,15,complete_number,,,,0.0,
+TRAIN_00711,qa,isobars,isobars,text,0.0,0.0,0.0,,
+TRAIN_00717,qa,Yes,Yes,text,0.0,0.0,0.0,,
+TRAIN_00724,math,10,10,complete_number,,,,0.0,
+TRAIN_00738,math,35,35,complete_number,,,,0.0,
+TRAIN_00745,rag,Spring Breakers,Spring Breakers,text,0.0,0.0,0.0,,False
+TRAIN_00754,qa,Elton John,Elton John,text,0.0,0.0,0.0,,
+TRAIN_00773,math,14,14,complete_number,,,,1.0,
+TRAIN_00780,qa,cache,cache,text,1.0,1.0,1.0,,
+TRAIN_00786,math,7,7,complete_number,,,,0.0,
+TRAIN_00807,math,"11 - 12 = -1
+
+Jill has 11 peaches, Jake has 12 - 11 = 1 peach.
+
+Jill has 11 - 1 = 10 more peaches than Jake.
+
+Final numeric answer: 10",10,explicit_final_number,,,,0.0,
+TRAIN_00810,qa,footballers,footballers,text,0.0,0.0,0.0,,
+TRAIN_00814,qa,crime scene investigation,crime scene investigation,text,0.0,0.2222222222222222,0.0,,
+TRAIN_00818,math,10,10,complete_number,,,,0.0,
+TRAIN_00819,qa,Hockey,Hockey,text,0.0,0.0,0.0,,
+TRAIN_00841,rag,camouflage and concealment,camouflage and concealment,text,0.0,0.5,0.0,,False
+TRAIN_00854,rag,Mezzanine,Mezzanine,text,1.0,1.0,1.0,,False
+TRAIN_00865,qa,12,12,text,1.0,1.0,1.0,,
+TRAIN_00870,qa,Little Dorrit,Little Dorrit,text,0.0,0.0,0.0,,
+TRAIN_00876,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_00887,rag,Golden Globe for New Male Star of the Year.,Golden Globe for New Male Star of the Year.,text,0.0,0.75,0.0,,False
+TRAIN_00893,qa,Netflix,Netflix,text,1.0,1.0,1.0,,
+TRAIN_00896,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_00900,math,12 * 80 / 6 = 160,,unparseable,,,,0.0,
+TRAIN_00908,math,50,50,complete_number,,,,0.0,
+TRAIN_00914,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_00934,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_00937,rag,Capitoline Hill in Rome.,Capitoline Hill in Rome.,text,0.0,0.8888888888888888,0.0,,False
+TRAIN_00941,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_00949,math,19,19,complete_number,,,,0.0,
+TRAIN_00950,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_00984,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_01000,qa,The Dark Knight,The Dark Knight,text,0.0,0.0,0.0,,
+TRAIN_01004,qa,c. 700–1100,c. 700–1100,text,0.0,0.2222222222222222,0.0,,
+TRAIN_01009,math,12,12,complete_number,,,,0.0,
+TRAIN_01019,qa,The theme song for Silver Spoon was sung by The Beatles.,The theme song for Silver Spoon was sung by The Beatles.,text,0.0,0.0,0.0,,
+TRAIN_01021,math,12,12,complete_number,,,,0.0,
+TRAIN_01030,math,"159 - 100 - 148 = 159 - 248 = -99
+
+The answer is -99.",,unparseable,,,,0.0,
+TRAIN_01057,qa,1790,1790,text,0.0,0.0,0.0,,
+TRAIN_01081,rag,Oklahoma City Theatre Company,Oklahoma City Theatre Company,text,0.0,0.5714285714285714,0.0,,False
+TRAIN_01086,math,14 + (4 * 42 * 0.9),,unparseable,,,,0.0,
+TRAIN_01087,math,120,120,complete_number,,,,0.0,
+TRAIN_01098,qa,summer season,summer season,text,0.0,0.0,0.0,,
+TRAIN_01100,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_01116,qa,Cristiano Ronaldo,Cristiano Ronaldo,text,0.0,0.0,0.0,,
+TRAIN_01120,qa,caractacus potts and truly scrumptious,caractacus potts and truly scrumptious,text,0.0,0.0,0.0,,
+TRAIN_01121,qa,football,football,text,1.0,1.0,1.0,,
+TRAIN_01148,math,14,14,complete_number,,,,0.0,
+TRAIN_01153,rag,Sanborns,Sanborns,text,1.0,1.0,1.0,,False
+TRAIN_01159,math,128.5,128.5,complete_number,,,,0.0,
+TRAIN_01164,qa,model complexity,model complexity,text,0.0,0.0,0.0,,
+TRAIN_01179,math,10,10,complete_number,,,,0.0,
+TRAIN_01187,qa,"Rascal Flatts - ""What Hurts the Most""","Rascal Flatts - ""What Hurts the Most""",text,0.0,0.0,0.0,,
+TRAIN_01195,math,3,3,complete_number,,,,0.0,
+TRAIN_01196,rag,Square Enix,Square Enix,text,0.0,0.0,0.0,,False
+TRAIN_01231,math,"10 packs × 6 cookies = 60 cookies  
+60 cookies × $0.10 = $6.00  
+$10 - $6.00 = $4.00  
+
+Final numeric answer: 4",4,explicit_final_number,,,,1.0,
+TRAIN_01235,math,16,16,complete_number,,,,0.0,
+TRAIN_01248,qa,John Philip Sousa,John Philip Sousa,text,0.0,0.0,0.0,,
+TRAIN_01254,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_01273,rag,Suso's Little Book of Eternal Wisdom,Suso's Little Book of Eternal Wisdom,text,1.0,1.0,1.0,,False
+TRAIN_01280,qa,Toyota Luxury Vehicle Division,Toyota Luxury Vehicle Division,text,0.0,0.3333333333333333,0.0,,
+TRAIN_01292,math,150,150,complete_number,,,,0.0,
+TRAIN_01305,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_01326,rag,State of Israel,State of Israel,text,0.0,0.5,0.0,,False
+TRAIN_01333,rag,Homo erectus,Homo erectus,text,1.0,1.0,1.0,,False
+TRAIN_01336,rag,8400,8400,text,1.0,1.0,1.0,,False
+TRAIN_01337,rag,NASA's Jet Propulsion Laboratory.,NASA's Jet Propulsion Laboratory.,text,0.0,0.9230769230769231,0.0,,False
+TRAIN_01344,math,110,110,complete_number,,,,0.0,
+TRAIN_01355,qa,2023,2023,text,0.0,0.0,0.0,,
+TRAIN_01378,rag,The nail in the coffin for illegal raves was The Spiral Tribe at Castle Morten.,The nail in the coffin for illegal raves was The Spiral Tribe at Castle Morten.,text,0.0,0.5454545454545454,0.0,,False
+TRAIN_01385,qa,ruble,ruble,text,1.0,1.0,0.0,,
+TRAIN_01411,qa,Dwyane Wade,Dwyane Wade,text,1.0,1.0,1.0,,
+TRAIN_01427,qa,Joe Greene,Joe Greene,text,0.0,0.0,0.0,,
+TRAIN_01429,math,108,108,complete_number,,,,0.0,
+TRAIN_01443,rag,Documentary filmmakers have studied the lives of wrestlers.,Documentary filmmakers have studied the lives of wrestlers.,text,0.0,0.36363636363636365,0.0,,False
+TRAIN_01447,math,15,15,complete_number,,,,0.0,
+TRAIN_01466,rag,"UK, Italy, Australia.","UK, Italy, Australia.",text,0.0,0.7272727272727273,0.0,,False
+TRAIN_01473,math,15,15,complete_number,,,,0.0,
+TRAIN_01506,math,50,50,complete_number,,,,0.0,
+TRAIN_01520,math,15,15,complete_number,,,,0.0,
+TRAIN_01521,math,120.00,120.00,complete_number,,,,0.0,
+TRAIN_01528,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_01531,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_01537,rag,Colonial Revival,Colonial Revival,text,1.0,1.0,1.0,,False
+TRAIN_01540,math,18,18,complete_number,,,,0.0,
+TRAIN_01544,math,10,10,complete_number,,,,0.0,
+TRAIN_01562,qa,Washington Irving,Washington Irving,text,0.0,0.0,0.0,,
+TRAIN_01571,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_01577,math,10,10,complete_number,,,,0.0,
+TRAIN_01580,math,100,100,complete_number,,,,1.0,
+TRAIN_01581,math,720,720,complete_number,,,,0.0,
+TRAIN_01589,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_01599,qa,East India trade,East India trade,text,0.0,0.0,0.0,,
+TRAIN_01622,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_01626,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_01642,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_01665,qa,3.5325,3.5325,text,0.0,0.0,0.0,,
+TRAIN_01673,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_01683,rag,Prince Charles Mountains.,Prince Charles Mountains.,text,0.0,0.8571428571428571,0.0,,False
+TRAIN_01700,rag,periodic events and transition frequency have served as standards for units of time.,periodic events and transition frequency have served as standards for units of time.,text,0.0,0.0,0.0,,True
+TRAIN_01723,math,74 * 51 - 71 * 51 = (74 - 71) * 51 = 3 * 51 = 153,,unparseable,,,,0.0,
+TRAIN_01744,qa,fratricide,fratricide,text,1.0,1.0,0.0,,
+TRAIN_01752,math,12,12,complete_number,,,,0.0,
+TRAIN_01759,qa,fungi do not have seeds – what do they have?,fungi do not have seeds – what do they have?,text,0.0,0.0,0.0,,
+TRAIN_01768,qa,Spain,Spain,text,1.0,1.0,1.0,,
+TRAIN_01775,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_01778,qa,Corsica,Corsica,text,0.0,0.0,0.0,,
+TRAIN_01787,qa,foreign key,foreign key,text,1.0,1.0,1.0,,
+TRAIN_01801,math,"180
+
+Rihanna spent 6 mangoes * $3 = $18 and 6 cartons of apple juice * $3 = $18. Total spent = $18 + $18 = $36. She had $50, so she has $50 - $36 = $14 left.",,unparseable,,,,0.0,
+TRAIN_01802,qa,Giovanni Gabrieli,Giovanni Gabrieli,text,0.0,0.0,0.0,,
+TRAIN_01803,qa,John Doe,John Doe,text,0.0,0.0,0.0,,
+TRAIN_01821,qa,China,China,text,0.0,0.0,0.0,,
+TRAIN_01822,qa,cache,cache,text,1.0,1.0,1.0,,
+TRAIN_01858,qa,John McCallum,John McCallum,text,0.0,0.0,0.0,,
+TRAIN_01883,rag,30 million,30 million,text,0.0,0.6666666666666666,0.0,,False
+TRAIN_01891,math,"15 ÷ 5 = 3 dozen rolls
+
+3 dozen rolls × 12 rolls/dozen = 36 rolls
+
+Final numeric answer: 36",36,explicit_final_number,,,,1.0,
+TRAIN_01895,math,140,140,complete_number,,,,0.0,
+TRAIN_01911,rag,"The 2007 film which Sasson Gabai won an Ophir Award for is ""The Band's Visit."" The director of this film is Eran Kolirin.","The 2007 film which Sasson Gabai won an Ophir Award for is ""The Band's Visit."" The director of this film is Eran Kolirin.",text,0.0,0.12903225806451613,0.0,,False
+TRAIN_01916,rag,Security Management,Security Management,text,0.0,0.36363636363636365,0.0,,False
+TRAIN_01936,math,"18 members share 776 - 2 = 774 credits. Each member gets 774 / 18 = 43 credits. Each member spends 2 credits, so they have 43 - 2 = 41 credits left. The final numeric answer is 41.",,unparseable,,,,0.0,
+TRAIN_01947,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_01961,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_01965,qa,1500–1512,1500–1512,text,0.0,0.0,0.0,,
+TRAIN_01966,math,150,150,complete_number,,,,0.0,
+TRAIN_01968,qa,Triton,Triton,text,0.0,0.0,0.0,,
+TRAIN_01976,qa,alaska,alaska,text,0.0,0.0,0.0,,
+TRAIN_01983,qa,Liverpool,Liverpool,text,0.0,0.0,0.0,,
+TRAIN_01987,math,"14 + 12 = 26
+
+Final numeric answer only: 26",26,explicit_final_number,,,,1.0,
+TRAIN_01992,qa,:00:12:00,:00:12:00,text,0.0,0.0,0.0,,
+TRAIN_01994,math,120,120,complete_number,,,,0.0,
+TRAIN_01997,math,12,12,complete_number,,,,0.0,
+TRAIN_02017,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_02040,math,16,16,complete_number,,,,0.0,
+TRAIN_02045,rag,"17,704.132 million $","17,704.132 million $",text,1.0,1.0,1.0,,False
+TRAIN_02050,qa,West Lake Course,West Lake Course,text,0.0,0.3333333333333333,0.0,,
+TRAIN_02057,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_02066,qa,'QA','QA',text,1.0,1.0,1.0,,
+TRAIN_02068,rag,Arsenal,Arsenal,text,1.0,1.0,1.0,,False
+TRAIN_02072,qa,Paraguay,Paraguay,text,0.0,0.0,0.0,,
+TRAIN_02073,math,10,10,complete_number,,,,0.0,
+TRAIN_02076,rag,1935,1935,text,1.0,1.0,1.0,,False
+TRAIN_02079,math,"18 - 11 = 7
+
+Final numeric answer: 7",7,explicit_final_number,,,,1.0,
+TRAIN_02090,qa,lost update,lost update,text,0.0,0.0,0.0,,
+TRAIN_02095,rag,Neapolis,Neapolis,text,0.0,0.0,0.0,,True
+TRAIN_02099,qa,John L. Lewis,John L. Lewis,text,0.0,0.4444444444444444,0.0,,
+TRAIN_02103,math,"676 - 22 = 654
+
+Final numeric answer only: 654",654,explicit_final_number,,,,1.0,
+TRAIN_02107,math,100,100,complete_number,,,,0.0,
+TRAIN_02118,qa,Democratic-Republican,Democratic-Republican,text,0.0,0.75,0.0,,
+TRAIN_02133,qa,:00:15,:00:15,text,0.0,0.0,0.0,,
+TRAIN_02135,rag,Goring Great Garden.,Goring Great Garden.,text,0.0,0.8571428571428571,0.0,,False
+TRAIN_02140,rag,exhibition_game,exhibition_game,text,0.0,0.0,0.0,,False
+TRAIN_02142,math,18,18,complete_number,,,,0.0,
+TRAIN_02145,qa,Tianhong,Tianhong,text,0.0,0.0,0.0,,
+TRAIN_02151,qa,Rutherford,Rutherford,text,0.0,0.0,0.0,,
+TRAIN_02159,math,10,10,complete_number,,,,0.0,
+TRAIN_02161,math,1200,1200,complete_number,,,,0.0,
+TRAIN_02175,math,16 * 13 + 9 = 212,,unparseable,,,,0.0,
+TRAIN_02184,qa,chromatid junction,chromatid junction,text,0.0,0.0,0.0,,
+TRAIN_02192,qa,Romanesque,Romanesque,text,0.0,0.0,0.0,,
+TRAIN_02227,qa,George W. Bush,George W. Bush,text,0.0,0.0,0.0,,
+TRAIN_02233,math,120,120,complete_number,,,,0.0,
+TRAIN_02239,qa,right-handed off-spin ball,right-handed off-spin ball,text,0.0,0.0,0.0,,
+TRAIN_02241,math,12,12,complete_number,,,,0.0,
+TRAIN_02243,rag,859,859,text,1.0,1.0,1.0,,False
+TRAIN_02248,qa,Tyrannosaurus rex,Tyrannosaurus rex,text,0.0,0.0,0.0,,
+TRAIN_02276,qa,"October 29, 2023","October 29, 2023",text,0.0,0.5,0.0,,
+TRAIN_02280,rag,corruption and entrenched systems of patronage,corruption and entrenched systems of patronage,text,0.0,0.6666666666666666,0.0,,False
+TRAIN_02285,rag,1276.,1276.,text,0.0,0.6666666666666666,0.0,,False
+TRAIN_02300,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_02302,qa,Borscht,Borscht,text,0.0,0.0,0.0,,
+TRAIN_02306,math,18,18,complete_number,,,,1.0,
+TRAIN_02340,math,100,100,complete_number,,,,0.0,
+TRAIN_02344,qa,Caroline of Ansbach,Caroline of Ansbach,text,0.0,0.0,0.0,,
+TRAIN_02350,qa,Björn Ulvaeus,Björn Ulvaeus,text,0.0,0.0,0.0,,
+TRAIN_02376,rag,F. D. J. Pangemanann,F. D. J. Pangemanann,text,0.0,0.7692307692307693,0.0,,False
+TRAIN_02381,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_02393,rag,King Frederick William III of Prussia.,King Frederick William III of Prussia.,text,0.0,0.7272727272727273,0.0,,False
+TRAIN_02397,qa,"After the death of his parents, Harry finds out he's a wizard.","After the death of his parents, Harry finds out he's a wizard.",text,0.0,0.10526315789473684,0.0,,
+TRAIN_02453,qa,citric acid,citric acid,text,0.0,0.0,0.0,,
+TRAIN_02454,math,150,150,complete_number,,,,0.0,
+TRAIN_02459,rag,Russian Federation.,Russian Federation.,text,0.0,0.8,0.0,,False
+TRAIN_02462,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_02477,rag,WNYC,WNYC,text,1.0,1.0,1.0,,False
+TRAIN_02480,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_02492,qa,Gen Z,Gen Z,text,0.0,0.0,0.0,,
+TRAIN_02503,math,40,40,complete_number,,,,0.0,
+TRAIN_02507,rag,1583,1583,text,1.0,1.0,1.0,,False
+TRAIN_02510,math,7,7,complete_number,,,,0.0,
+TRAIN_02517,rag,Friedrich Wilhelm von Steuben taught the Continental Army Prussian tactics and organizational skills.,Friedrich Wilhelm von Steuben taught the Continental Army Prussian tactics and organizational skills.,text,0.0,0.5263157894736842,0.0,,False
+TRAIN_02527,qa,Tom Hanks,Tom Hanks,text,0.0,0.0,0.0,,
+TRAIN_02554,math,40,40,complete_number,,,,0.0,
+TRAIN_02563,qa,The Answer: Graham McPherson,The Answer: Graham McPherson,text,0.0,0.0,0.0,,
+TRAIN_02571,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_02583,qa,system supervisor,system supervisor,text,0.0,0.6666666666666666,0.0,,
+TRAIN_02606,math,"15 * 8 * (3/4) = 90
+
+Total unoccupied units = Total units - Occupied units
+
+Total units = 15 * 8 = 120
+
+Occupied units = 120 * (3/4) = 90
+
+Unoccupied units = 120 - 90 = 30
+
+Final numeric answer: 30",30,explicit_final_number,,,,1.0,
+TRAIN_02607,math,12000,12000,complete_number,,,,0.0,
+TRAIN_02620,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_02621,qa,Miley Cyrus,Miley Cyrus,text,0.0,0.0,0.0,,
+TRAIN_02628,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_02662,qa,The Answer: The Answer: The Answer:,The Answer: The Answer: The Answer:,text,0.0,0.16666666666666666,0.0,,
+TRAIN_02672,qa,Battle of Actium,Battle of Actium,text,0.0,0.5,0.0,,
+TRAIN_02677,math,255,255,complete_number,,,,0.0,
+TRAIN_02681,qa,c. 1000,c. 1000,text,0.0,0.0,0.0,,
+TRAIN_02691,rag,Q Bridge,Q Bridge,text,0.0,0.0,0.0,,False
+TRAIN_02706,math,8,8,complete_number,,,,0.0,
+TRAIN_02708,qa,classification,classification,text,1.0,1.0,1.0,,
+TRAIN_02715,qa,The Beatles,The Beatles,text,0.0,0.0,0.0,,
+TRAIN_02720,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_02722,math,73 + 724 + 744 = 1541,,unparseable,,,,0.0,
+TRAIN_02740,rag,Operation Condor,Operation Condor,text,0.0,0.0,0.0,,False
+TRAIN_02768,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_02783,rag,1928,1928,text,1.0,1.0,1.0,,False
+TRAIN_02787,math,8,8,complete_number,,,,0.0,
+TRAIN_02789,math,16,16,complete_number,,,,0.0,
+TRAIN_02793,qa,2018,2018,text,0.0,0.0,0.0,,
+TRAIN_02796,qa,in the magma chamber,in the magma chamber,text,0.0,0.6666666666666666,0.0,,
+TRAIN_02807,qa,curing,curing,text,1.0,1.0,0.0,,
+TRAIN_02821,rag,Swiss,Swiss,text,0.0,0.6666666666666666,0.0,,False
+TRAIN_02831,rag,develop the economic infrastructure of their communities through the development of industrial trading estates,develop the economic infrastructure of their communities through the development of industrial trading estates,text,0.0,0.13333333333333333,0.0,,False
+TRAIN_02835,qa,Trent,Trent,text,0.0,0.0,0.0,,
+TRAIN_02837,rag,UNANSWERABLE.,UNANSWERABLE.,text,0.0,0.0,0.0,,True
+TRAIN_02857,math,10.5,10.5,complete_number,,,,0.0,
+TRAIN_02858,math,118 * 7 + 118 * 7 * 2 - 9 = 826 + 1618 - 9 = 2445,,unparseable,,,,0.0,
+TRAIN_02877,qa,Little Red Riding Hood,Little Red Riding Hood,text,1.0,1.0,1.0,,
+TRAIN_02882,math,"12 + 12 = 24 miles total
+
+Time to hike to Mount Overlook: 12 miles / 4 mph = 3 hours
+
+Time to hike back: 12 miles / 6 mph = 2 hours
+
+Total time: 3 + 2 = 5 hours
+
+Final numeric answer: 5",5,explicit_final_number,,,,1.0,
+TRAIN_02899,math,"14 - 4 = 10  
+10 - 3 = 7  
+
+Final numeric answer: 107",107,explicit_final_number,,,,0.0,
+TRAIN_02901,math,1500,1500,complete_number,,,,0.0,
+TRAIN_02905,math,42,42,complete_number,,,,0.0,
+TRAIN_02923,rag,Yes.,Yes.,text,0.0,0.0,0.0,,False
+TRAIN_02934,math,18 + (3 - 5) * 7 = 18 - 14 = 4,,unparseable,,,,0.0,
+TRAIN_02938,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_02939,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_02958,qa,St. Paul's Cathedral,St. Paul's Cathedral,text,0.0,0.0,0.0,,
+TRAIN_02964,rag,Apache 2.0,Apache 2.0,text,1.0,1.0,1.0,,False
+TRAIN_02971,qa,Athletics,Athletics,text,0.0,0.0,0.0,,
+TRAIN_02988,math,12000,12000,complete_number,,,,0.0,
+TRAIN_02999,math,12,12,complete_number,,,,0.0,
+TRAIN_03002,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_03006,qa,Rajiv Gandhi,Rajiv Gandhi,text,0.0,0.0,0.0,,
+TRAIN_03015,rag,1.8,1.8,text,1.0,1.0,1.0,,False
+TRAIN_03023,math,10,10,complete_number,,,,0.0,
+TRAIN_03031,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_03081,math,10,10,complete_number,,,,0.0,
+TRAIN_03095,rag,Hyderabad was founded in 1591.,Hyderabad was founded in 1591.,text,0.0,0.2857142857142857,0.0,,False
+TRAIN_03125,math,12 + (2*12 - 3) = 12 + 21 = 33,,unparseable,,,,0.0,
+TRAIN_03130,qa,465,465,text,0.0,0.0,0.0,,
+TRAIN_03148,rag,"brain itself is the ""determiner"" of how material objects will be experienced or perceived","brain itself is the ""determiner"" of how material objects will be experienced or perceived",text,0.0,0.6666666666666666,0.0,,False
+TRAIN_03163,qa,1886,1886,text,0.0,0.0,0.0,,
+TRAIN_03176,rag,Finnish,Finnish,text,0.0,0.0,0.0,,False
+TRAIN_03179,math,15 - (12 + 1) = 15 - 13 = 2,,unparseable,,,,0.0,
+TRAIN_03185,qa,Both plays explore the futility of human existence and the cyclical nature of life.,Both plays explore the futility of human existence and the cyclical nature of life.,text,0.0,0.15384615384615385,0.0,,
+TRAIN_03194,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_03196,math,177,177,complete_number,,,,0.0,
+TRAIN_03201,math,1050,1050,complete_number,,,,0.0,
+TRAIN_03211,qa,Roddie Smith,Roddie Smith,text,0.0,0.0,0.0,,
+TRAIN_03217,qa,2 log₂n,2 log₂n,text,0.0,0.0,0.0,,
+TRAIN_03223,qa,180,180,text,0.0,0.0,0.0,,
+TRAIN_03232,rag,Montreal,Montreal,text,0.0,0.0,0.0,,False
+TRAIN_03236,qa,David Howell,David Howell,text,0.0,0.0,0.0,,
+TRAIN_03239,math,14 * 5 + 14 * 4 * 2 - 5 = 70 + 112 - 5 = 177,,unparseable,,,,0.0,
+TRAIN_03251,math,12,12,complete_number,,,,0.0,
+TRAIN_03258,rag,Victor Davis Hanson,Victor Davis Hanson,text,1.0,1.0,1.0,,False
+TRAIN_03260,rag,2000,2000,text,1.0,1.0,1.0,,False
+TRAIN_03267,qa,1998,1998,text,0.0,0.0,0.0,,
+TRAIN_03280,rag,Metropolitan Cathedral,Metropolitan Cathedral,text,0.0,0.0,0.0,,False
+TRAIN_03283,math,15,15,complete_number,,,,0.0,
+TRAIN_03284,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_03303,rag,Jules Mazarin,Jules Mazarin,text,0.0,0.0,0.0,,False
+TRAIN_03310,qa,Gina Torres,Gina Torres,text,0.0,0.0,0.0,,
+TRAIN_03319,qa,Liberty Bell,Liberty Bell,text,1.0,1.0,1.0,,
+TRAIN_03332,math,1650,1650,complete_number,,,,0.0,
+TRAIN_03333,math,120,120,complete_number,,,,0.0,
+TRAIN_03336,qa,Cassian,Cassian,text,0.0,0.0,0.0,,
+TRAIN_03350,qa,"July 4, 2024","July 4, 2024",text,0.0,0.2222222222222222,0.0,,
+TRAIN_03351,qa,São Paulo,São Paulo,text,0.0,0.25,0.0,,
+TRAIN_03353,math,15 + (5 * 69 * 0.95),,unparseable,,,,0.0,
+TRAIN_03355,rag,Craft Freemasonry is also known as Blue Lodge Freemasonry.,Craft Freemasonry is also known as Blue Lodge Freemasonry.,text,0.0,0.3333333333333333,0.0,,False
+TRAIN_03356,qa,recursion,recursion,text,1.0,1.0,1.0,,
+TRAIN_03357,rag,Park Wood Leisure,Park Wood Leisure,text,1.0,1.0,1.0,,False
+TRAIN_03365,math,"3 + 7 = 10
+
+Final numeric answer only: 10",10,explicit_final_number,,,,1.0,
+TRAIN_03368,rag,eastward,eastward,text,1.0,1.0,1.0,,False
+TRAIN_03373,rag,From Justin to Kelly,From Justin to Kelly,text,1.0,1.0,1.0,,False
+TRAIN_03382,math,"15 + 50 = 65
+
+John lost 3 eBook readers, so he has 65 - 3 = 62 eBook readers.
+
+Total eBook readers = Anna's + John's = 50 + 62 = 112
+
+Final numeric answer: 112",112,explicit_final_number,,,,0.0,
+TRAIN_03401,qa,Abd al-Aziz ibn Moulay Hassan,Abd al-Aziz ibn Moulay Hassan,text,0.0,0.2,0.0,,
+TRAIN_03411,qa,Yellow,Yellow,text,1.0,1.0,1.0,,
+TRAIN_03417,qa,Birmingham,Birmingham,text,0.0,0.0,0.0,,
+TRAIN_03426,qa,Cumulative sampling,Cumulative sampling,text,0.0,0.5,0.0,,
+TRAIN_03429,qa,The British are coming.,The British are coming.,text,0.0,0.0,0.0,,
+TRAIN_03433,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_03440,math,10,10,complete_number,,,,1.0,
+TRAIN_03443,rag,College of Commerce,College of Commerce,text,1.0,1.0,1.0,,False
+TRAIN_03448,math,120,120,complete_number,,,,0.0,
+TRAIN_03468,qa,ginger,ginger,text,1.0,1.0,0.0,,
+TRAIN_03470,math,13 + (25 - 18) * 5 - 7 = 13 + 35 - 7 = 41,,unparseable,,,,0.0,
+TRAIN_03473,qa,wisconsin,wisconsin,text,0.0,0.0,0.0,,
+TRAIN_03494,rag,6 times,6 times,text,0.0,0.5,0.0,,False
+TRAIN_03503,math,75,75,complete_number,,,,0.0,
+TRAIN_03518,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_03536,rag,Eritrea.,Eritrea.,text,0.0,0.0,0.0,,False
+TRAIN_03547,math,91 + 88 + 53 = 232,,unparseable,,,,0.0,
+TRAIN_03555,rag,Mudvayne,Mudvayne,text,1.0,1.0,1.0,,False
+TRAIN_03562,qa,medical examiner,medical examiner,text,0.0,0.0,0.0,,
+TRAIN_03568,math,10200.00,10200.00,complete_number,,,,1.0,
+TRAIN_03582,qa,April 1985,April 1985,text,0.0,0.0,0.0,,
+TRAIN_03583,qa,The song in the year 2525 was performed by the AI assistant.,The song in the year 2525 was performed by the AI assistant.,text,0.0,0.0,0.0,,
+TRAIN_03595,qa,13,13,text,0.0,0.0,0.0,,
+TRAIN_03597,qa,"March 25, 2008","March 25, 2008",text,0.0,0.5,0.0,,
+TRAIN_03600,math,10,10,complete_number,,,,0.0,
+TRAIN_03620,math,"178 ÷ 2 = 89
+
+89
+
+Final numeric answer only: 89",89,explicit_final_number,,,,1.0,
+TRAIN_03642,rag,UNANSWERABLE.,UNANSWERABLE.,text,0.0,0.0,0.0,,False
+TRAIN_03645,math,128,128,complete_number,,,,0.0,
+TRAIN_03646,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_03647,qa,1985,1985,text,0.0,0.0,0.0,,
+TRAIN_03662,math,18,18,complete_number,,,,1.0,
+TRAIN_03664,rag,Roy Lowry,Roy Lowry,text,1.0,1.0,1.0,,False
+TRAIN_03668,rag,Southern summer,Southern summer,text,0.0,0.6666666666666666,0.0,,False
+TRAIN_03672,qa,"The song ""Those Were the Days"" was written by Johnny Mercer.","The song ""Those Were the Days"" was written by Johnny Mercer.",text,0.0,0.0,0.0,,
+TRAIN_03698,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_03704,qa,AVL tree,AVL tree,text,0.0,0.4,0.0,,
+TRAIN_03708,math,20,20,complete_number,,,,1.0,
+TRAIN_03712,qa,La Traviata,La Traviata,text,0.0,0.0,0.0,,
+TRAIN_03721,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_03725,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_03736,qa,April 2009,April 2009,text,0.0,0.0,0.0,,
+TRAIN_03740,math,500,500,complete_number,,,,0.0,
+TRAIN_03773,math,15,15,complete_number,,,,0.0,
+TRAIN_03775,rag,Prime Minister Harold Macmillan,Prime Minister Harold Macmillan,text,0.0,0.0,0.0,,False
+TRAIN_03786,math,30,30,complete_number,,,,0.0,
+TRAIN_03797,qa,Backpropagation,Backpropagation,text,1.0,1.0,0.0,,
+TRAIN_03799,qa,25,25,text,0.0,0.0,0.0,,
+TRAIN_03802,qa,a parachute,a parachute,text,0.0,0.0,0.0,,
+TRAIN_03804,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_03821,math,1500,1500,complete_number,,,,0.0,
+TRAIN_03824,math,107 + (16 - 12) * 6 - 4 = 107 + 24 - 4 = 127,,unparseable,,,,0.0,
+TRAIN_03828,qa,The Who,The Who,text,0.0,0.0,0.0,,
+TRAIN_03861,qa,Dana Delany,Dana Delany,text,0.0,0.0,0.0,,
+TRAIN_03866,math,12,12,complete_number,,,,0.0,
+TRAIN_03877,rag,Acts 11:26,Acts 11:26,text,1.0,1.0,1.0,,False
+TRAIN_03882,qa,Homer Cup,Homer Cup,text,0.0,0.0,0.0,,
+TRAIN_03883,qa,2019,2019,text,0.0,0.0,0.0,,
+TRAIN_03886,rag,Hamidian Massacres,Hamidian Massacres,text,0.0,0.8,0.0,,False
+TRAIN_03904,math,"6.2307692308
+
+Final numeric answer only: 6.2307692308",6.2307692308,explicit_final_number,,,,0.0,
+TRAIN_03924,qa,1964,1964,text,0.0,0.0,0.0,,
+TRAIN_03941,math,140,140,complete_number,,,,0.0,
+TRAIN_03947,qa,dancer and actor,dancer and actor,text,0.0,0.0,0.0,,
+TRAIN_03962,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_03968,rag,1584,1584,text,0.0,0.5,0.0,,False
+TRAIN_03973,qa,Nokia,Nokia,text,0.0,0.0,0.0,,
+TRAIN_04001,math,1472.0,1472.0,complete_number,,,,0.0,
+TRAIN_04007,qa,Imogen,Imogen,text,0.0,0.0,0.0,,
+TRAIN_04029,math,72,72,complete_number,,,,0.0,
+TRAIN_04050,math,10,10,complete_number,,,,0.0,
+TRAIN_04070,rag,Gambetta's men,Gambetta's men,text,0.0,0.5714285714285714,0.0,,False
+TRAIN_04071,qa,Never,Never,text,0.0,0.0,0.0,,
+TRAIN_04091,qa,1886,1886,text,0.0,0.0,0.0,,
+TRAIN_04094,rag,Logan Airport is operated by the Massachusetts Port Authority (Massport).,Logan Airport is operated by the Massachusetts Port Authority (Massport).,text,0.0,0.14285714285714285,0.0,,False
+TRAIN_04114,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_04122,math,126,126,complete_number,,,,0.0,
+TRAIN_04164,rag,PVO SV,PVO SV,text,1.0,1.0,1.0,,False
+TRAIN_04166,rag,"27,673","27,673",text,1.0,1.0,1.0,,False
+TRAIN_04168,math,12,12,complete_number,,,,0.0,
+TRAIN_04169,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_04174,qa,a measure of distance,a measure of distance,text,0.0,0.4,0.0,,
+TRAIN_04184,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_04187,rag,The topic of Von Neumann's thesis was an axiomatization of Cantor's set theory.,The topic of Von Neumann's thesis was an axiomatization of Cantor's set theory.,text,0.0,0.56,0.0,,False
+TRAIN_04190,rag,TMP,TMP,text,0.0,0.0,0.0,,True
+TRAIN_04204,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_04207,math,6,6,complete_number,,,,0.0,
+TRAIN_04208,rag,Ann Powers,Ann Powers,text,1.0,1.0,1.0,,False
+TRAIN_04242,qa,:00:30,:00:30,text,0.0,0.0,0.0,,
+TRAIN_04256,math,3,3,complete_number,,,,1.0,
+TRAIN_04261,rag,Roberto Martínez,Roberto Martínez,text,1.0,1.0,1.0,,False
+TRAIN_04265,math,1545,1545,complete_number,,,,0.0,
+TRAIN_04266,math,10 * 40 * 60 * 4,,unparseable,,,,0.0,
+TRAIN_04268,rag,"September 24, 2013","September 24, 2013",text,1.0,1.0,1.0,,False
+TRAIN_04273,qa,Beyoncé,Beyoncé,text,0.0,0.0,0.0,,
+TRAIN_04285,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_04295,rag,Eddie Collins,Eddie Collins,text,0.0,0.2857142857142857,0.0,,False
+TRAIN_04307,qa,W. G. Sebald,W. G. Sebald,text,0.0,0.25,0.0,,
+TRAIN_04309,math,"18 + 4*7 + 8*7 + 20 = 18 + 28 + 56 + 20 = 122
+
+122 - 18 - 28 - 56 - 20 = 122 - 122 = 0
+
+0",,unparseable,,,,0.0,
+TRAIN_04320,qa,Smart Automotive,Smart Automotive,text,0.0,0.0,0.0,,
+TRAIN_04332,rag,Achim Steiner is the UN under-secretary general.,Achim Steiner is the UN under-secretary general.,text,0.0,0.6666666666666666,0.0,,False
+TRAIN_04342,rag,Bofors,Bofors,text,1.0,1.0,1.0,,False
+TRAIN_04359,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_04362,rag,18.1%,18.1%,text,0.0,0.75,0.0,,False
+TRAIN_04383,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_04412,rag,UNANSWERABLE.,UNANSWERABLE.,text,0.0,0.0,0.0,,False
+TRAIN_04430,qa,Pacific Ocean,Pacific Ocean,text,0.0,0.0,0.0,,
+TRAIN_04442,rag,Head Money Cases,Head Money Cases,text,1.0,1.0,1.0,,False
+TRAIN_04446,math,162 + (7 - 3) * 4 - 4 = 162 + 16 - 4 = 174,,unparseable,,,,0.0,
+TRAIN_04448,math,3,3,complete_number,,,,1.0,
+TRAIN_04451,qa,1941,1941,text,0.0,0.0,0.0,,
+TRAIN_04454,rag,trophy hunting,trophy hunting,text,0.0,0.0,0.0,,False
+TRAIN_04459,rag,Martha Ann Ricks presented the famed Liberian coffee tree to Queen Victoria.,Martha Ann Ricks presented the famed Liberian coffee tree to Queen Victoria.,text,0.0,0.26666666666666666,0.0,,False
+TRAIN_04463,math,15,15,complete_number,,,,0.0,
+TRAIN_04470,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_04473,rag,1775–83,1775–83,text,1.0,1.0,1.0,,False
+TRAIN_04478,math,10,10,complete_number,,,,0.0,
+TRAIN_04481,rag,50+,50+,text,0.0,0.4,0.0,,False
+TRAIN_04486,rag,90%,90%,text,0.0,0.0,0.0,,True
+TRAIN_04515,qa,primary oocytes,primary oocytes,text,0.0,0.0,0.0,,
+TRAIN_04519,math,16,16,complete_number,,,,0.0,
+TRAIN_04526,math,"91 + 92 = 183
+
+Final numeric answer only: 183",183,explicit_final_number,,,,1.0,
+TRAIN_04536,qa,a rhyme scheme,a rhyme scheme,text,0.0,0.0,0.0,,
+TRAIN_04537,qa,Mila Kunis,Mila Kunis,text,0.0,0.0,0.0,,
+TRAIN_04557,rag,Cubic equations were solved in the Tang dynasty.,Cubic equations were solved in the Tang dynasty.,text,0.0,0.36363636363636365,0.0,,False
+TRAIN_04559,math,"15
+
+The total calories from cookies is 7 * 50 = 350. To reach 500 calories, Jimmy needs 500 - 350 = 150 calories from crackers. Since each cracker has 15 calories, he needs 150 / 15 = 10 crackers.",,unparseable,,,,0.0,
+TRAIN_04562,rag,Col. Moultrie,Col. Moultrie,text,1.0,1.0,1.0,,False
+TRAIN_04564,math,9,9,complete_number,,,,0.0,
+TRAIN_04582,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_04599,qa,Sister Sledge,Sister Sledge,text,0.0,0.0,0.0,,
+TRAIN_04619,qa,Six Acts of 1819 were an attempt by the British Parliament to curb radical activity.,Six Acts of 1819 were an attempt by the British Parliament to curb radical activity.,text,0.0,0.0,0.0,,
+TRAIN_04621,math,15,15,complete_number,,,,0.0,
+TRAIN_04646,math,"149 + 62 = 211  
+211 - 144 = 67  
+
+Final numeric answer: 67",67,explicit_final_number,,,,1.0,
+TRAIN_04655,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_04656,rag,25 November 2007,25 November 2007,text,1.0,1.0,1.0,,False
+TRAIN_04669,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_04695,math,48,48,complete_number,,,,0.0,
+TRAIN_04715,qa,Sufi Saints,Sufi Saints,text,0.0,0.0,0.0,,
+TRAIN_04716,rag,The first model to support JPEG and other still image formats was the iPod photo.,The first model to support JPEG and other still image formats was the iPod photo.,text,0.0,0.2222222222222222,0.0,,False
+TRAIN_04719,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_04722,rag,Madonna became a fixture on MTV.,Madonna became a fixture on MTV.,text,0.0,0.25,0.0,,False
+TRAIN_04735,math,18,18,complete_number,,,,0.0,
+TRAIN_04736,math,125,125,complete_number,,,,0.0,
+TRAIN_04740,rag,Jesus was a ransom sacrifice to pay for the sins of humanity.,Jesus was a ransom sacrifice to pay for the sins of humanity.,text,0.0,0.47058823529411764,0.0,,False
+TRAIN_04742,math,1600,1600,complete_number,,,,0.0,
+TRAIN_04752,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_04758,math,3,3,complete_number,,,,0.0,
+TRAIN_04762,math,"100 - 20 = 80  
+80 / 5 = 16  
+
+Final numeric answer: 16",16,explicit_final_number,,,,1.0,
+TRAIN_04763,qa,classification,classification,text,1.0,1.0,1.0,,
+TRAIN_04774,qa,Edward I,Edward I,text,0.0,0.0,0.0,,
+TRAIN_04799,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_04817,math,12,12,complete_number,,,,0.0,
+TRAIN_04819,qa,Dana Delany,Dana Delany,text,0.0,0.0,0.0,,
+TRAIN_04830,rag,horses,horses,text,1.0,1.0,1.0,,False
+TRAIN_04832,math,15,15,complete_number,,,,0.0,
+TRAIN_04835,math,196,196,complete_number,,,,0.0,
+TRAIN_04847,math,9.588235294117647,9.588235294117647,complete_number,,,,0.0,
+TRAIN_04869,qa,Morgan Freeman,Morgan Freeman,text,0.0,0.0,0.0,,
+TRAIN_04878,rag,Slavery Abolition Act,Slavery Abolition Act,text,0.0,0.8571428571428571,0.0,,False
+TRAIN_04879,qa,pipeline,pipeline,text,0.0,0.0,0.0,,
+TRAIN_04884,qa,Evening standard goes to print at 18:00.,Evening standard goes to print at 18:00.,text,0.0,0.14285714285714285,0.0,,
+TRAIN_04888,math,63,63,complete_number,,,,0.0,
+TRAIN_04898,qa,The setting for Campin's Annunciation is a rural village in the Netherlands.,The setting for Campin's Annunciation is a rural village in the Netherlands.,text,0.0,0.2,0.0,,
+TRAIN_04899,qa,100 feet,100 feet,text,0.0,0.0,0.0,,
+TRAIN_04900,rag,antioxidant properties,antioxidant properties,text,0.0,0.6666666666666666,0.0,,False
+TRAIN_04908,qa,Tunguska,Tunguska,text,0.0,0.6666666666666666,0.0,,
+TRAIN_04923,qa,"Willow and Poplar flowers are called ""willow flowers"" and ""poplar flowers,"" respectively.","Willow and Poplar flowers are called ""willow flowers"" and ""poplar flowers,"" respectively.",text,0.0,0.0,0.0,,
+TRAIN_04933,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_04945,qa,American Revolution,American Revolution,text,0.0,0.8,0.0,,
+TRAIN_04954,math,180 ÷ 54 = 3.333...,,unparseable,,,,0.0,
+TRAIN_04964,qa,Adele,Adele,text,0.0,0.0,0.0,,
+TRAIN_04966,math,160,160,complete_number,,,,0.0,
+TRAIN_04977,qa,chew,chew,text,0.0,0.0,0.0,,
+TRAIN_04995,math,36,36,complete_number,,,,0.0,
+TRAIN_05001,math,3.59,3.59,complete_number,,,,0.0,
+TRAIN_05005,math,72,72,complete_number,,,,0.0,
+TRAIN_05007,math,100,100,complete_number,,,,0.0,
+TRAIN_05010,qa,English origin,English origin,text,0.0,0.0,0.0,,
+TRAIN_05024,rag,Entered Apprentice,Entered Apprentice,text,0.0,0.5714285714285714,0.0,,False
+TRAIN_05033,math,160 - 35 = 125,,unparseable,,,,0.0,
+TRAIN_05039,rag,1985,1985,text,1.0,1.0,1.0,,False
+TRAIN_05063,rag,Primal Scream is held at 9 p.m. on the Sunday before finals week every quarter; students lean out of windows or gather in courtyards and scream.,Primal Scream is held at 9 p.m. on the Sunday before finals week every quarter; students lean out of windows or gather in courtyards and scream.,text,0.0,0.0625,0.0,,False
+TRAIN_05066,qa,"April 24, 2013","April 24, 2013",text,0.0,0.0,0.0,,
+TRAIN_05070,qa,Rexy L. Lhotse,Rexy L. Lhotse,text,0.0,0.0,0.0,,
+TRAIN_05073,qa,a river runs through it,a river runs through it,text,0.0,0.0,0.0,,
+TRAIN_05076,qa,Singapore,Singapore,text,0.0,0.0,0.0,,
+TRAIN_05103,rag,UNANSWERABLE.,UNANSWERABLE.,text,0.0,0.0,0.0,,True
+TRAIN_05116,qa,Antigua,Antigua,text,0.0,0.0,0.0,,
+TRAIN_05117,math,15,15,complete_number,,,,0.0,
+TRAIN_05135,qa,Dale Chihuly,Dale Chihuly,text,0.0,0.0,0.0,,
+TRAIN_05137,qa,Benjamin Harrison,Benjamin Harrison,text,0.0,0.0,0.0,,
+TRAIN_05138,math,"173 - 3 = 170  
+170 ÷ 10 = 17  
+17 - 4 = 13  
+
+Final numeric answer: 13",13,explicit_final_number,,,,1.0,
+TRAIN_05152,qa,Taliban,Taliban,text,0.0,0.0,0.0,,
+TRAIN_05158,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_05160,qa,"Twitter outage on June 25, 2009, was caused by a server crash due to a surge in traffic.","Twitter outage on June 25, 2009, was caused by a server crash due to a surge in traffic.",text,0.0,0.07142857142857142,0.0,,
+TRAIN_05173,rag,"Soviet gains on the continent were Manchukuo, Mengjiang (Inner Mongolia) and northern Korea.","Soviet gains on the continent were Manchukuo, Mengjiang (Inner Mongolia) and northern Korea.",text,0.0,0.10526315789473684,0.0,,False
+TRAIN_05174,math,18.75,18.75,complete_number,,,,0.0,
+TRAIN_05190,rag,GlobalFoundries,GlobalFoundries,text,1.0,1.0,1.0,,False
+TRAIN_05193,math,164 + (20 - 12) * 2 - 8 = 164 + 16 - 8 = 172,,unparseable,,,,0.0,
+TRAIN_05203,math,"150 - (10*3 + 5*15) = 150 - (30 + 75) = 150 - 105 = 45
+
+Final numeric answer: 45",45,explicit_final_number,,,,1.0,
+TRAIN_05209,rag,Arachosia and Paropamisadae,Arachosia and Paropamisadae,text,0.0,0.5,0.0,,False
+TRAIN_05220,math,16,16,complete_number,,,,0.0,
+TRAIN_05223,math,"16 + 2 = 18  
+26 * 16 + 29 * 2 = 416 + 58 = 474  
+474 / 18 = 26.333...  
+
+Final numeric answer: 26.333",26.333,explicit_final_number,,,,0.0,
+TRAIN_05243,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_05247,qa,Aesop,Aesop,text,0.0,0.0,0.0,,
+TRAIN_05273,rag,John de Mol Jr.,John de Mol Jr.,text,1.0,1.0,1.0,,False
+TRAIN_05301,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_05304,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_05318,math,200,200,complete_number,,,,0.0,
+TRAIN_05325,math,4 pieces of bread,,unparseable,,,,0.0,
+TRAIN_05338,qa,Dennis Quaid,Dennis Quaid,text,0.0,0.0,0.0,,
+TRAIN_05344,math,100,100,complete_number,,,,0.0,
+TRAIN_05362,math,196,196,complete_number,,,,0.0,
+TRAIN_05365,rag,basileion,basileion,text,1.0,1.0,1.0,,False
+TRAIN_05373,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_05396,math,12,12,complete_number,,,,0.0,
+TRAIN_05429,math,139 + (16 * 2) - 6 = 139 + 32 - 6 = 165,,unparseable,,,,0.0,
+TRAIN_05443,qa,The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is: The answer is:,,truncated,0.0,0.0,0.0,,
+TRAIN_05451,rag,"49,736","49,736",text,1.0,1.0,1.0,,False
+TRAIN_05452,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_05464,qa,Archbishop of Canterbury,Archbishop of Canterbury,text,1.0,1.0,1.0,,
+TRAIN_05465,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_05471,rag,The Victorian Alps are part of the Great Dividing Range mountain system.,The Victorian Alps are part of the Great Dividing Range mountain system.,text,0.0,0.47058823529411764,0.0,,False
+TRAIN_05474,qa,unable to breathe,unable to breathe,text,0.0,0.5,0.0,,
+TRAIN_05481,math,125,125,complete_number,,,,0.0,
+TRAIN_05492,rag,Tori Amos,Tori Amos,text,1.0,1.0,1.0,,False
+TRAIN_05500,math,5 + 3 = 8,,unparseable,,,,0.0,
+TRAIN_05535,math,100,100,complete_number,,,,0.0,
+TRAIN_05537,math,12,12,complete_number,,,,0.0,
+TRAIN_05568,qa,Isabella,Isabella,text,0.0,0.0,0.0,,
+TRAIN_05600,qa,Gilda Radner,Gilda Radner,text,0.0,0.0,0.0,,
+TRAIN_05605,math,108,108,complete_number,,,,0.0,
+TRAIN_05615,math,37,37,complete_number,,,,0.0,
+TRAIN_05617,rag,20–25%,20–25%,text,1.0,1.0,1.0,,False
+TRAIN_05628,qa,rye,rye,text,0.0,0.6666666666666666,0.0,,
+TRAIN_05631,qa,Battle of Britain,Battle of Britain,text,0.0,0.5714285714285714,0.0,,
+TRAIN_05648,math,"180 - 40 - 30 = 110  
+110 / 2 = 55  
+
+Final numeric answer: 55",55,explicit_final_number,,,,1.0,
+TRAIN_05659,math,16 + 22 + (6 * 2) = 16 + 22 + 12 = 50,,unparseable,,,,0.0,
+TRAIN_05677,math,372 - 125 - 16 = 231,,unparseable,,,,0.0,
+TRAIN_05695,math,80,80,complete_number,,,,0.0,
+TRAIN_05708,math,80,80,complete_number,,,,1.0,
+TRAIN_05742,qa,davinci code,davinci code,text,0.0,0.0,0.0,,
+TRAIN_05759,math,70,70,complete_number,,,,0.0,
+TRAIN_05762,rag,"$700,000","$700,000",text,1.0,1.0,1.0,,False
+TRAIN_05764,math,"71 - 60 = 11
+
+Final numeric answer only: 11",11,explicit_final_number,,,,1.0,
+TRAIN_05774,qa,Warminster Frome,Warminster Frome,text,0.0,0.0,0.0,,
+TRAIN_05783,qa,The United States government system began with the establishment of the colonial government in 1619.,The United States government system began with the establishment of the colonial government in 1619.,text,0.0,0.0,0.0,,
+TRAIN_05801,qa,Algeria,Algeria,text,0.0,0.0,0.0,,
+TRAIN_05802,qa,J. D. Salinger,J. D. Salinger,text,0.0,0.0,0.0,,
+TRAIN_05818,math,15,15,complete_number,,,,0.0,
+TRAIN_05830,math,1000,1000,complete_number,,,,0.0,
+TRAIN_05839,qa,Geneva,Geneva,text,0.0,0.0,0.0,,
+TRAIN_05846,rag,Richard Swinburne,Richard Swinburne,text,1.0,1.0,1.0,,False
+TRAIN_05848,qa,grain,grain,text,0.0,0.0,0.0,,
+TRAIN_05869,math,120,120,complete_number,,,,0.0,
+TRAIN_05891,rag,Imagine.,Imagine.,text,0.0,0.6666666666666666,0.0,,False
+TRAIN_05892,qa,Left atrium,Left atrium,text,0.0,0.0,0.0,,
+TRAIN_05895,math,142 + (24 - 16) * 3 - 8 = 142 + 24 - 8 = 158,,unparseable,,,,0.0,
+TRAIN_05910,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_05951,math,"14 * 3 = 42
+
+Total for one dose: 14 + 42 = 56
+
+Total for 8 doses: 56 * 8 = 448
+
+Final numeric answer: 448",448,explicit_final_number,,,,1.0,
+TRAIN_05970,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_05977,math,109 + (21 - 19)*2 - 2 = 109 + 4 - 2 = 111,,unparseable,,,,0.0,
+TRAIN_05978,qa,Killer,Killer,text,0.0,0.0,0.0,,
+TRAIN_05988,rag,UNANSWERABLE.,UNANSWERABLE.,text,0.0,0.0,0.0,,False
+TRAIN_05991,rag,Sven-Göran Eriksson,Sven-Göran Eriksson,text,1.0,1.0,1.0,,False
+TRAIN_05998,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_06015,qa,April 2018,April 2018,text,0.0,0.0,0.0,,
+TRAIN_06017,qa,tea merchant,tea merchant,text,0.0,0.0,0.0,,
+TRAIN_06018,math,1200,1200,complete_number,,,,0.0,
+TRAIN_06021,qa,Escherichia coli,Escherichia coli,text,1.0,1.0,1.0,,
+TRAIN_06025,qa,Lester Gillis,Lester Gillis,text,1.0,1.0,1.0,,
+TRAIN_06027,rag,Prince of Orange.,Prince of Orange.,text,0.0,0.0,0.0,,False
+TRAIN_06028,math,20,20,complete_number,,,,0.0,
+TRAIN_06029,math,"11*4*6 = 264
+
+264 - 146 = 118
+
+118
+
+Final numeric answer only: 118",118,explicit_final_number,,,,1.0,
+TRAIN_06034,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_06043,qa,Bullfighting,Bullfighting,text,0.0,0.0,0.0,,
+TRAIN_06060,math,15,15,complete_number,,,,0.0,
+TRAIN_06071,rag,Pulitzer Prize.,Pulitzer Prize.,text,0.0,0.8,0.0,,False
+TRAIN_06095,rag,Affirmative action is supposed to aim to overcome prejudicial treatment through inclusion.,Affirmative action is supposed to aim to overcome prejudicial treatment through inclusion.,text,0.0,0.5555555555555556,0.0,,False
+TRAIN_06096,math,"15% of 84 is 12.6, so the subtotal after discount is 84 - 12.6 = 71.4. Add delivery cost: 71.4 + 11 = 82.4. The total is 82.4 credits.",,unparseable,,,,0.0,
+TRAIN_06105,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_06107,math,"13 * 4 + 16 * 4 = 52 + 64 = 116
+
+Final numeric answer: 116",116,explicit_final_number,,,,1.0,
+TRAIN_06111,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_06124,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_06133,rag,craps,craps,text,0.0,0.0,0.0,,False
+TRAIN_06136,qa,Roman remains,Roman remains,text,0.0,0.0,0.0,,
+TRAIN_06137,math,"131 * 5 = 655  
+655 - (655 * 0.20) = 655 - 131 = 524  
+524 + 10 = 534  
+
+Final numeric answer: 534",534,explicit_final_number,,,,1.0,
+TRAIN_06148,math,"150
+
+Final numeric answer only: 150",150,explicit_final_number,,,,0.0,
+TRAIN_06154,math,7,7,complete_number,,,,0.0,
+TRAIN_06164,math,74.5,74.5,complete_number,,,,0.0,
+TRAIN_06165,rag,Hickam Air Force Base,Hickam Air Force Base,text,0.0,0.2222222222222222,0.0,,False
+TRAIN_06168,math,120,120,complete_number,,,,0.0,
+TRAIN_06172,rag,A Cure for Wellness is a science fiction psychological horror.,A Cure for Wellness is a science fiction psychological horror.,text,0.0,0.6666666666666666,0.0,,False
+TRAIN_06189,rag,James Prescott Joule,James Prescott Joule,text,1.0,1.0,1.0,,False
+TRAIN_06194,math,158,158,complete_number,,,,0.0,
+TRAIN_06207,rag,flora and fauna,flora and fauna,text,0.0,0.0,0.0,,True
+TRAIN_06209,qa,candelabro,candelabro,text,0.0,0.0,0.0,,
+TRAIN_06217,math,1350,1350,complete_number,,,,0.0,
+TRAIN_06224,qa,2019,2019,text,0.0,0.0,0.0,,
+TRAIN_06243,math,144,144,complete_number,,,,0.0,
+TRAIN_06248,qa,Miley Cyrus,Miley Cyrus,text,0.0,0.0,0.0,,
+TRAIN_06262,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_06273,rag,official places as well as where,official places as well as where,text,0.0,0.0,0.0,,False
+TRAIN_06276,rag,"32,000 tonnes","32,000 tonnes",text,0.0,0.8571428571428571,0.0,,False
+TRAIN_06282,qa,Barossa Valley,Barossa Valley,text,0.0,0.6666666666666666,0.0,,
+TRAIN_06285,rag,Jennifer Richeson.,Jennifer Richeson.,text,0.0,0.0,0.0,,True
+TRAIN_06295,rag,Montevideo.,Montevideo.,text,0.0,0.0,0.0,,False
+TRAIN_06311,math,14,14,complete_number,,,,0.0,
+TRAIN_06326,rag,Nashville.,Nashville.,text,0.0,0.0,0.0,,False
+TRAIN_06336,math,10,10,complete_number,,,,0.0,
+TRAIN_06345,qa,Dwayne Johnson and Jay Baruchel,Dwayne Johnson and Jay Baruchel,text,0.0,0.0,0.0,,
+TRAIN_06347,qa,Reverse chain rule,Reverse chain rule,text,0.0,0.0,0.0,,
+TRAIN_06351,rag,2011.,2011.,text,0.0,0.6666666666666666,0.0,,False
+TRAIN_06354,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_06355,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_06361,math,100,100,complete_number,,,,0.0,
+TRAIN_06370,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_06371,rag,14 December 1911,14 December 1911,text,1.0,1.0,1.0,,False
+TRAIN_06377,qa,Mexico,Mexico,text,1.0,1.0,1.0,,
+TRAIN_06378,qa,weblog,weblog,text,1.0,1.0,0.0,,
+TRAIN_06382,rag,one ganglion,one ganglion,text,0.0,0.6666666666666666,0.0,,False
+TRAIN_06423,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_06431,rag,monetisation usually viewed as an inflationary threat,monetisation usually viewed as an inflationary threat,text,0.0,0.4444444444444444,0.0,,False
+TRAIN_06463,rag,The mined bitumen is taken for refining at the bitumen upgrader facility in Canada.,The mined bitumen is taken for refining at the bitumen upgrader facility in Canada.,text,0.0,0.11764705882352941,0.0,,False
+TRAIN_06511,qa,Richard Connell,Richard Connell,text,1.0,1.0,1.0,,
+TRAIN_06523,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_06545,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_06550,qa,Zambia,Zambia,text,0.0,0.0,0.0,,
+TRAIN_06581,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_06596,math,8,8,complete_number,,,,0.0,
+TRAIN_06608,qa,E. B. White,E. B. White,text,0.0,0.0,0.0,,
+TRAIN_06611,math,"125 + 60 = 185
+
+Final numeric answer: 185",185,explicit_final_number,,,,0.0,
+TRAIN_06618,qa,INFJ,INFJ,text,0.0,0.0,0.0,,
+TRAIN_06622,qa,Maz is voiced by Laura Dern.,Maz is voiced by Laura Dern.,text,0.0,0.0,0.0,,
+TRAIN_06623,math,"140 * 5 = 700  
+700 - (700 * 0.05) = 700 - 35 = 665  
+665 + 14 = 679  
+
+Final numeric answer: 679",679,explicit_final_number,,,,1.0,
+TRAIN_06635,rag,Duke University.,Duke University.,text,0.0,0.8,0.0,,False
+TRAIN_06641,qa,A. Moorer,A. Moorer,text,0.0,0.0,0.0,,
+TRAIN_06645,math,12,12,complete_number,,,,1.0,
+TRAIN_06658,math,128,128,complete_number,,,,0.0,
+TRAIN_06662,qa,5,5,text,0.0,0.0,0.0,,
+TRAIN_06665,rag,paternoster lakes,paternoster lakes,text,0.0,0.0,0.0,,True
+TRAIN_06671,rag,Helensvale,Helensvale,text,0.0,0.0,0.0,,False
+TRAIN_06672,rag,0.5B,0.5B,text,1.0,1.0,1.0,,False
+TRAIN_06677,math,100,100,complete_number,,,,0.0,
+TRAIN_06714,qa,dean,dean,text,0.0,0.0,0.0,,
+TRAIN_06728,rag,UNFCCC,UNFCCC,text,0.0,0.18181818181818182,0.0,,False
+TRAIN_06730,qa,Clubhead speed,Clubhead speed,text,0.0,0.0,0.0,,
+TRAIN_06749,math,135,135,complete_number,,,,0.0,
+TRAIN_06752,rag,Public Safety Canada,Public Safety Canada,text,1.0,1.0,1.0,,False
+TRAIN_06754,qa,"April 20, 2014","April 20, 2014",text,0.0,0.25,0.0,,
+TRAIN_06761,qa,UCLA,UCLA,text,1.0,1.0,1.0,,
+TRAIN_06773,math,162 - 12 = 150,,unparseable,,,,0.0,
+TRAIN_06781,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_06799,rag,Spectre_(2015_film),Spectre_(2015_film),text,0.0,0.0,0.0,,False
+TRAIN_06803,qa,Burt Reynolds,Burt Reynolds,text,0.0,0.0,0.0,,
+TRAIN_06825,rag,modifying their environment,modifying their environment,text,1.0,1.0,1.0,,False
+TRAIN_06847,rag,5th,5th,text,0.0,0.0,0.0,,False
+TRAIN_06852,math,"16 * 3 - 15 - 16 = 45 - 31 = 14
+
+Final numeric answer: 14",14,explicit_final_number,,,,0.0,
+TRAIN_06863,qa,committed,committed,text,0.0,0.0,0.0,,
+TRAIN_06864,math,"18 pounds is 18 * 16 = 288 ounces. 288 ounces / 1 ounce per 7 bottle caps = 288 / 7 = 41.142857... bottle caps. 
+
+Final numeric answer: 41.142857",41.142857,explicit_final_number,,,,0.0,
+TRAIN_06866,math,10,10,complete_number,,,,1.0,
+TRAIN_06869,math,240,240,complete_number,,,,0.0,
+TRAIN_06887,qa,The Beatles,The Beatles,text,0.0,0.0,0.0,,
+TRAIN_06914,math,"82 - 13 + 9 = 82 - 4 = 78
+
+Final numeric answer only: 78",78,explicit_final_number,,,,1.0,
+TRAIN_06918,math,"175
+
+Final numeric answer only: 175",175,explicit_final_number,,,,0.0,
+TRAIN_06928,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_06969,qa,stupa,stupa,text,0.0,0.0,0.0,,
+TRAIN_06972,qa,c. 4th century BCE,c. 4th century BCE,text,0.0,0.0,0.0,,
+TRAIN_06973,math,10,10,complete_number,,,,0.0,
+TRAIN_06975,qa,blunt-tipped spear,blunt-tipped spear,text,0.0,0.2857142857142857,0.0,,
+TRAIN_06979,qa,2/3,2/3,text,0.0,0.0,0.0,,
+TRAIN_06990,rag,red deer,red deer,text,1.0,1.0,1.0,,False
+TRAIN_06998,qa,Annabelle,Annabelle,text,0.0,0.0,0.0,,
+TRAIN_07002,math,73 + (25 - 16) * 7 - 9 = 73 + 9*7 - 9 = 73 + 63 - 9 = 127,,unparseable,,,,0.0,
+TRAIN_07007,rag,$4.8 billion.,$4.8 billion.,text,0.0,0.9090909090909091,0.0,,False
+TRAIN_07008,rag,The Little Red Book was written by Chairman Mao Tse-Tung.,The Little Red Book was written by Chairman Mao Tse-Tung.,text,0.0,0.5555555555555556,0.0,,False
+TRAIN_07016,math,120,120,complete_number,,,,1.0,
+TRAIN_07029,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_07033,rag,Spider-Man and the Hulk,Spider-Man and the Hulk,text,1.0,1.0,1.0,,False
+TRAIN_07039,math,6,6,complete_number,,,,1.0,
+TRAIN_07042,qa,Londonderry,Londonderry,text,0.0,0.0,0.0,,
+TRAIN_07049,math,"19*4*3=234
+
+234-87=147
+
+147
+
+Final numeric answer only: 147",147,explicit_final_number,,,,0.0,
+TRAIN_07062,qa,: Maharashtra,: Maharashtra,text,0.0,0.0,0.0,,
+TRAIN_07084,rag,ASEAN Agreement on Transboundary Haze Pollution,ASEAN Agreement on Transboundary Haze Pollution,text,0.0,0.6666666666666666,0.0,,False
+TRAIN_07118,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_07131,qa,Aubrey Holes,Aubrey Holes,text,0.0,0.0,0.0,,
+TRAIN_07137,math,15,15,complete_number,,,,0.0,
+TRAIN_07143,math,"12 + 13 = 25
+
+20% of 25 = 0.2 * 25 = 5
+
+Yellow leaves = 25 - 5 = 20
+
+Final numeric answer: 20",20,explicit_final_number,,,,0.0,
+TRAIN_07152,qa,12,12,text,0.0,0.0,0.0,,
+TRAIN_07154,math,807,807,complete_number,,,,1.0,
+TRAIN_07178,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_07202,math,"10
+
+The pencil costs $2, and the pen costs $9 more, so the pen costs $2 + $9 = $11. The total cost of both items is $2 + $11 = $13.",,unparseable,,,,0.0,
+TRAIN_07203,qa,Twilight,Twilight,text,0.0,0.2,0.0,,
+TRAIN_07235,rag,Wal-Mart,Wal-Mart,text,1.0,1.0,1.0,,False
+TRAIN_07239,math,313473 - 274865 = 38608,,unparseable,,,,0.0,
+TRAIN_07253,math,128 + (18 * 6) - 4 = 128 + 108 - 4 = 232,,unparseable,,,,0.0,
+TRAIN_07285,qa,John Glenn,John Glenn,text,0.0,0.0,0.0,,
+TRAIN_07332,math,"81 + 92 = 173  
+173 - 46 = 127  
+
+Final numeric answer: 127",127,explicit_final_number,,,,1.0,
+TRAIN_07333,rag,large amounts of cells cheaply and quickly,large amounts of cells cheaply and quickly,text,0.0,0.18181818181818182,0.0,,False
+TRAIN_07372,qa,Dwayne Johnson,Dwayne Johnson,text,0.0,0.0,0.0,,
+TRAIN_07373,math,14,14,complete_number,,,,1.0,
+TRAIN_07377,math,70,70,complete_number,,,,0.0,
+TRAIN_07386,qa,Carly Simon,Carly Simon,text,0.0,0.0,0.0,,
+TRAIN_07390,qa,Bags Williams,Bags Williams,text,0.0,0.0,0.0,,
+TRAIN_07404,math,7,7,complete_number,,,,1.0,
+TRAIN_07408,math,150,150,complete_number,,,,0.0,
+TRAIN_07414,math,100,100,complete_number,,,,0.0,
+TRAIN_07421,math,1800,1800,complete_number,,,,0.0,
+TRAIN_07422,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_07431,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_07440,qa,The brisket is located on the rib cage of a cow.,The brisket is located on the rib cage of a cow.,text,0.0,0.11764705882352941,0.0,,
+TRAIN_07441,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_07446,qa,"The original sound of music stars Julie Andrews, Richard Beymer, and Christopher Walken.","The original sound of music stars Julie Andrews, Richard Beymer, and Christopher Walken.",text,0.0,0.2222222222222222,0.0,,
+TRAIN_07459,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_07460,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_07472,rag,Al Qaeda and ISIS are now in a competition to retain the title of the world's most powerful terrorist organization.,Al Qaeda and ISIS are now in a competition to retain the title of the world's most powerful terrorist organization.,text,0.0,0.08333333333333333,0.0,,False
+TRAIN_07478,math,"10*4*3=120
+
+120-12=108
+
+108
+
+Final numeric answer only: 108",108,explicit_final_number,,,,1.0,
+TRAIN_07480,math,"18*3*6 = 324
+
+324 - 146 = 178
+
+178
+
+178",,unparseable,,,,0.0,
+TRAIN_07488,math,1280,1280,complete_number,,,,0.0,
+TRAIN_07513,qa,conquered,conquered,text,0.0,0.0,0.0,,
+TRAIN_07526,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_07546,rag,native and exotic or mythological,native and exotic or mythological,text,0.0,0.3333333333333333,0.0,,False
+TRAIN_07581,math,100,100,complete_number,,,,0.0,
+TRAIN_07590,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_07641,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_07655,math,75,75,complete_number,,,,0.0,
+TRAIN_07696,rag,filter capacitor,filter capacitor,text,0.0,0.8,0.0,,False
+TRAIN_07699,qa,scute,scute,text,0.0,0.0,0.0,,
+TRAIN_07724,rag,2013-14 and 2014-2015.,2013-14 and 2014-2015.,text,0.0,0.0,0.0,,True
+TRAIN_07742,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_07758,qa,Achilles' mother,Achilles' mother,text,0.0,0.0,0.0,,
+TRAIN_07784,qa,john candy invasion of canada,john candy invasion of canada,text,0.0,0.0,0.0,,
+TRAIN_07785,qa,HMRC,HMRC,text,1.0,1.0,1.0,,
+TRAIN_07788,qa,Erin Brockovich,Erin Brockovich,text,0.0,0.0,0.0,,
+TRAIN_07803,rag,UNANSWERABLE.,UNANSWERABLE.,text,0.0,0.0,0.0,,False
+TRAIN_07810,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_07818,rag,The highest portion of the Alps' range is divided by the glacial trough of the Rhone valley.,The highest portion of the Alps' range is divided by the glacial trough of the Rhone valley.,text,0.0,0.5384615384615384,0.0,,False
+TRAIN_07823,math,"103 + 17 = 120  
+Sherry weighs twice as much as Verna, so Sherry weighs 120 pounds  
+Verna weighs 120 / 2 = 60 pounds  
+Verna and Sherry weigh 60 + 120 = 180 pounds together
+
+Final numeric answer: 180",180,explicit_final_number,,,,0.0,
+TRAIN_07834,rag,phonemes,phonemes,text,1.0,1.0,1.0,,False
+TRAIN_07848,math,130,130,complete_number,,,,0.0,
+TRAIN_07852,qa,Keanu Reeves,Keanu Reeves,text,0.0,0.0,0.0,,
+TRAIN_07865,qa,Minnesota,Minnesota,text,1.0,1.0,1.0,,
+TRAIN_07869,math,15,15,complete_number,,,,0.0,
+TRAIN_07878,qa,Meredith Baxter,Meredith Baxter,text,0.0,0.0,0.0,,
+TRAIN_07884,math,"5
+
+The final numeric answer is: 5",,unparseable,,,,0.0,
+TRAIN_07890,math,"18 * 3 = 54
+
+Final numeric answer: 54",54,explicit_final_number,,,,0.0,
+TRAIN_07901,rag,"Maxwell Air Force Base in Montgomery, Alabama.","Maxwell Air Force Base in Montgomery, Alabama.",text,0.0,0.9411764705882353,0.0,,False
+TRAIN_07908,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_07915,math,39,39,complete_number,,,,1.0,
+TRAIN_07921,math,100,100,complete_number,,,,0.0,
+TRAIN_07928,math,8,8,complete_number,,,,0.0,
+TRAIN_07933,rag,PDF,PDF,text,1.0,1.0,1.0,,False
+TRAIN_07934,math,14,14,complete_number,,,,0.0,
+TRAIN_07938,rag,mid-2006 peak,mid-2006 peak,text,0.0,0.8571428571428571,0.0,,False
+TRAIN_07949,rag,Bulgarian.,Bulgarian.,text,0.0,0.6666666666666666,0.0,,False
+TRAIN_07963,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_08000,qa,The Five Books of Moses are usually called the Pentateuch.,The Five Books of Moses are usually called the Pentateuch.,text,0.0,0.16666666666666666,0.0,,
+TRAIN_08026,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_08035,math,75,75,complete_number,,,,0.0,
+TRAIN_08041,qa,soccer,soccer,text,1.0,1.0,0.0,,
+TRAIN_08055,qa,"The South African Reserve Bank is responsible for monetary policy, issuing currency, and regulating banks.","The South African Reserve Bank is responsible for monetary policy, issuing currency, and regulating banks.",text,0.0,0.2608695652173913,0.0,,
+TRAIN_08064,rag,Dhammapada,Dhammapada,text,1.0,1.0,1.0,,False
+TRAIN_08088,math,11,11,complete_number,,,,0.0,
+TRAIN_08100,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_08106,qa,Randy Hill,Randy Hill,text,0.0,0.0,0.0,,
+TRAIN_08108,math,"17*6*7=714
+
+25
+
+714-25=689
+
+689
+
+0
+
+689",,unparseable,,,,0.0,
+TRAIN_08114,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_08118,qa,Atlantic Ocean,Atlantic Ocean,text,0.0,0.0,0.0,,
+TRAIN_08126,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_08144,math,100,100,complete_number,,,,0.0,
+TRAIN_08147,qa,The answer is: The Cabinet of Dr. Caligari.,The answer is: The Cabinet of Dr. Caligari.,text,0.0,0.7058823529411765,0.0,,
+TRAIN_08179,qa,1940–1959,1940–1959,text,0.0,0.3333333333333333,0.0,,
+TRAIN_08216,math,1265,1265,complete_number,,,,0.0,
+TRAIN_08218,qa,Bryan Adams,Bryan Adams,text,0.0,0.0,0.0,,
+TRAIN_08224,rag,The government of China should be responsible for providing medical treatment to earthquake survivors.,The government of China should be responsible for providing medical treatment to earthquake survivors.,text,0.0,0.23529411764705882,0.0,,False
+TRAIN_08230,rag,5,5,text,0.0,0.0,0.0,,False
+TRAIN_08234,qa,18 years of age,18 years of age,text,0.0,0.4,0.0,,
+TRAIN_08241,qa,1959,1959,text,0.0,0.0,0.0,,
+TRAIN_08250,math,340,340,complete_number,,,,0.0,
+TRAIN_08255,math,180 + 60 = 240,,unparseable,,,,0.0,
+TRAIN_08274,math,"14*7*7=686
+
+686-174=512
+
+512
+
+512",,unparseable,,,,0.0,
+TRAIN_08277,qa,dark circles,dark circles,text,0.0,0.0,0.0,,
+TRAIN_08307,qa,John Denver,John Denver,text,0.0,0.0,0.0,,
+TRAIN_08313,qa,:00:00,:00:00,text,0.0,0.0,0.0,,
+TRAIN_08336,math,12,12,complete_number,,,,0.0,
+TRAIN_08345,qa,125 years,125 years,text,0.0,0.0,0.0,,
+TRAIN_08352,rag,Reader's Digest,Reader's Digest,text,0.0,0.0,0.0,,False
+TRAIN_08357,qa,Nazi anthem,Nazi anthem,text,0.0,0.0,0.0,,
+TRAIN_08363,math,100,100,complete_number,,,,0.0,
+TRAIN_08365,qa,50%,50%,text,0.0,0.5,0.0,,
+TRAIN_08377,rag,The loss of biodiversity may be the result of destruction of the forest.,The loss of biodiversity may be the result of destruction of the forest.,text,0.0,0.4444444444444444,0.0,,False
+TRAIN_08380,math,295,295,complete_number,,,,0.0,
+TRAIN_08387,qa,foreign key,foreign key,text,1.0,1.0,1.0,,
+TRAIN_08412,qa,Boeing,Boeing,text,0.0,0.0,0.0,,
+TRAIN_08414,rag,Statenvertaling,Statenvertaling,text,1.0,1.0,1.0,,False
+TRAIN_08433,math,52,52,complete_number,,,,0.0,
+TRAIN_08449,math,"129 tiles are already available. The total number of tiles needed is 5*4*4 = 80 tiles. Since 129 > 80, the number of additional tiles needed is 0.",,unparseable,,,,0.0,
+TRAIN_08456,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_08460,qa,.007,.007,text,0.0,0.0,0.0,,
+TRAIN_08470,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_08472,math,175,175,complete_number,,,,0.0,
+TRAIN_08480,qa,terminal velocity,terminal velocity,text,1.0,1.0,0.0,,
+TRAIN_08494,math,3,3,complete_number,,,,0.0,
+TRAIN_08496,math,10,10,complete_number,,,,0.0,
+TRAIN_08529,qa,Piggy,Piggy,text,0.0,0.0,0.0,,
+TRAIN_08538,qa,Kenya,Kenya,text,1.0,1.0,1.0,,
+TRAIN_08545,qa,2018,2018,text,0.0,0.0,0.0,,
+TRAIN_08558,rag,Danish West Indies,Danish West Indies,text,0.0,0.0,0.0,,False
+TRAIN_08561,qa,O(log n),O(log n),text,1.0,1.0,1.0,,
+TRAIN_08564,qa,The Beverly Hills family.,The Beverly Hills family.,text,0.0,0.5,0.0,,
+TRAIN_08574,qa,Aged shiitake,Aged shiitake,text,0.0,0.0,0.0,,
+TRAIN_08592,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_08597,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_08599,qa,1959,1959,text,1.0,1.0,1.0,,
+TRAIN_08605,qa,2,2,text,1.0,1.0,1.0,,
+TRAIN_08614,rag,Kevade,Kevade,text,1.0,1.0,1.0,,False
+TRAIN_08619,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_08622,math,140,140,complete_number,,,,0.0,
+TRAIN_08626,math,70,70,complete_number,,,,0.0,
+TRAIN_08627,math,120,120,complete_number,,,,0.0,
+TRAIN_08631,math,32.0,32.0,complete_number,,,,0.0,
+TRAIN_08638,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_08644,rag,86 km,86 km,text,1.0,1.0,1.0,,False
+TRAIN_08666,rag,Apollo.,Apollo.,text,0.0,0.6666666666666666,0.0,,False
+TRAIN_08668,qa,Graham Gooch,Graham Gooch,text,0.0,0.0,0.0,,
+TRAIN_08679,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_08682,rag,Kievan_Rus%27,Kievan_Rus%27,text,0.0,0.0,0.0,,False
+TRAIN_08693,math,12,12,complete_number,,,,0.0,
+TRAIN_08697,rag,UNANSWERABLE.,UNANSWERABLE.,text,0.0,0.0,0.0,,False
+TRAIN_08710,rag,From 2003 to 2008 Tom Holland was responsible for the Kansas House of Representatives.,From 2003 to 2008 Tom Holland was responsible for the Kansas House of Representatives.,text,0.0,0.09523809523809523,0.0,,False
+TRAIN_08725,math,155 + (15*5 - 7*5) - 8 = 155 + (75 - 35) - 8 = 155 + 40 - 8 = 187,,unparseable,,,,0.0,
+TRAIN_08734,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_08738,qa,"New York, NY","New York, NY",text,0.0,0.0,0.0,,
+TRAIN_08741,qa,Aconcagua,Aconcagua,text,1.0,1.0,1.0,,
+TRAIN_08749,math,10,10,complete_number,,,,0.0,
+TRAIN_08752,qa,Brimstone,Brimstone,text,0.0,0.0,0.0,,
+TRAIN_08756,rag,prosperity,prosperity,text,1.0,1.0,1.0,,False
+TRAIN_08769,rag,"Elizabeth was born during the reign of her paternal grandfather, King George V.","Elizabeth was born during the reign of her paternal grandfather, King George V.",text,0.0,0.3333333333333333,0.0,,False
+TRAIN_08782,math,160,160,complete_number,,,,0.0,
+TRAIN_08786,rag,Jonghyun,Jonghyun,text,1.0,1.0,1.0,,False
+TRAIN_08788,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_08796,rag,Julius Caesar was a contemporary of Pompey.,Julius Caesar was a contemporary of Pompey.,text,0.0,0.2222222222222222,0.0,,False
+TRAIN_08800,math,"100 + 500 + 600 = 1200
+
+1200 / 2 = 600
+
+600 / 2 = 300
+
+300 / 2 = 150
+
+150 / 2 = 75
+
+75 / 2 = 37.5
+
+37.5 / 2 = 18.75
+
+18.75 / 2 = 9.375
+
+9.375 / 2 = 4.6875
+
+4.6875 / 2 = 2.34375
+
+2.34375 / 2 = 1.171875
+
+1.171875 / 2 = 0.5859375
+
+0.5859375 / 2 = 0.29296875
+
+0.29296875 / 2 = 0.146484375
+
+0.146484375 /",,truncated,,,,0.0,
+TRAIN_08819,rag,Sigmund Freud.,Sigmund Freud.,text,0.0,0.8,0.0,,False
+TRAIN_08827,rag,1941–45,1941–45,text,1.0,1.0,1.0,,False
+TRAIN_08844,qa,Agricultural And Rural Development,Agricultural And Rural Development,text,0.0,0.2,0.0,,
+TRAIN_08854,qa,The U.S. Supreme Court.,The U.S. Supreme Court.,text,0.0,0.0,0.0,,
+TRAIN_08865,math,"12 * 10 - 2 * 10 = 120 - 20 = 100
+
+Final numeric answer only: 100",100,explicit_final_number,,,,1.0,
+TRAIN_08871,qa,Togo,Togo,text,0.0,0.0,0.0,,
+TRAIN_08886,qa,threshold decoding,threshold decoding,text,0.0,0.0,0.0,,
+TRAIN_08894,qa,Drew Carey,Drew Carey,text,0.0,0.0,0.0,,
+TRAIN_08900,math,10*5 + 5 = 55,,unparseable,,,,0.0,
+TRAIN_08904,qa,Luke,Luke,text,1.0,1.0,0.0,,
+TRAIN_08911,math,"18*81 + 5*90 = 1458 + 450 = 1908  
+Total items = 18 + 5 = 23  
+Average mass = 1908 / 23 ≈ 83.00
+
+Final numeric answer: 83",83,explicit_final_number,,,,0.0,
+TRAIN_08918,qa,Diana Krall,Diana Krall,text,0.0,0.0,0.0,,
+TRAIN_08922,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TRAIN_08964,math,"86 - 41 = 45
+
+Final numeric answer only: 45",45,explicit_final_number,,,,1.0,
+TRAIN_08970,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TRAIN_08977,math,"91 - 30 = 61
+
+61 - 21 = 40
+
+40 is how many more marbles Ed had than Doug.
+
+Final numeric answer: 40",40,explicit_final_number,,,,0.0,
+TRAIN_09013,qa,a product made by Revelation,a product made by Revelation,text,0.0,0.0,0.0,,
+TRAIN_09036,qa,Colonel Quagmire,Colonel Quagmire,text,0.0,0.5,0.0,,
+TRAIN_09043,rag,1837,1837,text,1.0,1.0,1.0,,False
+TRAIN_09063,qa,1969,1969,text,0.0,0.0,0.0,,

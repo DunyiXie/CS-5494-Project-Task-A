@@ -1,0 +1,12 @@
+{
+  "status": "FROZEN_ENVIRONMENT_READY",
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "transformers": "5.20.2",
+  "accelerate": "1.15.0",
+  "huggingface-hub": "1.33.0",
+  "tokenizers": "0.23.3",
+  "safetensors": "0.8.0",
+  "gpu": "Tesla T4",
+  "cuda_operation_passed": true
+}

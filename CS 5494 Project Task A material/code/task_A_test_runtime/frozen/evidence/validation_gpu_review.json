@@ -1,0 +1,192 @@
+{
+  "status": "passed",
+  "checks_passed": 63,
+  "checks": [
+    "audit_target_is_within_workspace",
+    "archive_path_is_within_project",
+    "compressed_archive_size_under_25_MiB",
+    "bounded_member_count",
+    "unique_case_insensitive_member_names",
+    "exact_result_file_allowlist",
+    "directory_allowlist",
+    "safe_canonical_paths_and_no_drive_or_traversal",
+    "regular_files_directories_only_no_symlinks",
+    "no_encrypted_members",
+    "per_file_size_and_compression_ratio_bounds",
+    "aggregate_size_under_150_MiB",
+    "all_member_CRCs_valid",
+    "returned_manifest_matches_issued_manifest",
+    "returned_payload_SHA256_matches_issued_manifest",
+    "returned_payload_bytes_match_trusted_workspace_sources",
+    "no_test_or_weight_members",
+    "safe_extraction_completed",
+    "all_seven_artifact_tables_have_907_unique_matching_IDs",
+    "all_artifact_orders_match_frozen_validation_order",
+    "input_CSV_has_only_four_target_fields",
+    "reference_CSV_is_separate_with_reference_fields_only",
+    "prediction_CSV_has_exactly_two_columns",
+    "runtime_input_snapshot_matches_issued_input_bytes",
+    "input_reference_raw_config_and_preflight_hashes_match",
+    "runtime_config_dictionary_equals_issued_config",
+    "serialized_config_snapshot_hash_matches_own_log",
+    "prediction_file_hash_matches_own_log",
+    "logged_source_hashes_match_returned_and_trusted_code",
+    "full_907_GPU_run_reports_complete",
+    "task_counts_match_300_320_287",
+    "task_fields_match_input_for_references_traces_and_prompts",
+    "trusted_environment_gate_passes_real_CUDA_FP16_and_dependencies",
+    "backend_and_inference_environment_snapshots_identical",
+    "base_model_reuse_state_consistent",
+    "validation_only_and_final_test_not_frozen",
+    "reference_access_and_post_generation_verification_markers",
+    "trusted_preflight_gate_accepts_all_real_tokenizer_records",
+    "chat_framing_consistent_across_prior_actual_GPU_prompts",
+    "all_907_messages_equal_public_task_templates_without_gold",
+    "all_907_prompt_texts_independently_reconstructed",
+    "all_907_prompt_hashes_match_trace_recheck_and_passed_lengths",
+    "all_907_input_lengths_match_real_preflight_and_budget",
+    "baseline_has_zero_demonstrations_everywhere",
+    "all_output_token_IDs_and_lengths_valid",
+    "EOS_hit_limit_truncation_and_stop_reason_independently_match",
+    "all_raw_text_decoding_views_consistent",
+    "all_reference_blind_extracted_answers_match_prediction_CSV",
+    "per_sample_timings_finite_and_nonnegative",
+    "zero_raw_blank_93_extracted_empty_2_truncated_match_both_summaries",
+    "two_output_limit_hits_and_status_counts_match",
+    "max_input_649_matches_every_summary",
+    "summed_generation_seconds_matches_each_trace_and_both_summaries",
+    "wall_clock_and_pipeline_timing_scopes_consistent",
+    "GPU_memory_values_consistent_and_bounded",
+    "trusted_independent_evaluation_CLI_succeeded",
+    "independent_metrics_exactly_equal_returned_metrics",
+    "independent_per_sample_CSV_bytes_equal_returned_scores",
+    "returned_console_metrics_equal_metrics_file",
+    "runner_per_task_metrics_and_macro_equal_independent_evaluation",
+    "907_rows_and_all_task_denominators_preserved",
+    "per_task_empty_counts_sum_to_93",
+    "every_empty_or_truncated_answer_scores_zero"
+  ],
+  "archive": "project\\step4_4_baseline_validation_20261026_134001_076561_UTC.zip",
+  "archive_sha256": "d2e551061379c6ce40b88bc38d6ba6bf7bb2d2d0463cb73b677b1f9f537aabc4",
+  "issued_bundle": "project\\step4_4_full_validation_baseline.zip",
+  "issued_bundle_sha256": "be92234e9b22ea607419cced59cd87443356d5ced561f711d7154f761e6814d5",
+  "archive_bytes": 1053651,
+  "archive_file_count": 32,
+  "scope": "Complete fixed 907-row validation baseline; no final-test performance",
+  "gpu_execution": "verified_from_returned_artifacts",
+  "count": 907,
+  "per_task": {
+    "qa": {
+      "count": 300,
+      "empty_extracted_answers": 1,
+      "extraction_status_counts": {
+        "text": 299,
+        "truncated": 1
+      },
+      "exact_match": 13.0,
+      "token_f1": 19.588889487294388,
+      "strict_exact_match": 10.0
+    },
+    "rag": {
+      "count": 320,
+      "empty_extracted_answers": 0,
+      "extraction_status_counts": {
+        "text": 320
+      },
+      "exact_match": 34.6875,
+      "token_f1": 47.68207880853964,
+      "strict_exact_match": 34.6875,
+      "unanswerable_count": 56,
+      "unanswerable_accuracy": 76.78571428571429
+    },
+    "math": {
+      "count": 287,
+      "empty_extracted_answers": 92,
+      "extraction_status_counts": {
+        "complete_number": 195,
+        "unparseable": 91,
+        "truncated": 1
+      },
+      "numeric_accuracy": 6.2717770034843205
+    }
+  },
+  "per_task_counts": {
+    "qa": {
+      "count": 300,
+      "primary_correct": 39,
+      "empty_extracted": 1
+    },
+    "rag": {
+      "count": 320,
+      "primary_correct": 111,
+      "empty_extracted": 0
+    },
+    "math": {
+      "count": 287,
+      "primary_correct": 18,
+      "empty_extracted": 92
+    }
+  },
+  "macro_primary_score": 17.986425667828104,
+  "blank_raw_answers": 0,
+  "empty_extracted_answers": 93,
+  "truncated_outputs": 2,
+  "truncated_cases": [
+    {
+      "Sample_id": "TRAIN_05443",
+      "Task": "qa",
+      "output_tokens_including_eos": 256,
+      "extraction_status": "truncated"
+    },
+    {
+      "Sample_id": "TRAIN_08800",
+      "Task": "math",
+      "output_tokens_including_eos": 256,
+      "extraction_status": "truncated"
+    }
+  ],
+  "extraction_status_counts": {
+    "text": 619,
+    "complete_number": 195,
+    "unparseable": 91,
+    "truncated": 2
+  },
+  "EOS_last_token_counts": {
+    "151645": 903,
+    "151643": 2,
+    "25": 1,
+    "220": 1
+  },
+  "same_raw_answers_as_prior_10_GPU_run": 10,
+  "timing": {
+    "summed_generation_seconds": 381.2058069220093,
+    "generation_wall_seconds": 384.13388579100047,
+    "preflight_seconds": 0.7275363879998622,
+    "warmup_seconds": 0.30251791199953004,
+    "total_pipeline_seconds": 385.1661029320003
+  },
+  "model_setup_seconds": 0.09471194399975502,
+  "model_reused": true,
+  "gpu_memory": {
+    "peak_allocated_gib": 3.375868797302246,
+    "peak_reserved_gib": 4.166015625,
+    "ending_allocated_gib": 3.2127695083618164
+  },
+  "gpu": "Tesla T4",
+  "packages": {
+    "transformers": "5.20.2",
+    "accelerate": "1.15.0",
+    "huggingface-hub": "1.33.0",
+    "tokenizers": "0.23.3",
+    "safetensors": "0.8.0",
+    "bitsandbytes": null,
+    "peft": "0.21.2"
+  },
+  "actual_test_data_opened_by_audit": false,
+  "returned_code_executed": false,
+  "tokenizer_or_model_loaded_by_audit": false,
+  "independent_scoring": "exact_metrics_and_per_sample_match",
+  "full_validation_inference": "complete",
+  "final_test_inference": "not_run",
+  "final_test_frozen": false
+}

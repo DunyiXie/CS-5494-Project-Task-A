@@ -1,0 +1,28 @@
+{
+  "version": "evaluation_v2",
+  "previous_version": "evaluation_v1",
+  "change_reason": "Recognize explicit terminal Final numeric answer: and Final numeric answer only: labels already used by the shared math prompt; preserve v1 results and rescore all methods consistently from raw outputs",
+  "status": "fixed_for_shared_validation",
+  "text": {
+    "normalization": "Unicode NFKC, casefold, collapse whitespace; preserve punctuation and English articles",
+    "tokenization": "Unicode words and individual non-whitespace punctuation tokens",
+    "multiple_references": "Answer union Accepted_answers; independently maximize EM and token F1 over references",
+    "strict_em": "NFKC plus collapsed whitespace, preserving case and punctuation; supplementary diagnostic",
+    "unanswerable": "RAG canonical UNANSWERABLE requires the complete normalized prediction to equal UNANSWERABLE; no partial credit for an explanatory sentence"
+  },
+  "math": {
+    "absolute_tolerance": "0.000001",
+    "relative_tolerance": "0",
+    "tolerance_rationale": "Use a fixed absolute tolerance so an integer answer off by one is not accepted merely because the reference is large",
+    "comparison": "absolute error <= max(abs_tol, rel_tol * max(abs(prediction), abs(reference)))",
+    "forms": "signed integer, decimal, scientific notation, valid grouped thousands, fraction, whole-expression LaTeX frac",
+    "percent": "Group output convention, matching the shared prompt: a trailing percent sign denotes percentage points, so 60% equals 60, not 0.6; this is not a general mathematical percent conversion",
+    "extraction": "complete numeric response, or complete numeric content after a terminal explicit Answer/Final answer/Final numeric answer/Final numeric answer only marker; never search intermediate calculations for a matching number",
+    "wrappers": "Only complete enclosing code fences, bold, math delimiters or boxed braces can be removed",
+    "failure": "blank, malformed, unparseable or known-truncated response becomes empty extracted Answer and scores zero"
+  },
+  "alignment": "Require exact input/reference/prediction ID sets; duplicates, missing or extra IDs fail explicitly",
+  "reporting": "Per-task EM/F1 or numeric accuracy in percent; row scores in 0..1; all rows remain in the denominator",
+  "selection_score": "Equal mean of QA EM, RAG EM and math numeric accuracy, only when all three tasks are present",
+  "test_access": "CLI final-test mode additionally requires final_test_frozen=true in the shared model configuration"
+}

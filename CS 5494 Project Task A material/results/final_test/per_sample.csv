@@ -1,0 +1,1373 @@
+Sample_id,Task,raw_answer,answer,extraction_status,exact_match,token_f1,strict_exact_match,numeric_correct,reference_unanswerable
+TEST_00001,rag,Sons for the Return Home,Sons for the Return Home,text,0.0,0.0,0.0,,True
+TEST_00002,math,"109 * 74 = 8026
+
+Final numeric answer only: 8026",8026,explicit_final_number,,,,0.0,
+TEST_00003,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00004,qa,The Revenant,The Revenant,text,0.0,0.0,0.0,,
+TEST_00005,rag,Arsenal_F.C.,Arsenal_F.C.,text,0.0,0.0,0.0,,True
+TEST_00006,qa,information that can be passed to a requester includes,information that can be passed to a requester includes,text,0.0,0.14285714285714285,0.0,,
+TEST_00007,math,35.0,35.0,complete_number,,,,0.0,
+TEST_00008,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00009,math,144,144,complete_number,,,,0.0,
+TEST_00010,math,"12 * 3 - 9 - 14 = 36 - 23 = 13
+
+Final numeric answer: 13",13,explicit_final_number,,,,1.0,
+TEST_00011,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00012,rag,more folk features,more folk features,text,0.0,0.8,0.0,,False
+TEST_00013,math,"100, 80, 64",,unparseable,,,,0.0,
+TEST_00014,math,12 + 12 + 6 = 30,,unparseable,,,,0.0,
+TEST_00015,math,150*5 + 5*4 = 750 + 20 = 770,,unparseable,,,,0.0,
+TEST_00016,math,"10,440,000 / 725 = 14,400 rotations per tire
+
+400 miles / 2 miles = 200 rotations per mile
+
+200 * 14,400 = 2,880,000 rotations per month
+
+2,880,000 / 14,400 = 200 months
+
+200 / 12 = 16.666... years
+
+Final numeric answer: 16.666",16.666,explicit_final_number,,,,0.0,
+TEST_00017,rag,Solzinc process.,Solzinc process.,text,0.0,0.6666666666666666,0.0,,False
+TEST_00018,math,4,4,complete_number,,,,1.0,
+TEST_00019,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00020,math,74 - 9 - 11 - 30 + 90% of 30 = 74 - 50 + 27 = 51,,unparseable,,,,0.0,
+TEST_00021,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00022,rag,Mrs. Brown,Mrs. Brown,text,1.0,1.0,1.0,,False
+TEST_00023,math,32,32,complete_number,,,,0.0,
+TEST_00024,math,128,128,complete_number,,,,0.0,
+TEST_00025,math,1350,1350,complete_number,,,,0.0,
+TEST_00026,rag,"Tetrapanax is an evergreen shrub, and Hippophae is a genus of sea buckthorns, a deciduous shrub. Therefore, the statement is correct.","Tetrapanax is an evergreen shrub, and Hippophae is a genus of sea buckthorns, a deciduous shrub. Therefore, the statement is correct.",text,0.0,0.0,0.0,,False
+TEST_00027,qa,7,7,text,0.0,0.0,0.0,,
+TEST_00028,math,"100
+
+The original price of the dining table was $100.",,unparseable,,,,0.0,
+TEST_00029,rag,Catalan shares many traits with other Romance languages.,Catalan shares many traits with other Romance languages.,text,0.0,0.36363636363636365,0.0,,False
+TEST_00030,math,12,12,complete_number,,,,0.0,
+TEST_00031,math,30,30,complete_number,,,,0.0,
+TEST_00032,qa,Toni Morrison,Toni Morrison,text,0.0,0.0,0.0,,
+TEST_00033,math,12 + 6 + 14 = 32,,unparseable,,,,0.0,
+TEST_00034,qa,[],[],text,0.0,0.0,0.0,,
+TEST_00035,qa,Meredith,Meredith,text,0.0,0.0,0.0,,
+TEST_00036,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00037,math,"$$
+\text{Total distance} = (8 \times 66) + (3 \times 13) = 528 + 39 = 567 \text{ km}
+$$
+$$
+\text{Total time} = 8 + 3 = 11 \text{ hours}
+$$
+$$
+\text{Average speed} = \frac{567}{11} \approx 51.54545454545454
+$$
+Final numeric answer: 51.54545454545454",51.54545454545454,explicit_final_number,,,,1.0,
+TEST_00038,rag,Crocodilia.,Crocodilia.,text,0.0,0.5,0.0,,False
+TEST_00039,rag,relax height limits on buildings in the greater part of Downtown,relax height limits on buildings in the greater part of Downtown,text,0.0,0.3076923076923077,0.0,,False
+TEST_00040,qa,Arabic origin,Arabic origin,text,0.0,0.6666666666666666,0.0,,
+TEST_00041,math,"100
+
+The amount Michael paid to the seller is $430 + $190 - $100 = $520.",,unparseable,,,,0.0,
+TEST_00042,rag,King Jack,King Jack,text,0.0,0.0,0.0,,False
+TEST_00043,rag,cooperative hunting,cooperative hunting,text,1.0,1.0,1.0,,False
+TEST_00044,math,120,120,complete_number,,,,0.0,
+TEST_00045,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00046,math,"18 - 5 = 13
+
+Let x be the number of years in the future when Beth is twice her sister's age.
+
+Then:
+
+18 + x = 2*(5 + x)
+
+18 + x = 10 + 2x
+
+18 - 10 = 2x - x
+
+8 = x
+
+So, in 8 years, Beth would be twice her sister's age.
+
+Final numeric answer: 8",8,explicit_final_number,,,,1.0,
+TEST_00047,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00048,math,120,120,complete_number,,,,0.0,
+TEST_00049,rag,Princess Beatrice.,Princess Beatrice.,text,0.0,0.8,0.0,,False
+TEST_00050,qa,"[1, 4, 7, 2, 6]","[1, 4, 7, 2, 6]",text,0.0,0.42857142857142855,0.0,,
+TEST_00051,math,"10 * 6 * 20 * 6 = 7200 square inches
+
+Convert to square feet: 7200 / 144 = 50 square feet
+
+Final numeric answer: 50",50,explicit_final_number,,,,1.0,
+TEST_00052,math,"19 + 8 = 27 litres per minute  
+27 * 5 = 135 litres  
+26 - 135 = -109 litres  
+
+The tank has already emptied.  
+
+0",,unparseable,,,,0.0,
+TEST_00053,math,110,110,complete_number,,,,0.0,
+TEST_00054,rag,"Shaanxi, Gansu, and Guizhou","Shaanxi, Gansu, and Guizhou",text,0.0,0.0,0.0,,True
+TEST_00055,qa,Battle of Midway,Battle of Midway,text,0.0,0.3333333333333333,0.0,,
+TEST_00056,math,15,15,complete_number,,,,0.0,
+TEST_00057,rag,98% of the population.,98% of the population.,text,0.0,0.0,0.0,,False
+TEST_00058,math,"15 coals / 20 minutes = 0.75 coals per minute  
+3 bags × 60 coals = 180 coals  
+180 coals ÷ 0.75 coals per minute = 240 minutes  
+
+Final numeric answer: 240",240,explicit_final_number,,,,1.0,
+TEST_00059,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00060,qa,red,red,text,0.0,0.0,0.0,,
+TEST_00061,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00062,rag,1407,1407,text,1.0,1.0,1.0,,False
+TEST_00063,rag,Emmitt H. Ford,Emmitt H. Ford,text,1.0,1.0,1.0,,False
+TEST_00064,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00065,math,15,15,complete_number,,,,0.0,
+TEST_00066,qa,David Fincher,David Fincher,text,0.0,0.0,0.0,,
+TEST_00067,qa,10,10,text,0.0,0.0,0.0,,
+TEST_00068,qa,maria,maria,text,0.0,0.0,0.0,,
+TEST_00069,rag,William E. Simon,William E. Simon,text,0.0,0.0,0.0,,True
+TEST_00070,qa,November 1991,November 1991,text,0.0,0.0,0.0,,
+TEST_00071,math,3,3,complete_number,,,,0.0,
+TEST_00072,qa,yes,yes,text,1.0,1.0,1.0,,
+TEST_00073,qa,"April 19, 1998","April 19, 1998",text,0.0,0.0,0.0,,
+TEST_00074,math,"144 - 36 - 48 = 60
+
+Mary wants to make an even number of chocolate and vanilla cupcakes for the rest, which is 60. Since the problem asks for how much of each she should make, and the question is about the amount of each type of cupcake, the answer is:
+
+60
+
+Final numeric answer only: 60",60,explicit_final_number,,,,0.0,
+TEST_00075,rag,Romantic era.,Romantic era.,text,0.0,0.8,0.0,,False
+TEST_00076,qa,Sandy,Sandy,text,0.0,0.0,0.0,,
+TEST_00077,math,105,105,complete_number,,,,0.0,
+TEST_00078,math,17,17,complete_number,,,,0.0,
+TEST_00079,qa,Edgar,Edgar,text,0.0,0.0,0.0,,
+TEST_00080,qa,The Brady Bunch,The Brady Bunch,text,0.0,0.4,0.0,,
+TEST_00081,qa,Old Testament editors,Old Testament editors,text,0.0,0.5,0.0,,
+TEST_00082,math,10,10,complete_number,,,,0.0,
+TEST_00083,math,120,120,complete_number,,,,0.0,
+TEST_00084,qa,The leader of the state government in Australia is the Premier.,The leader of the state government in Australia is the Premier.,text,0.0,0.375,0.0,,
+TEST_00085,qa,Shaking palsy,Shaking palsy,text,1.0,1.0,1.0,,
+TEST_00086,math,10.5,10.5,complete_number,,,,0.0,
+TEST_00087,math,1000,1000,complete_number,,,,0.0,
+TEST_00088,rag,49,49,text,0.0,0.0,0.0,,False
+TEST_00089,qa,"Asbestos is a town in the state of New York, USA.","Asbestos is a town in the state of New York, USA.",text,0.0,0.23529411764705882,0.0,,
+TEST_00090,rag,Gaietà Ripoli,Gaietà Ripoli,text,1.0,1.0,1.0,,False
+TEST_00091,qa,bone marrow,bone marrow,text,1.0,1.0,1.0,,
+TEST_00092,qa,Ferrari,Ferrari,text,0.0,0.0,0.0,,
+TEST_00093,qa,new moon,new moon,text,0.0,0.5,0.0,,
+TEST_00094,math,168,168,complete_number,,,,0.0,
+TEST_00095,qa,1983,1983,text,0.0,0.0,0.0,,
+TEST_00096,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00097,rag,Humans.,Humans.,text,0.0,0.0,0.0,,False
+TEST_00098,math,35,35,complete_number,,,,0.0,
+TEST_00099,math,"12 * 5 = 60 hours total
+
+4 hours/week * weeks = 60 hours
+
+60 / 4 = 15 weeks
+
+Final numeric answer: 15",15,explicit_final_number,,,,1.0,
+TEST_00100,qa,Mt. Rainier,Mt. Rainier,text,0.0,0.4444444444444444,0.0,,
+TEST_00101,qa,W. Somerset Maugham,W. Somerset Maugham,text,0.0,0.0,0.0,,
+TEST_00102,math,12.5,12.5,complete_number,,,,0.0,
+TEST_00103,qa,The new Rams stadium is being built by the Los Angeles Rams.,The new Rams stadium is being built by the Los Angeles Rams.,text,0.0,0.0,0.0,,
+TEST_00104,qa,Drew Carey,Drew Carey,text,0.0,0.0,0.0,,
+TEST_00105,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00106,rag,Panxi,Panxi,text,0.0,0.0,0.0,,True
+TEST_00107,math,163 - (3 + 5) * 7 = 163 - 56 = 107,,unparseable,,,,0.0,
+TEST_00108,math,"120 + 120 = 240
+
+Time to go: 120 / 11 ≈ 10.909 hours  
+Time to return: 120 / 16 = 7.5 hours
+
+Total time: 10.909 + 7.5 = 18.409 hours
+
+Convert to minutes: 18.409 * 60 ≈ 1104.54 minutes
+
+Final numeric answer: 1104.54",1104.54,explicit_final_number,,,,0.0,
+TEST_00109,qa,Lord Gort,Lord Gort,text,0.0,0.0,0.0,,
+TEST_00110,qa,Pearson's r,Pearson's r,text,0.0,0.6666666666666666,0.0,,
+TEST_00111,math,12.5,12.5,complete_number,,,,0.0,
+TEST_00112,qa,Jamaica,Jamaica,text,1.0,1.0,0.0,,
+TEST_00113,qa,electron transport chain,electron transport chain,text,0.0,0.2857142857142857,0.0,,
+TEST_00114,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00115,qa,Asia,Asia,text,0.0,0.0,0.0,,
+TEST_00116,rag,2012,2012,text,1.0,1.0,1.0,,False
+TEST_00117,qa,Al Capone,Al Capone,text,0.0,0.0,0.0,,
+TEST_00118,math,8,8,complete_number,,,,0.0,
+TEST_00119,math,120,120,complete_number,,,,0.0,
+TEST_00120,math,"5 + 9 = 14 books  
+5 action figures  
+
+14 - 5 = 9  
+
+Final numeric answer: 9",9,explicit_final_number,,,,0.0,
+TEST_00121,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00122,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00123,qa,Justice Dipak Misra,Justice Dipak Misra,text,1.0,1.0,1.0,,
+TEST_00124,rag,"Oxygen tanks, cryogenics, and chemical compounds serve as methods for storing and transporting oxygen.","Oxygen tanks, cryogenics, and chemical compounds serve as methods for storing and transporting oxygen.",text,0.0,0.10526315789473684,0.0,,False
+TEST_00125,rag,"Snow falls on Sinai's mountains and some of the north coastal cities such as Damietta, Baltim, Sidi Barrany, etc. and rarely in Alexandria.","Snow falls on Sinai's mountains and some of the north coastal cities such as Damietta, Baltim, Sidi Barrany, etc. and rarely in Alexandria.",text,0.0,0.5365853658536586,0.0,,False
+TEST_00126,qa,Alaska,Alaska,text,0.0,0.0,0.0,,
+TEST_00127,qa,Australia and New Zealand,Australia and New Zealand,text,0.0,0.0,0.0,,
+TEST_00128,qa,November 1972,November 1972,text,0.0,0.4,0.0,,
+TEST_00129,qa,Ian McKellen,Ian McKellen,text,0.0,0.0,0.0,,
+TEST_00130,math,126,126,complete_number,,,,0.0,
+TEST_00131,rag,Mainland Europe,Mainland Europe,text,1.0,1.0,0.0,,False
+TEST_00132,math,87,87,complete_number,,,,0.0,
+TEST_00133,rag,"VISP is an operation that purchases services from another ISP, sometimes called a wholesale ISP in this context, which allow the VISP's customers to access the Internet using services and infrastructure owned and operated by the wholesale ISP.","VISP is an operation that purchases services from another ISP, sometimes called a wholesale ISP in this context, which allow the VISP's customers to access the Internet using services and infrastructure owned and operated by the wholesale ISP.",text,0.0,0.044444444444444446,0.0,,False
+TEST_00134,rag,Niño,Niño,text,1.0,1.0,1.0,,False
+TEST_00135,qa,canada,canada,text,1.0,1.0,0.0,,
+TEST_00136,qa,1960,1960,text,0.0,0.0,0.0,,
+TEST_00137,math,10.5,10.5,complete_number,,,,0.0,
+TEST_00138,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00139,math,3600,3600,complete_number,,,,0.0,
+TEST_00140,qa,Australian rules football,Australian rules football,text,1.0,1.0,1.0,,
+TEST_00141,qa,Germany,Germany,text,0.0,0.0,0.0,,
+TEST_00142,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00143,qa,"[4, 6, 8]","[4, 6, 8]",text,0.0,0.8333333333333334,0.0,,
+TEST_00144,qa,Stirling,Stirling,text,0.0,0.0,0.0,,
+TEST_00145,qa,"On Easter Sunday, after the Easter Vigil.","On Easter Sunday, after the Easter Vigil.",text,0.0,0.15384615384615385,0.0,,
+TEST_00146,qa,tenor saxophone,tenor saxophone,text,0.0,0.0,0.0,,
+TEST_00147,rag,Park Place.,Park Place.,text,0.0,0.8,0.0,,False
+TEST_00148,math,15.5,15.5,complete_number,,,,0.0,
+TEST_00149,qa,Dante was an Italian poet and philosopher who wrote the Divine Comedy.,Dante was an Italian poet and philosopher who wrote the Divine Comedy.,text,0.0,0.26666666666666666,0.0,,
+TEST_00150,qa,a hook,a hook,text,1.0,1.0,0.0,,
+TEST_00151,rag,piano and violin,piano and violin,text,0.0,0.6666666666666666,0.0,,False
+TEST_00152,rag,Raúl Madero,Raúl Madero,text,1.0,1.0,1.0,,False
+TEST_00153,math,"1144 * (8 / 22) = 416
+
+416 - 7 = 409
+
+Final numeric answer: 409",409,explicit_final_number,,,,0.0,
+TEST_00154,qa,O.J. Simpson,O.J. Simpson,text,0.0,0.0,0.0,,
+TEST_00155,rag,Habsburg king Charles I,Habsburg king Charles I,text,0.0,0.6666666666666666,0.0,,False
+TEST_00156,qa,The Shawshank Redemption,The Shawshank Redemption,text,0.0,0.0,0.0,,
+TEST_00157,math,130,130,complete_number,,,,0.0,
+TEST_00158,qa,The Velvet Underground,The Velvet Underground,text,1.0,1.0,1.0,,
+TEST_00159,rag,8B; Apache 2.0,8B; Apache 2.0,text,1.0,1.0,1.0,,False
+TEST_00160,qa,Morgan Freeman,Morgan Freeman,text,0.0,0.0,0.0,,
+TEST_00161,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00162,rag,0.6B,0.6B,text,1.0,1.0,1.0,,False
+TEST_00163,qa,"Quinn is a character in ""How I Met Your Mother,"" portrayed as a love interest and the daughter of Michael and Carolyn Nolan.","Quinn is a character in ""How I Met Your Mother,"" portrayed as a love interest and the daughter of Michael and Carolyn Nolan.",text,0.0,0.0,0.0,,
+TEST_00164,math,32,32,complete_number,,,,0.0,
+TEST_00165,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00166,rag,Eomaia,Eomaia,text,0.0,0.0,0.0,,True
+TEST_00167,qa,"April 20, 2009","April 20, 2009",text,0.0,0.0,0.0,,
+TEST_00168,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00169,math,123 - (15 + 7) * 3 = 123 - 66 = 57,,unparseable,,,,0.0,
+TEST_00170,rag,Panthalassa,Panthalassa,text,1.0,1.0,1.0,,False
+TEST_00171,math,41,41,complete_number,,,,0.0,
+TEST_00172,qa,Cork,Cork,text,0.0,0.0,0.0,,
+TEST_00173,qa,2015,2015,text,0.0,0.0,0.0,,
+TEST_00174,math,12 + 16 + 8 = 36,,unparseable,,,,0.0,
+TEST_00175,rag,Psamtik III,Psamtik III,text,1.0,1.0,1.0,,False
+TEST_00176,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00177,qa,nutmeg,nutmeg,text,0.0,0.0,0.0,,
+TEST_00178,qa,Siddhartha Gautama,Siddhartha Gautama,text,0.0,0.5,0.0,,
+TEST_00179,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00180,math,2,2,complete_number,,,,1.0,
+TEST_00181,qa,milli- means one thousandth,milli- means one thousandth,text,0.0,0.4,0.0,,
+TEST_00182,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00183,qa,Amazon rainforest,Amazon rainforest,text,0.0,0.6666666666666666,0.0,,
+TEST_00184,math,10,10,complete_number,,,,0.0,
+TEST_00185,qa,Bayern is the German name for the region of Bavaria.,Bayern is the German name for the region of Bavaria.,text,0.0,0.2857142857142857,0.0,,
+TEST_00186,math,30,30,complete_number,,,,0.0,
+TEST_00187,math,16000 - 5200 - 7300 = 3500,,unparseable,,,,0.0,
+TEST_00188,qa,Dustin Hoffman,Dustin Hoffman,text,0.0,0.0,0.0,,
+TEST_00189,math,15.0,15.0,complete_number,,,,0.0,
+TEST_00190,qa,Mudhoney,Mudhoney,text,0.0,0.0,0.0,,
+TEST_00191,math,5,5,complete_number,,,,0.0,
+TEST_00192,math,1600,1600,complete_number,,,,0.0,
+TEST_00193,qa,los guantes,los guantes,text,0.0,0.0,0.0,,
+TEST_00194,math,150,150,complete_number,,,,0.0,
+TEST_00195,rag,Dom clans are mostly gathered in the Nile Delta and Faiyum.,Dom clans are mostly gathered in the Nile Delta and Faiyum.,text,0.0,0.5,0.0,,False
+TEST_00196,qa,Dennis Quaid,Dennis Quaid,text,0.0,0.0,0.0,,
+TEST_00197,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00198,qa,The Scarlet Letter,The Scarlet Letter,text,0.0,0.0,0.0,,
+TEST_00199,qa,Normandy,Normandy,text,0.0,0.0,0.0,,
+TEST_00200,rag,photosynthesis,photosynthesis,text,1.0,1.0,1.0,,False
+TEST_00201,math,1000 * 0.8 = 800,,unparseable,,,,0.0,
+TEST_00202,math,14,14,complete_number,,,,0.0,
+TEST_00203,math,1450,1450,complete_number,,,,0.0,
+TEST_00204,qa,lockjaw,lockjaw,text,1.0,1.0,1.0,,
+TEST_00205,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00206,rag,126,126,text,1.0,1.0,1.0,,False
+TEST_00207,math,"19 + 5 = 24  
+Total credits = 3600  
+Credits per part = 3600 / 24 = 150  
+First person has 19 parts: 19 * 150 = 2850  
+Second person has 5 parts: 5 * 150 = 750  
+After giving 7 credits, second person has 750 - 7 = 743  
+
+Final numeric answer: 743",743,explicit_final_number,,,,0.0,
+TEST_00208,qa,Meredith Baxter,Meredith Baxter,text,0.0,0.0,0.0,,
+TEST_00209,qa,John Fox,John Fox,text,0.0,0.0,0.0,,
+TEST_00210,qa,2008-2009,2008-2009,text,0.0,0.0,0.0,,
+TEST_00211,math,100 + 300 + 70 = 470,,unparseable,,,,0.0,
+TEST_00212,rag,"tobacco, cotton and agriculture","tobacco, cotton and agriculture",text,1.0,1.0,1.0,,False
+TEST_00213,rag,Tyneside docks,Tyneside docks,text,1.0,1.0,1.0,,False
+TEST_00214,rag,Poetry Circus,Poetry Circus,text,1.0,1.0,1.0,,False
+TEST_00215,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00216,qa,"sweet, sour, salty, bitter","sweet, sour, salty, bitter",text,0.0,0.8571428571428571,0.0,,
+TEST_00217,math,1900,1900,complete_number,,,,0.0,
+TEST_00218,qa,1919,1919,text,1.0,1.0,1.0,,
+TEST_00219,qa,it becomes monotonous,it becomes monotonous,text,0.0,0.0,0.0,,
+TEST_00220,rag,UNANSWERABLE.,UNANSWERABLE.,text,0.0,0.0,0.0,,False
+TEST_00221,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00222,qa,Joe Frazier,Joe Frazier,text,0.0,0.0,0.0,,
+TEST_00223,qa,Brennan,Brennan,text,0.0,0.0,0.0,,
+TEST_00224,qa,1996,1996,text,0.0,0.0,0.0,,
+TEST_00225,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00226,math,12,12,complete_number,,,,1.0,
+TEST_00227,math,"12 + 4 = 16
+
+5 candles cost $3, so 16 candles cost (16 / 5) * 3 = 9.6
+
+James spends $9.60 on candles.
+
+Final numeric answer: 9.6",9.6,explicit_final_number,,,,0.0,
+TEST_00228,math,3,3,complete_number,,,,1.0,
+TEST_00229,rag,Southeast to northwest.,Southeast to northwest.,text,0.0,0.0,0.0,,False
+TEST_00230,math,"135 + 135 = 270
+
+Time to go: 135 / 11 ≈ 12.2727 hours  
+Time to return: 135 / 17 ≈ 7.9412 hours  
+
+Total time: 12.2727 + 7.9412 ≈ 20.2139 hours  
+
+Convert to minutes: 20.2139 * 60 ≈ 1212.83 minutes  
+
+Final numeric answer: 1213",1213,explicit_final_number,,,,0.0,
+TEST_00231,math,23.333...,,unparseable,,,,0.0,
+TEST_00232,rag,IMAGE AND VIDEO,IMAGE AND VIDEO,text,1.0,1.0,0.0,,False
+TEST_00233,qa,red flag,red flag,text,0.0,0.5,0.0,,
+TEST_00234,qa,Pisa Airport is named after Leonardo da Vinci.,Pisa Airport is named after Leonardo da Vinci.,text,0.0,0.0,0.0,,
+TEST_00235,qa,Ravi Shankar Raychaudhuri,Ravi Shankar Raychaudhuri,text,0.0,0.0,0.0,,
+TEST_00236,qa,Joe Shuster,Joe Shuster,text,0.0,0.0,0.0,,
+TEST_00237,math,15,15,complete_number,,,,0.0,
+TEST_00238,rag,Fick's laws enable the calculation of the rates of molecular diffusion in biological systems.,Fick's laws enable the calculation of the rates of molecular diffusion in biological systems.,text,0.0,0.5833333333333334,0.0,,False
+TEST_00239,rag,UNANSWERABLE.,UNANSWERABLE.,text,0.0,0.0,0.0,,False
+TEST_00240,math,100,100,complete_number,,,,1.0,
+TEST_00241,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00242,rag,Human Rights Torch,Human Rights Torch,text,0.0,0.8571428571428571,0.0,,False
+TEST_00243,rag,Seven,Seven,text,0.0,0.0,0.0,,False
+TEST_00244,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00245,rag,retrotransposon presence/absence data,retrotransposon presence/absence data,text,0.0,0.0,0.0,,False
+TEST_00246,math,170000,170000,complete_number,,,,0.0,
+TEST_00247,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00248,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00249,math,147,147,complete_number,,,,0.0,
+TEST_00250,rag,Salvados,Salvados,text,1.0,1.0,1.0,,False
+TEST_00251,rag,Coronation Street,Coronation Street,text,1.0,1.0,1.0,,False
+TEST_00252,rag,Bangor International Airport,Bangor International Airport,text,0.0,0.25,0.0,,False
+TEST_00253,math,3,3,complete_number,,,,0.0,
+TEST_00254,math,"18 - 4 - 3 = 11
+
+After five days, there are 11 ripe peaches and 0 unripe peaches. The difference is 11 - 0 = 11.
+
+Final numeric answer: 11",11,explicit_final_number,,,,0.0,
+TEST_00255,math,16 * 7 * 3 = 336,,unparseable,,,,0.0,
+TEST_00256,rag,"""pleasing and delightful exterior and appearance you can possibly see.""","""pleasing and delightful exterior and appearance you can possibly see.""",text,0.0,0.42105263157894735,0.0,,False
+TEST_00257,rag,Instruct and Thinking,Instruct and Thinking,text,1.0,1.0,1.0,,False
+TEST_00258,rag,$2 billion per year.,$2 billion per year.,text,0.0,0.9090909090909091,0.0,,False
+TEST_00259,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00260,qa,a yabby is a type of crustacean,a yabby is a type of crustacean,text,0.0,0.2,0.0,,
+TEST_00261,math,120,120,complete_number,,,,0.0,
+TEST_00262,qa,CIA headquarters,CIA headquarters,text,0.0,0.0,0.0,,
+TEST_00263,rag,limited mobility later in life was caused by rheumatism in her legs.,limited mobility later in life was caused by rheumatism in her legs.,text,0.0,0.14285714285714285,0.0,,False
+TEST_00264,rag,Saint Petersburg,Saint Petersburg,text,1.0,1.0,1.0,,False
+TEST_00265,math,115,115,complete_number,,,,0.0,
+TEST_00266,rag,Chihuahua_(state),Chihuahua_(state),text,0.0,0.0,0.0,,False
+TEST_00267,qa,snow in winter,snow in winter,text,0.0,0.0,0.0,,
+TEST_00268,rag,6B,6B,text,1.0,1.0,1.0,,False
+TEST_00269,math,150,150,complete_number,,,,0.0,
+TEST_00270,rag,Lawton Chiles,Lawton Chiles,text,1.0,1.0,1.0,,False
+TEST_00271,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00272,rag,Catalan shared a history with the Western Romance innovative core.,Catalan shared a history with the Western Romance innovative core.,text,0.0,0.0,0.0,,False
+TEST_00273,qa,10 meters,10 meters,text,0.0,0.0,0.0,,
+TEST_00274,rag,commanderies,commanderies,text,1.0,1.0,1.0,,False
+TEST_00275,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00276,qa,Linda Hamilton,Linda Hamilton,text,0.0,0.0,0.0,,
+TEST_00277,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00278,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00279,qa,When a body moves in a circular path.,When a body moves in a circular path.,text,0.0,0.2857142857142857,0.0,,
+TEST_00280,math,44,44,complete_number,,,,0.0,
+TEST_00281,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00282,math,20,20,complete_number,,,,0.0,
+TEST_00283,math,15,15,complete_number,,,,0.0,
+TEST_00284,rag,fa'aaloalo,fa'aaloalo,text,1.0,1.0,1.0,,False
+TEST_00285,qa,The finals of So You Think You Can Dance featured the winners of the previous season and the top two dancers from the current season.,The finals of So You Think You Can Dance featured the winners of the previous season and the top two dancers from the current season.,text,0.0,0.0,0.0,,
+TEST_00286,qa,American Red Cross,American Red Cross,text,0.0,0.0,0.0,,
+TEST_00287,math,32,32,complete_number,,,,1.0,
+TEST_00288,math,12.5,12.5,complete_number,,,,0.0,
+TEST_00289,math,10 * 6 - 2 = 58,,unparseable,,,,0.0,
+TEST_00290,math,1,1,complete_number,,,,0.0,
+TEST_00291,qa,100 meters,100 meters,text,0.0,0.0,0.0,,
+TEST_00292,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00293,qa,1938,1938,text,0.0,0.0,0.0,,
+TEST_00294,rag,plantation owners,plantation owners,text,1.0,1.0,1.0,,False
+TEST_00295,qa,"The Tsar called them the ""Five Greats.""","The Tsar called them the ""Five Greats.""",text,0.0,0.23529411764705882,0.0,,
+TEST_00296,qa,cellular respiration,cellular respiration,text,0.0,0.0,0.0,,
+TEST_00297,qa,Jennifer Hudson,Jennifer Hudson,text,0.0,0.0,0.0,,
+TEST_00298,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00299,math,1725/2,1725/2,complete_number,,,,0.0,
+TEST_00300,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00301,math,14,14,complete_number,,,,0.0,
+TEST_00302,rag,Pak Du Ik,Pak Du Ik,text,1.0,1.0,1.0,,False
+TEST_00303,math,"156 + 156 = 312 kilometers
+
+Time to go: 156 / 16 = 9.75 hours
+
+Time to return: 156 / 20 = 7.8 hours
+
+Total time: 9.75 + 7.8 = 17.55 hours
+
+Convert to minutes: 17.55 * 60 = 1053 minutes
+
+Final numeric answer: 1053",1053,explicit_final_number,,,,0.0,
+TEST_00304,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00305,qa,Toyota,Toyota,text,0.0,0.0,0.0,,
+TEST_00306,math,18,18,complete_number,,,,0.0,
+TEST_00307,rag,regal assent,regal assent,text,0.0,0.0,0.0,,True
+TEST_00308,rag,low-surrogate code point,low-surrogate code point,text,0.0,0.2857142857142857,0.0,,False
+TEST_00309,qa,2001,2001,text,0.0,0.0,0.0,,
+TEST_00310,qa,Le Grand Condé,Le Grand Condé,text,0.0,0.0,0.0,,
+TEST_00311,math,14,14,complete_number,,,,0.0,
+TEST_00312,math,200,200,complete_number,,,,0.0,
+TEST_00313,math,19,19,complete_number,,,,1.0,
+TEST_00314,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00315,rag,5,5,text,0.0,0.0,0.0,,False
+TEST_00316,rag,technology has greatly increased the level of detail studied and speed at which data can be analysed.,technology has greatly increased the level of detail studied and speed at which data can be analysed.,text,0.0,0.5,0.0,,False
+TEST_00317,qa,DCA is the airport code for Washington Dulles International Airport.,DCA is the airport code for Washington Dulles International Airport.,text,0.0,0.25,0.0,,
+TEST_00318,rag,"Nigerian prisoners are subjected to harsh and life-threatening prison and detention center conditions, including torture, rape, and other cruel, inhuman, or degrading treatment.","Nigerian prisoners are subjected to harsh and life-threatening prison and detention center conditions, including torture, rape, and other cruel, inhuman, or degrading treatment.",text,0.0,0.5238095238095238,0.0,,False
+TEST_00319,math,15,15,complete_number,,,,0.0,
+TEST_00320,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00321,rag,south of the Shandong Peninsula,south of the Shandong Peninsula,text,0.0,0.25,0.0,,False
+TEST_00322,math,8,8,complete_number,,,,1.0,
+TEST_00323,qa,DJF,DJF,text,0.0,0.0,0.0,,
+TEST_00324,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00325,math,"12 months × 8 pounds/month = 96 pounds lost
+
+250 pounds - 96 pounds = 154 pounds
+
+Final numeric answer: 154",154,explicit_final_number,,,,1.0,
+TEST_00326,qa,G1,G1,text,0.0,0.0,0.0,,
+TEST_00327,qa,18 years,18 years,text,0.0,0.0,0.0,,
+TEST_00328,qa,The Office,The Office,text,0.0,0.0,0.0,,
+TEST_00329,math,"40 * 20 = 800
+
+Julieta received 10% less than Rafaela, so she received 90% of 800.
+
+90% of 800 = 0.9 * 800 = 720
+
+Total tips = 800 (Rafaela) + 720 (Julieta) = 1520
+
+Final numeric answer: 1520",1520,explicit_final_number,,,,1.0,
+TEST_00330,qa,Chest of drawers,Chest of drawers,text,0.0,0.3333333333333333,0.0,,
+TEST_00331,qa,the Tigris and Euphrates rivers,the Tigris and Euphrates rivers,text,0.0,0.0,0.0,,
+TEST_00332,math,"9*11 - 7*7 = 99 - 49 = 50
+
+50",,unparseable,,,,0.0,
+TEST_00333,math,11,11,complete_number,,,,0.0,
+TEST_00334,rag,Prince Albert of Saxe-Coburg and Gotha,Prince Albert of Saxe-Coburg and Gotha,text,1.0,1.0,1.0,,False
+TEST_00335,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00336,math,120,120,complete_number,,,,0.0,
+TEST_00337,rag,Min River,Min River,text,1.0,1.0,1.0,,False
+TEST_00338,math,32,32,complete_number,,,,0.0,
+TEST_00339,rag,"US$5 million grant for the International Justice Mission (IJM), a human rights organization based in Washington, D.C., US to work in the area of sex trafficking.","US$5 million grant for the International Justice Mission (IJM), a human rights organization based in Washington, D.C., US to work in the area of sex trafficking.",text,0.0,0.0,0.0,,True
+TEST_00340,rag,6.,6.,text,0.0,0.0,0.0,,False
+TEST_00341,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00342,qa,David Fincher,David Fincher,text,0.0,0.0,0.0,,
+TEST_00343,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00344,qa,Muse,Muse,text,0.0,0.0,0.0,,
+TEST_00345,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00346,rag,Ian Rush,Ian Rush,text,1.0,1.0,1.0,,False
+TEST_00347,math,14,14,complete_number,,,,0.0,
+TEST_00348,qa,Al Pacino,Al Pacino,text,0.0,0.0,0.0,,
+TEST_00349,qa,1865,1865,text,0.0,0.0,0.0,,
+TEST_00350,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00351,math,160/20 = 8,,unparseable,,,,0.0,
+TEST_00352,math,120,120,complete_number,,,,0.0,
+TEST_00353,qa,Drew Barrymore,Drew Barrymore,text,0.0,0.0,0.0,,
+TEST_00354,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00355,rag,"Floyd, Fran, and Hazel are examples of destructive hurricanes that have struck the state of North Carolina.","Floyd, Fran, and Hazel are examples of destructive hurricanes that have struck the state of North Carolina.",text,0.0,0.09523809523809523,0.0,,False
+TEST_00356,math,3,3,complete_number,,,,0.0,
+TEST_00357,qa,Isle of Wight,Isle of Wight,text,0.0,0.6666666666666666,0.0,,
+TEST_00358,qa,adaptation gradients,adaptation gradients,text,0.0,0.0,0.0,,
+TEST_00359,rag,"Organic plants are understood to be cotton from plants not genetically modified and that is certified to be grown without the use of any synthetic agricultural chemicals, such as fertilizers or pesticides.","Organic plants are understood to be cotton from plants not genetically modified and that is certified to be grown without the use of any synthetic agricultural chemicals, such as fertilizers or pesticides.",text,0.0,0.16216216216216217,0.0,,False
+TEST_00360,math,135,135,complete_number,,,,0.0,
+TEST_00361,math,"24 + 10 = 34
+
+Final numeric answer: 34",34,explicit_final_number,,,,0.0,
+TEST_00362,math,150,150,complete_number,,,,0.0,
+TEST_00363,qa,Ballets Russes and Mariinsky Orchestra,Ballets Russes and Mariinsky Orchestra,text,0.0,0.25,0.0,,
+TEST_00364,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00365,math,12.8,12.8,complete_number,,,,0.0,
+TEST_00366,rag,3D television,3D television,text,1.0,1.0,1.0,,False
+TEST_00367,rag,Kill Your Darlings,Kill Your Darlings,text,1.0,1.0,1.0,,False
+TEST_00368,qa,Poland,Poland,text,1.0,1.0,1.0,,
+TEST_00369,rag,dragon boat,dragon boat,text,0.0,0.8,0.0,,False
+TEST_00370,qa,"Bilbo, Thorin, Dwalin, Fili, Kili, Balin, Oin","Bilbo, Thorin, Dwalin, Fili, Kili, Balin, Oin",text,0.0,0.38461538461538464,0.0,,
+TEST_00371,rag,"137,000 mi","137,000 mi",text,0.0,0.75,0.0,,False
+TEST_00372,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00373,rag,Goodluck Jonathan,Goodluck Jonathan,text,1.0,1.0,1.0,,False
+TEST_00374,math,"$$
+\text{Total distance} = (3 \times 44) + (5 \times 15) = 132 + 75 = 207 \text{ km}
+$$
+$$
+\text{Total time} = 3 + 5 = 8 \text{ hours}
+$$
+$$
+\text{Average speed} = \frac{207}{8} = 25.875 \text{ km/h}
+$$
+
+Final numeric answer: 25.875",25.875,explicit_final_number,,,,1.0,
+TEST_00375,math,18,18,complete_number,,,,0.0,
+TEST_00376,qa,'.csv','.csv',text,0.0,0.0,0.0,,
+TEST_00377,qa,Morgan Freeman,Morgan Freeman,text,0.0,0.0,0.0,,
+TEST_00378,math,"10 + 3 = 13
+
+Final numeric answer only: 13",13,explicit_final_number,,,,0.0,
+TEST_00379,math,16,16,complete_number,,,,0.0,
+TEST_00380,rag,Catalan shares many traits with its neighboring Romance languages.,Catalan shares many traits with its neighboring Romance languages.,text,0.0,0.3333333333333333,0.0,,False
+TEST_00381,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00382,math,103,103,complete_number,,,,0.0,
+TEST_00383,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00384,math,11,11,complete_number,,,,0.0,
+TEST_00385,math,150,150,complete_number,,,,0.0,
+TEST_00386,qa,Ford,Ford,text,0.0,0.0,0.0,,
+TEST_00387,rag,"Sedgwick County, Kansas","Sedgwick County, Kansas",text,1.0,1.0,1.0,,False
+TEST_00388,rag,border between Tibet and China,border between Tibet and China,text,0.0,0.7272727272727273,0.0,,False
+TEST_00389,rag,Passenger elevator capacities are dictated by the available floor space.,Passenger elevator capacities are dictated by the available floor space.,text,0.0,0.5333333333333333,0.0,,False
+TEST_00390,rag,Nigerian language.,Nigerian language.,text,0.0,0.0,0.0,,False
+TEST_00391,math,"12 + 9 = 21 litres per minute  
+Total rate = 21 litres per minute  
+Time = 5 minutes  
+Total pumped = 21 * 5 = 105 litres  
+
+Tank initially had 62 litres  
+Remaining = 62 - 105 = -43 litres  
+
+Since the tank has already emptied, the answer is 0.",,unparseable,,,,0.0,
+TEST_00392,math,25,25,complete_number,,,,0.0,
+TEST_00393,qa,"Nadya, Tania, and Svetlana","Nadya, Tania, and Svetlana",text,0.0,0.16666666666666666,0.0,,
+TEST_00394,math,"10 + 3 = 13
+
+Final numeric answer: 13",13,explicit_final_number,,,,0.0,
+TEST_00395,qa,Terry Bradshaw,Terry Bradshaw,text,0.0,0.0,0.0,,
+TEST_00396,qa,The Sopranos,The Sopranos,text,0.0,0.5,0.0,,
+TEST_00397,qa,1946,1946,text,0.0,0.0,0.0,,
+TEST_00398,math,150,150,complete_number,,,,0.0,
+TEST_00399,math,144,144,complete_number,,,,0.0,
+TEST_00400,rag,52nd largest metropolitan area,52nd largest metropolitan area,text,0.0,0.3333333333333333,0.0,,False
+TEST_00401,math,12,12,complete_number,,,,0.0,
+TEST_00402,math,18,18,complete_number,,,,0.0,
+TEST_00403,qa,By wearing a magic hat.,By wearing a magic hat.,text,0.0,0.36363636363636365,0.0,,
+TEST_00404,qa,John Wayne,John Wayne,text,0.0,0.0,0.0,,
+TEST_00405,qa,land grants,land grants,text,0.0,0.0,0.0,,
+TEST_00406,qa,a naturalist,a naturalist,text,0.0,0.0,0.0,,
+TEST_00407,math,11,11,complete_number,,,,0.0,
+TEST_00408,qa,John L. Lewis,John L. Lewis,text,0.0,0.0,0.0,,
+TEST_00409,math,12 * 36 + 50 = 432 + 50 = 482,,unparseable,,,,0.0,
+TEST_00410,qa,The 'Nine Tailors' are the nine members of the detective club in the detective story by Dorothy L Sayers.,The 'Nine Tailors' are the nine members of the detective club in the detective story by Dorothy L Sayers.,text,0.0,0.0,0.0,,
+TEST_00411,rag,embedding and reranking,embedding and reranking,text,1.0,1.0,1.0,,False
+TEST_00412,math,"13 - (4 + 2) * 4 = 13 - 24 = -11
+
+0",,unparseable,,,,0.0,
+TEST_00413,math,18 + 14 = 32,,unparseable,,,,0.0,
+TEST_00414,math,144,144,complete_number,,,,0.0,
+TEST_00415,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00416,math,122,122,complete_number,,,,0.0,
+TEST_00417,math,15.00,15.00,complete_number,,,,0.0,
+TEST_00418,rag,1774,1774,text,1.0,1.0,1.0,,False
+TEST_00419,rag,"root, stem (caulome), leaf (phyllome) and trichome","root, stem (caulome), leaf (phyllome) and trichome",text,0.0,0.0,0.0,,False
+TEST_00420,math,35,35,complete_number,,,,0.0,
+TEST_00421,math,16,16,complete_number,,,,0.0,
+TEST_00422,math,"18 * 3 = 54  
+54 / 2 = 27  
+
+Final numeric answer: 27",27,explicit_final_number,,,,1.0,
+TEST_00423,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00424,rag,defensive contra-identification,defensive contra-identification,text,0.0,0.0,0.0,,False
+TEST_00425,rag,Catalina Foothills,Catalina Foothills,text,1.0,1.0,1.0,,False
+TEST_00426,rag,Pep Guardiola,Pep Guardiola,text,1.0,1.0,1.0,,False
+TEST_00427,math,108,108,complete_number,,,,0.0,
+TEST_00428,rag,coastal plain fall line,coastal plain fall line,text,0.0,0.5,0.0,,False
+TEST_00429,qa,Milla Jovovich,Milla Jovovich,text,0.0,0.0,0.0,,
+TEST_00430,rag,1865.,1865.,text,0.0,0.6666666666666666,0.0,,False
+TEST_00431,math,35,35,complete_number,,,,0.0,
+TEST_00432,math,10,10,complete_number,,,,0.0,
+TEST_00433,rag,high-surrogate code point,high-surrogate code point,text,0.0,0.2857142857142857,0.0,,False
+TEST_00434,qa,The Weeknd,The Weeknd,text,0.0,0.0,0.0,,
+TEST_00435,qa,Meredith Shelton,Meredith Shelton,text,0.0,0.0,0.0,,
+TEST_00436,qa,The answer is: The codes E20 and SW19 are associated with the IEEE 802.1Q VLAN tagging standard.,The answer is: The codes E20 and SW19 are associated with the IEEE 802.1Q VLAN tagging standard.,text,0.0,0.0,0.0,,
+TEST_00437,rag,Qwen3.5,Qwen3.5,text,1.0,1.0,1.0,,False
+TEST_00438,qa,[],[],text,0.0,0.0,0.0,,
+TEST_00439,qa,piano,piano,text,1.0,1.0,0.0,,
+TEST_00440,rag,Bt toxin affects the life cycle of cotton by targeting the larvae of lepidopteran pests.,Bt toxin affects the life cycle of cotton by targeting the larvae of lepidopteran pests.,text,0.0,0.0,0.0,,True
+TEST_00441,rag,yellow and orange,yellow and orange,text,1.0,1.0,1.0,,False
+TEST_00442,rag,2 April 1833,2 April 1833,text,1.0,1.0,1.0,,False
+TEST_00443,qa,A Visit from Saint Nicholas,A Visit from Saint Nicholas,text,1.0,1.0,1.0,,
+TEST_00444,rag,"Answer phrase: gate, source, and drain","Answer phrase: gate, source, and drain",text,0.0,0.8,0.0,,False
+TEST_00445,qa,Doeberiin,Doeberiin,text,0.0,0.0,0.0,,
+TEST_00446,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00447,math,146 + 38 + 25 + 16 = 225,,unparseable,,,,0.0,
+TEST_00448,math,1200,1200,complete_number,,,,0.0,
+TEST_00449,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00450,math,20 * (104 - 24) = 20 * 80 = 1600,,unparseable,,,,0.0,
+TEST_00451,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00452,math,75,75,complete_number,,,,0.0,
+TEST_00453,rag,Birds.,Birds.,text,0.0,0.6666666666666666,0.0,,False
+TEST_00454,qa,Mediterranean,Mediterranean,text,0.0,0.0,0.0,,
+TEST_00455,math,"10 + 15 = 25  
+25 ÷ 5 = 5  
+
+Final numeric answer: 5",5,explicit_final_number,,,,0.0,
+TEST_00456,qa,apple,apple,text,0.0,0.0,0.0,,
+TEST_00457,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00458,math,"17 - 6 = 11  
+11 + 3 = 14  
+
+Final numeric answer: 14",14,explicit_final_number,,,,1.0,
+TEST_00459,rag,673 ft,673 ft,text,0.0,0.5,0.0,,False
+TEST_00460,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00461,qa,Russia,Russia,text,0.0,0.0,0.0,,
+TEST_00462,rag,Bosco Wong,Bosco Wong,text,0.0,0.5714285714285714,0.0,,False
+TEST_00463,rag,"10,000.","10,000.",text,0.0,0.0,0.0,,False
+TEST_00464,qa,Memorial Day,Memorial Day,text,1.0,1.0,1.0,,
+TEST_00465,math,3,3,complete_number,,,,1.0,
+TEST_00466,math,150,150,complete_number,,,,0.0,
+TEST_00467,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00468,qa,'doM','doM',text,0.0,0.6666666666666666,0.0,,
+TEST_00469,qa,World Championships in Athletics,World Championships in Athletics,text,0.0,0.4444444444444444,0.0,,
+TEST_00470,math,18,18,complete_number,,,,0.0,
+TEST_00471,math,"16 guests * 3 deviled egg halves per guest = 48 deviled egg halves
+
+1 dozen = 12 deviled egg halves
+
+48 deviled egg halves ÷ 12 = 4 dozen
+
+Final numeric answer: 4",4,explicit_final_number,,,,0.0,
+TEST_00472,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00473,rag,Melvyn C. Goldstein,Melvyn C. Goldstein,text,1.0,1.0,1.0,,False
+TEST_00474,math,140,140,complete_number,,,,0.0,
+TEST_00475,qa,Cape Town,Cape Town,text,0.0,0.0,0.0,,
+TEST_00476,qa,Sean Connery,Sean Connery,text,1.0,1.0,1.0,,
+TEST_00477,math,100,100,complete_number,,,,0.0,
+TEST_00478,qa,"Melbourne, Australia","Melbourne, Australia",text,0.0,0.3333333333333333,0.0,,
+TEST_00479,qa,Rohit Sharma,Rohit Sharma,text,0.0,0.0,0.0,,
+TEST_00480,math,108,108,complete_number,,,,0.0,
+TEST_00481,qa,fashion design,fashion design,text,0.0,0.0,0.0,,
+TEST_00482,qa,Maharashtra,Maharashtra,text,0.0,0.0,0.0,,
+TEST_00483,qa,The Beatles,The Beatles,text,1.0,1.0,0.0,,
+TEST_00484,math,150000 + (5000 * 12) + (2 * 5000 * 12),,unparseable,,,,0.0,
+TEST_00485,math,1050,1050,complete_number,,,,0.0,
+TEST_00486,math,21,21,complete_number,,,,0.0,
+TEST_00487,math,15.50,15.50,complete_number,,,,0.0,
+TEST_00488,qa,A naval orange is named after the ship *HMS Orange*.,A naval orange is named after the ship *HMS Orange*.,text,0.0,0.09523809523809523,0.0,,
+TEST_00489,qa,M. Night Shyamalan,M. Night Shyamalan,text,0.0,0.0,0.0,,
+TEST_00490,rag,Panthalassa,Panthalassa,text,1.0,1.0,1.0,,False
+TEST_00491,rag,18,18,text,0.0,0.0,0.0,,False
+TEST_00492,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00493,qa,14,14,text,0.0,0.0,0.0,,
+TEST_00494,rag,UNANSWERABLE.,UNANSWERABLE.,text,0.0,0.0,0.0,,True
+TEST_00495,math,14,14,complete_number,,,,1.0,
+TEST_00496,qa,"e and oe mean ""and"" in the old English pronunciation.","e and oe mean ""and"" in the old English pronunciation.",text,0.0,0.11764705882352941,0.0,,
+TEST_00497,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00498,rag,Photosynthesis gets oxygen from water.,Photosynthesis gets oxygen from water.,text,0.0,0.2857142857142857,0.0,,False
+TEST_00499,rag,photovoltaics that can follow the position of the sun,photovoltaics that can follow the position of the sun,text,0.0,0.2,0.0,,False
+TEST_00500,math,"15:5 is 30 parts total. 3300 ÷ 30 = 110. The first person has 15 parts, so 15 × 110 = 1650. The second person has 5 parts, so 5 × 110 = 550. After giving 3 credits, the second person has 550 - 3 = 547. 
+
+Final numeric answer: 547",547,explicit_final_number,,,,0.0,
+TEST_00501,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00502,rag,UNANSWERABLE.,UNANSWERABLE.,text,0.0,0.0,0.0,,False
+TEST_00503,math,180,180,complete_number,,,,0.0,
+TEST_00504,rag,musician,musician,text,1.0,1.0,1.0,,False
+TEST_00505,rag,precomposed forms,precomposed forms,text,0.0,0.0,0.0,,True
+TEST_00506,qa,dot product,dot product,text,0.0,0.0,0.0,,
+TEST_00507,math,3600,3600,complete_number,,,,0.0,
+TEST_00508,qa,Dustin Hoffman,Dustin Hoffman,text,0.0,0.0,0.0,,
+TEST_00509,qa,planting a bandarilla,planting a bandarilla,text,0.0,0.0,0.0,,
+TEST_00510,qa,Meryl Streep,Meryl Streep,text,0.0,0.0,0.0,,
+TEST_00511,qa,"Kansas City, Missouri","Kansas City, Missouri",text,0.0,0.5714285714285714,0.0,,
+TEST_00512,math,1956 + 978 = 2934,,unparseable,,,,0.0,
+TEST_00513,rag,James Dewar,James Dewar,text,1.0,1.0,1.0,,False
+TEST_00514,rag,"roots are used for storing food such as sugars or starch, as in sugar beets and carrots.","roots are used for storing food such as sugars or starch, as in sugar beets and carrots.",text,0.0,0.09090909090909091,0.0,,False
+TEST_00515,rag,Olympic Mountains,Olympic Mountains,text,1.0,1.0,1.0,,False
+TEST_00516,qa,Barber of Seville,Barber of Seville,text,0.0,0.5,0.0,,
+TEST_00517,qa,BHS,BHS,text,0.0,0.0,0.0,,
+TEST_00518,rag,teja: Latin origin,teja: Latin origin,text,0.0,0.6666666666666666,0.0,,False
+TEST_00519,math,"124 - (10 * 8) = 124 - 80 = 44
+
+44 / 11 = 4
+
+The answer is 4.",,unparseable,,,,0.0,
+TEST_00520,qa,Aaron Beck,Aaron Beck,text,0.0,0.6666666666666666,0.0,,
+TEST_00521,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00522,qa,2013,2013,text,0.0,0.0,0.0,,
+TEST_00523,math,56,56,complete_number,,,,0.0,
+TEST_00524,math,12.0,12.0,complete_number,,,,0.0,
+TEST_00525,qa,57 miles,57 miles,text,0.0,0.5,0.0,,
+TEST_00526,rag,Smoky Hill Chalk Member can be found in Kansas.,Smoky Hill Chalk Member can be found in Kansas.,text,0.0,0.0,0.0,,False
+TEST_00527,qa,1968,1968,text,0.0,0.0,0.0,,
+TEST_00528,math,"14 - (15 + 71) = 14 - 86 = -72
+
+The answer is -72.",,unparseable,,,,0.0,
+TEST_00529,rag,11,11,text,0.0,0.0,0.0,,False
+TEST_00530,math,15 + 15 + 15 + 5 = 50,,unparseable,,,,0.0,
+TEST_00531,rag,Simpson,Simpson,text,1.0,1.0,1.0,,False
+TEST_00532,math,"100 - (8*5 + 10*4) = 100 - (40 + 40) = 100 - 80 = 20
+
+Final numeric answer: 20",20,explicit_final_number,,,,1.0,
+TEST_00533,math,10,10,complete_number,,,,0.0,
+TEST_00534,math,3 * 200 * 7,,unparseable,,,,0.0,
+TEST_00535,qa,100,100,text,1.0,1.0,1.0,,
+TEST_00536,rag,The Boz,The Boz,text,1.0,1.0,1.0,,False
+TEST_00537,rag,4,4,text,0.0,0.0,0.0,,False
+TEST_00538,qa,Bill Haley,Bill Haley,text,0.0,0.0,0.0,,
+TEST_00539,qa,industrialization and vehicle emissions,industrialization and vehicle emissions,text,0.0,0.0,0.0,,
+TEST_00540,qa,Dr. Bruce Banner,Dr. Bruce Banner,text,1.0,1.0,1.0,,
+TEST_00541,math,140 + (140 * 1/7 * 4) = 140 + 80 = 220,,unparseable,,,,0.0,
+TEST_00542,math,10,10,complete_number,,,,0.0,
+TEST_00543,qa,Assistant,Assistant,text,0.0,0.0,0.0,,
+TEST_00544,math,"100
+
+The first cut divides the cloth into two halves, each 50 square inches. The second cut divides each half into two, resulting in four pieces, each 25 square inches. She donates three of these pieces, totaling 75 square inches. 
+
+Final numeric answer: 75",75,explicit_final_number,,,,1.0,
+TEST_00545,rag,cottonseed meal is used to feed ruminant livestock,cottonseed meal is used to feed ruminant livestock,text,0.0,0.4,0.0,,False
+TEST_00546,qa,Romanesque,Romanesque,text,1.0,1.0,1.0,,
+TEST_00547,math,"10 people * 5 boxes = 50 boxes  
+50 boxes + 10 boxes = 60 boxes  
+
+60 boxes / 2 boxes per table = 30 tables  
+
+They already have 15 tables, so they need 30 - 15 = 15 new tables.
+
+Final numeric answer: 15",15,explicit_final_number,,,,1.0,
+TEST_00548,math,180,180,complete_number,,,,0.0,
+TEST_00549,qa,Celiac disease,Celiac disease,text,1.0,1.0,1.0,,
+TEST_00550,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00551,rag,6B; Z-Image-Turbo,6B; Z-Image-Turbo,text,1.0,1.0,1.0,,False
+TEST_00552,rag,4 years after the introduction of the World Wide Web.,4 years after the introduction of the World Wide Web.,text,0.0,0.0,0.0,,False
+TEST_00553,rag,Lord Conyngham,Lord Conyngham,text,0.0,0.4444444444444444,0.0,,False
+TEST_00554,math,325,325,complete_number,,,,0.0,
+TEST_00555,rag,proportional allocation using the d'Hondt method,proportional allocation using the d'Hondt method,text,0.0,0.7692307692307693,0.0,,False
+TEST_00556,math,3.3333,3.3333,complete_number,,,,0.0,
+TEST_00557,rag,John Mandeville,John Mandeville,text,0.0,0.0,0.0,,False
+TEST_00558,rag,1873.,1873.,text,0.0,0.6666666666666666,0.0,,False
+TEST_00559,qa,Lynne Lomas,Lynne Lomas,text,0.0,0.0,0.0,,
+TEST_00560,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00561,qa,In the forest.,In the forest.,text,0.0,0.25,0.0,,
+TEST_00562,rag,Salisbury,Salisbury,text,1.0,1.0,1.0,,False
+TEST_00563,qa,The Golden Bowl,The Golden Bowl,text,0.0,0.2857142857142857,0.0,,
+TEST_00564,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00565,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00566,rag,Warner Bros. Records,Warner Bros. Records,text,0.0,0.6666666666666666,0.0,,False
+TEST_00567,qa,R. G. B. S.,R. G. B. S.,text,0.0,0.0,0.0,,
+TEST_00568,math,120,120,complete_number,,,,0.0,
+TEST_00569,qa,"Liam Neeson, Rory McIlroy, and Michael Phelps","Liam Neeson, Rory McIlroy, and Michael Phelps",text,0.0,0.0,0.0,,
+TEST_00570,math,"116 + 116 = 232
+
+Time to go: 116 / 10 = 11.6 hours  
+Time to return: 116 / 16 = 7.25 hours  
+
+Total time: 11.6 + 7.25 = 18.85 hours  
+
+Convert to minutes: 18.85 * 60 = 1131 minutes
+
+Final numeric answer: 1131",1131,explicit_final_number,,,,0.0,
+TEST_00571,qa,Muriel Spark,Muriel Spark,text,0.0,0.0,0.0,,
+TEST_00572,math,"132 + (20 * 2) = 132 + 40 = 172
+
+Average speed = Total distance / Total time = 172 / 9 ≈ 19.111...
+
+Final numeric answer: 19.111...",,unparseable,,,,0.0,
+TEST_00573,qa,Cairo,Cairo,text,0.0,0.0,0.0,,
+TEST_00574,math,"163 + (163 * 4) + (18 * 3) = 163 + 652 + 54 = 869
+
+869 / (4 + 3) = 869 / 7 = 124.142857...
+
+Final numeric answer: 124.142857",124.142857,explicit_final_number,,,,0.0,
+TEST_00575,qa,flat race,flat race,text,0.0,0.0,0.0,,
+TEST_00576,math,150,150,complete_number,,,,0.0,
+TEST_00577,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00578,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00579,rag,1970.,1970.,text,0.0,0.6666666666666666,0.0,,False
+TEST_00580,qa,Bull,Bull,text,0.0,0.0,0.0,,
+TEST_00581,rag,Jurchen needs to be agreed upon before a script for Jurchen is proposed.,Jurchen needs to be agreed upon before a script for Jurchen is proposed.,text,0.0,0.0,0.0,,True
+TEST_00582,qa,Birmingham,Birmingham,text,0.0,0.0,0.0,,
+TEST_00583,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00584,rag,Singlet oxygen,Singlet oxygen,text,1.0,1.0,1.0,,False
+TEST_00585,rag,"March 20, 1880","March 20, 1880",text,1.0,1.0,1.0,,False
+TEST_00586,math,13,13,complete_number,,,,1.0,
+TEST_00587,qa,Dolly Parton,Dolly Parton,text,0.0,0.0,0.0,,
+TEST_00588,rag,14 August 2026.,14 August 2026.,text,0.0,0.8571428571428571,0.0,,False
+TEST_00589,qa,black and white,black and white,text,0.0,0.0,0.0,,
+TEST_00590,math,1955/2 is 977.5. The handling fee is 12 credits. The total before tax is 977.5 + 12 = 989.5. The answer is 989.5.,,unparseable,,,,0.0,
+TEST_00591,math,15,15,complete_number,,,,0.0,
+TEST_00592,math,12,12,complete_number,,,,0.0,
+TEST_00593,math,"$$
+\text{Total distance} = (3 \times 62) + (4 \times 20) = 186 + 80 = 266 \text{ km}
+$$
+$$
+\text{Total time} = 3 + 4 = 7 \text{ hours}
+$$
+$$
+\text{Average speed} = \frac{266}{7} = 38 \text{ km/h}
+$$
+
+Final numeric answer: 38",38,explicit_final_number,,,,1.0,
+TEST_00594,math,11 - 6 - 3 = 2,,unparseable,,,,0.0,
+TEST_00595,qa,1347–1351,1347–1351,text,0.0,0.0,0.0,,
+TEST_00596,qa,10,10,text,0.0,0.0,0.0,,
+TEST_00597,qa,Portuguese origin,Portuguese origin,text,0.0,0.6666666666666666,0.0,,
+TEST_00598,math,"32 + 64 = 96
+
+Final numeric answer only: 96",96,explicit_final_number,,,,0.0,
+TEST_00599,qa,Bud Abbott,Bud Abbott,text,0.0,0.0,0.0,,
+TEST_00600,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00601,math,"157 * 146 = 22882
+
+Final numeric answer only: 22882",22882,explicit_final_number,,,,0.0,
+TEST_00602,rag,biennial,biennial,text,0.0,0.0,0.0,,False
+TEST_00603,qa,2nd,2nd,text,0.0,0.6666666666666666,0.0,,
+TEST_00604,rag,Victoria and Albert survived an assassination attempt by the Italian refugee Orsini in 1858.,Victoria and Albert survived an assassination attempt by the Italian refugee Orsini in 1858.,text,0.0,0.0,0.0,,False
+TEST_00605,rag,Mianyang Hi-Tech Industrial Development Zone,Mianyang Hi-Tech Industrial Development Zone,text,0.0,0.0,0.0,,True
+TEST_00606,qa,Top management,Top management,text,0.0,0.0,0.0,,
+TEST_00607,qa,Mandy Moore,Mandy Moore,text,0.0,0.0,0.0,,
+TEST_00608,math,17,17,complete_number,,,,0.0,
+TEST_00609,qa,Sheffield United,Sheffield United,text,0.0,0.0,0.0,,
+TEST_00610,rag,tornadoes,tornadoes,text,1.0,1.0,1.0,,False
+TEST_00611,math,15,15,complete_number,,,,0.0,
+TEST_00612,math,109.5,109.5,complete_number,,,,0.0,
+TEST_00613,math,160,160,complete_number,,,,0.0,
+TEST_00614,qa,Haiti,Haiti,text,0.0,0.0,0.0,,
+TEST_00615,qa,1974,1974,text,0.0,0.0,0.0,,
+TEST_00616,qa,chewing gum,chewing gum,text,0.0,0.0,0.0,,
+TEST_00617,math,18 - 10 = 8 seats are working. 8 seats * 15 people per seat = 120 people.,,unparseable,,,,0.0,
+TEST_00618,qa,Rick and Morty's theme song was composed by Rick Ross.,Rick and Morty's theme song was composed by Rick Ross.,text,0.0,0.0,0.0,,
+TEST_00619,rag,Rapid concentrated sources of oxygen promote rapid combustion.,Rapid concentrated sources of oxygen promote rapid combustion.,text,0.0,0.0,0.0,,True
+TEST_00620,qa,Mariana,Mariana,text,0.0,0.0,0.0,,
+TEST_00621,qa,Rajiv Gandhi,Rajiv Gandhi,text,0.0,0.0,0.0,,
+TEST_00622,qa,Dustin Hoffman,Dustin Hoffman,text,0.0,0.0,0.0,,
+TEST_00623,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00624,rag,Lake Nasser,Lake Nasser,text,1.0,1.0,1.0,,False
+TEST_00625,rag,Trưng Sisters,Trưng Sisters,text,0.0,0.5714285714285714,0.0,,False
+TEST_00626,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00627,qa,no,no,text,1.0,1.0,1.0,,
+TEST_00628,math,12 + 16 + 16 + 16 = 50,,unparseable,,,,0.0,
+TEST_00629,qa,Bobby Carnell,Bobby Carnell,text,0.0,0.0,0.0,,
+TEST_00630,qa,1965,1965,text,0.0,0.0,0.0,,
+TEST_00631,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00632,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00633,math,10,10,complete_number,,,,0.0,
+TEST_00634,math,"2
+
+Final numeric answer only: 2",2,explicit_final_number,,,,0.0,
+TEST_00635,math,140,140,complete_number,,,,0.0,
+TEST_00636,rag,"The potato blight caused Victoria to be called ""The Famine Queen.""","The potato blight caused Victoria to be called ""The Famine Queen.""",text,0.0,0.35294117647058826,0.0,,False
+TEST_00637,math,120,120,complete_number,,,,0.0,
+TEST_00638,qa,Miley Cyrus,Miley Cyrus,text,0.0,0.0,0.0,,
+TEST_00639,math,"10 + 45 = 55
+
+Ed had 55 marbles. Doug had 55 - 10 = 45 marbles. The difference is 55 - 45 = 10.
+
+Final numeric answer: 10",10,explicit_final_number,,,,0.0,
+TEST_00640,qa,150-200 pounds,150-200 pounds,text,0.0,0.3333333333333333,0.0,,
+TEST_00641,rag,skilled farmers and manufacturers,skilled farmers and manufacturers,text,0.0,0.4,0.0,,False
+TEST_00642,rag,27 January 2026,27 January 2026,text,1.0,1.0,1.0,,False
+TEST_00643,qa,Djoser,Djoser,text,0.0,0.0,0.0,,
+TEST_00644,rag,Tang's major rival in dominating Inner Asia.,Tang's major rival in dominating Inner Asia.,text,0.0,0.0,0.0,,False
+TEST_00645,math,12,12,complete_number,,,,0.0,
+TEST_00646,math,125,125,complete_number,,,,0.0,
+TEST_00647,rag,52nd second.,52nd second.,text,0.0,0.5,0.0,,False
+TEST_00648,math,"9 - 2 = 7
+
+Final numeric answer: 7",7,explicit_final_number,,,,1.0,
+TEST_00649,math,"632 + 465 = 1097
+
+1097 - 410 = 687
+
+687 - 410 = 277
+
+277 is the answer.",,unparseable,,,,0.0,
+TEST_00650,math,12,12,complete_number,,,,0.0,
+TEST_00651,math,"2
+
+Final numeric answer only: 2",2,explicit_final_number,,,,1.0,
+TEST_00652,rag,"James O. Fraser, Alfred James Broomhall, and Isobel Kuhn were involved with Tibet through their work with the China Inland Mission, which included missionary activities in Tibet.","James O. Fraser, Alfred James Broomhall, and Isobel Kuhn were involved with Tibet through their work with the China Inland Mission, which included missionary activities in Tibet.",text,0.0,0.0,0.0,,False
+TEST_00653,qa,Malaysian Ringgit,Malaysian Ringgit,text,1.0,1.0,1.0,,
+TEST_00654,rag,2006-2011,2006-2011,text,0.0,0.6666666666666666,0.0,,False
+TEST_00655,math,140,140,complete_number,,,,0.0,
+TEST_00656,rag,1827,1827,text,1.0,1.0,1.0,,False
+TEST_00657,qa,New York City,New York City,text,0.0,0.0,0.0,,
+TEST_00658,qa,Answers 1 to 9 are all related to the same concept.,Answers 1 to 9 are all related to the same concept.,text,0.0,0.0,0.0,,
+TEST_00659,rag,New York Islanders.,New York Islanders.,text,0.0,0.8571428571428571,0.0,,False
+TEST_00660,math,"10 + 20 = 30  
+30 ÷ 4 = 7.5  
+
+Since you cannot have half a group, the answer is 7 groups.",,unparseable,,,,0.0,
+TEST_00661,rag,Fiber To The Home or similar names.,Fiber To The Home or similar names.,text,0.0,0.0,0.0,,True
+TEST_00662,qa,Alfred Peshkov,Alfred Peshkov,text,0.0,0.5,0.0,,
+TEST_00663,math,150,150,complete_number,,,,0.0,
+TEST_00664,qa,The Birds,The Birds,text,0.0,0.0,0.0,,
+TEST_00665,qa,14,14,text,0.0,0.0,0.0,,
+TEST_00666,math,"10 - (6*0.50 + 8*0.25) = 10 - (3 + 2) = 10 - 5 = 5
+
+Final numeric answer: 5",5,explicit_final_number,,,,1.0,
+TEST_00667,math,100,100,complete_number,,,,0.0,
+TEST_00668,math,15,15,complete_number,,,,0.0,
+TEST_00669,qa,"[1, 2, 5]","[1, 2, 5]",text,0.0,0.8333333333333334,0.0,,
+TEST_00670,rag,capitalisation as a marker to indicate the beginning of a line of verse,capitalisation as a marker to indicate the beginning of a line of verse,text,0.0,0.631578947368421,0.0,,False
+TEST_00671,qa,Samsung Electronics,Samsung Electronics,text,0.0,0.6666666666666666,0.0,,
+TEST_00672,math,35,35,complete_number,,,,0.0,
+TEST_00673,qa,A special like,A special like,text,0.0,0.0,0.0,,
+TEST_00674,qa,William Michael Albert Broad is better known as William Broad.,William Michael Albert Broad is better known as William Broad.,text,0.0,0.5333333333333333,0.0,,
+TEST_00675,math,135.5,135.5,complete_number,,,,0.0,
+TEST_00676,math,181,181,complete_number,,,,0.0,
+TEST_00677,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00678,rag,"53,158","53,158",text,1.0,1.0,1.0,,False
+TEST_00679,qa,The Beatles,The Beatles,text,0.0,0.0,0.0,,
+TEST_00680,math,100,100,complete_number,,,,0.0,
+TEST_00681,rag,1993,1993,text,0.0,0.0,0.0,,False
+TEST_00682,math,"12 * 3 = 36  
+36 * 7 = 252  
+
+Final numeric answer: 252",252,explicit_final_number,,,,1.0,
+TEST_00683,qa,softmax,softmax,text,1.0,1.0,1.0,,
+TEST_00684,qa,The Killer Clown,The Killer Clown,text,1.0,1.0,1.0,,
+TEST_00685,qa,Yes,Yes,text,0.0,0.0,0.0,,
+TEST_00686,math,10*20 + 140*25 = 200 + 3500 = 3700,,unparseable,,,,0.0,
+TEST_00687,rag,1835,1835,text,1.0,1.0,1.0,,False
+TEST_00688,rag,Rockbridge County,Rockbridge County,text,1.0,1.0,1.0,,False
+TEST_00689,qa,Appalachian Mountains,Appalachian Mountains,text,1.0,1.0,1.0,,
+TEST_00690,qa,The United States bought Louisiana from France in 1803.,The United States bought Louisiana from France in 1803.,text,0.0,0.16666666666666666,0.0,,
+TEST_00691,qa,A. Luminous Nose,A. Luminous Nose,text,0.0,0.0,0.0,,
+TEST_00692,rag,1990 Goodwill Games,1990 Goodwill Games,text,0.0,0.8,0.0,,False
+TEST_00693,qa,Martin Luther,Martin Luther,text,1.0,1.0,1.0,,
+TEST_00694,qa,By investing in real estate.,By investing in real estate.,text,0.0,0.0,0.0,,
+TEST_00695,math,"100 ÷ 7 = 14.2857...  
+She can build 14 full levels, with 2 pieces left over.  
+So the answer is 14.",,unparseable,,,,0.0,
+TEST_00696,qa,Ring announcer let's get ready to rumble,Ring announcer let's get ready to rumble,text,0.0,0.0,0.0,,
+TEST_00697,math,3,3,complete_number,,,,0.0,
+TEST_00698,qa,1889,1889,text,0.0,0.5,0.0,,
+TEST_00699,qa,M. R. James,M. R. James,text,0.0,0.0,0.0,,
+TEST_00700,math,2,2,complete_number,,,,0.0,
+TEST_00701,rag,AD 600 to 1450,AD 600 to 1450,text,0.0,0.8888888888888888,0.0,,False
+TEST_00702,math,1200,1200,complete_number,,,,0.0,
+TEST_00703,math,5,5,complete_number,,,,0.0,
+TEST_00704,rag,Chen.,Chen.,text,0.0,0.0,0.0,,False
+TEST_00705,qa,Dana Stevens,Dana Stevens,text,0.0,0.0,0.0,,
+TEST_00706,qa,Bunny Hop,Bunny Hop,text,0.0,0.0,0.0,,
+TEST_00707,qa,Husserl,Husserl,text,0.0,0.0,0.0,,
+TEST_00708,math,1250,1250,complete_number,,,,0.0,
+TEST_00709,rag,1970s and 1980s,1970s and 1980s,text,1.0,1.0,1.0,,False
+TEST_00710,rag,Grave Digger,Grave Digger,text,1.0,1.0,1.0,,False
+TEST_00711,qa,Season 2,Season 2,text,0.0,0.0,0.0,,
+TEST_00712,qa,Hemingway,Hemingway,text,0.0,0.0,0.0,,
+TEST_00713,qa,Bachelor of Arts (BA) and Master of Arts (MA),Bachelor of Arts (BA) and Master of Arts (MA),text,0.0,0.0,0.0,,
+TEST_00714,qa,New York City,New York City,text,0.0,0.0,0.0,,
+TEST_00715,rag,Indianapolis Motor Speedway,Indianapolis Motor Speedway,text,1.0,1.0,1.0,,False
+TEST_00716,math,12 + (12 × 1/3) = 12 + 4 = 16,,unparseable,,,,0.0,
+TEST_00717,rag,epigenetic activation of some genes and inhibition of others,epigenetic activation of some genes and inhibition of others,text,0.0,0.18181818181818182,0.0,,False
+TEST_00718,rag,Private Bill Committees,Private Bill Committees,text,1.0,1.0,1.0,,False
+TEST_00719,rag,US$57.8bn,US$57.8bn,text,0.0,0.4444444444444444,0.0,,False
+TEST_00720,qa,0,0,text,0.0,0.0,0.0,,
+TEST_00721,math,1008,1008,complete_number,,,,0.0,
+TEST_00722,qa,Porthmadog,Porthmadog,text,0.0,0.0,0.0,,
+TEST_00723,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00724,rag,UNANSWERABLE.,UNANSWERABLE.,text,0.0,0.0,0.0,,False
+TEST_00725,math,16,16,complete_number,,,,0.0,
+TEST_00726,math,1950,1950,complete_number,,,,0.0,
+TEST_00727,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00728,math,100,100,complete_number,,,,0.0,
+TEST_00729,rag,British.,British.,text,0.0,0.4,0.0,,False
+TEST_00730,qa,green,green,text,1.0,1.0,0.0,,
+TEST_00731,rag,Steve Carell,Steve Carell,text,0.0,0.4,0.0,,False
+TEST_00732,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00733,rag,Z-Image-Turbo,Z-Image-Turbo,text,1.0,1.0,1.0,,False
+TEST_00734,math,300,300,complete_number,,,,0.0,
+TEST_00735,math,30,30,complete_number,,,,0.0,
+TEST_00736,qa,Robert De Niro,Robert De Niro,text,0.0,0.0,0.0,,
+TEST_00737,qa,2006,2006,text,0.0,0.0,0.0,,
+TEST_00738,qa,Irish Free State,Irish Free State,text,0.0,0.0,0.0,,
+TEST_00739,math,"12*8*6=576
+
+576*10=5760
+
+Each iron ball has a volume of 8 cubic cm, so the total volume of the ten iron bars is 5760 cubic cm.
+
+The number of iron balls that can be molded is 5760 / 8 = 720
+
+Final numeric answer: 720",720,explicit_final_number,,,,1.0,
+TEST_00740,math,10,10,complete_number,,,,1.0,
+TEST_00741,math,"1456 / 7 = 208
+
+208 * 7 = 1456
+
+1456 / 32 = 45.5
+
+45.5
+
+Final numeric answer only: 45.5",45.5,explicit_final_number,,,,0.0,
+TEST_00742,rag,"Iceal E. ""Gene"" Hambleton","Iceal E. ""Gene"" Hambleton",text,0.0,0.875,0.0,,False
+TEST_00743,qa,Gulliform,Gulliform,text,0.0,0.0,0.0,,
+TEST_00744,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00745,qa,Samuel F. B. Morse,Samuel F. B. Morse,text,0.0,0.0,0.0,,
+TEST_00746,qa,world champion,world champion,text,0.0,0.0,0.0,,
+TEST_00747,math,141 + (141 * 6) / (3 + 6),,unparseable,,,,0.0,
+TEST_00748,qa,The Beatles,The Beatles,text,0.0,0.4,0.0,,
+TEST_00749,rag,"At sexual maturity, a female dog experiences her first estrous cycle.","At sexual maturity, a female dog experiences her first estrous cycle.",text,0.0,0.375,0.0,,False
+TEST_00750,qa,Mahjong,Mahjong,text,1.0,1.0,1.0,,
+TEST_00751,math,"12 + 5 = 17
+
+Suraya picked 17 apples, and Kayla picked 20 apples.
+
+So, Suraya picked 17 - 20 = -3 apples more than Kayla.
+
+But since the question asks how many more apples Suraya picked than Kayla, the answer is 3.
+
+Final numeric answer: 3",3,explicit_final_number,,,,0.0,
+TEST_00752,math,"19 + 9 = 28  
+Total credits = 3696  
+Credits per part = 3696 / 28 = 132  
+First person has 19 parts = 19 * 132 = 2508  
+Second person has 9 parts = 9 * 132 = 1188  
+After giving 3 credits, second person has 1188 - 3 = 1185  
+
+Final numeric answer: 1185",1185,explicit_final_number,,,,0.0,
+TEST_00753,math,1859 divided by 13 is 143. Then 143 multiplied by 7 is 1001. Then 1001 plus 2 is 1003. The second person has 1003 credits.,,unparseable,,,,0.0,
+TEST_00754,qa,Increased military spending,Increased military spending,text,0.0,0.4,0.0,,
+TEST_00755,qa,John Watson,John Watson,text,0.0,0.0,0.0,,
+TEST_00756,qa,Brauhaus München,Brauhaus München,text,0.0,0.0,0.0,,
+TEST_00757,rag,Muhammadu Buhari,Muhammadu Buhari,text,1.0,1.0,1.0,,False
+TEST_00758,math,150,150,complete_number,,,,0.0,
+TEST_00759,qa,tuna,tuna,text,0.0,0.0,0.0,,
+TEST_00760,math,12,12,complete_number,,,,0.0,
+TEST_00761,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00762,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00763,qa,4,4,text,0.0,0.0,0.0,,
+TEST_00764,rag,Apache 2.0,Apache 2.0,text,1.0,1.0,1.0,,False
+TEST_00765,math,17,17,complete_number,,,,0.0,
+TEST_00766,qa,Balmoral,Balmoral,text,0.0,0.0,0.0,,
+TEST_00767,math,11,11,complete_number,,,,0.0,
+TEST_00768,qa,King John of England,King John of England,text,0.0,0.3333333333333333,0.0,,
+TEST_00769,math,120,120,complete_number,,,,0.0,
+TEST_00770,math,"14 + (4 × 3) = 14 + 12 = 26
+
+Final numeric answer: 26",26,explicit_final_number,,,,1.0,
+TEST_00771,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00772,math,750,750,complete_number,,,,0.0,
+TEST_00773,rag,Saguaro National Park East.,Saguaro National Park East.,text,0.0,0.8888888888888888,0.0,,False
+TEST_00774,rag,UNANSWERABLE.,UNANSWERABLE.,text,0.0,0.0,0.0,,False
+TEST_00775,math,7,7,complete_number,,,,0.0,
+TEST_00776,rag,Golden Gate Bridge,Golden Gate Bridge,text,1.0,1.0,1.0,,False
+TEST_00777,rag,28 April 2015,28 April 2015,text,1.0,1.0,1.0,,False
+TEST_00778,math,12,12,complete_number,,,,0.0,
+TEST_00779,math,40,40,complete_number,,,,0.0,
+TEST_00780,math,"10 ÷ 1.25 = 8
+
+8 × 60 = 480
+
+Final numeric answer: 480",480,explicit_final_number,,,,1.0,
+TEST_00781,qa,A. K.,A. K.,text,0.0,0.0,0.0,,
+TEST_00782,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00783,rag,Qwen3.8-27B;Hugging Face;ModelScope,Qwen3.8-27B;Hugging Face;ModelScope,text,0.0,0.4444444444444444,0.0,,False
+TEST_00784,qa,The Wolf of Wall Street,The Wolf of Wall Street,text,0.0,0.25,0.0,,
+TEST_00785,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00786,rag,mid-1990s,mid-1990s,text,0.0,0.8571428571428571,0.0,,False
+TEST_00787,qa,Staphylococcus aureus,Staphylococcus aureus,text,0.0,0.0,0.0,,
+TEST_00788,qa,A partridge in a pear tree,A partridge in a pear tree,text,0.0,0.0,0.0,,
+TEST_00789,qa,Bureau of Labor Statistics,Bureau of Labor Statistics,text,1.0,1.0,1.0,,
+TEST_00790,qa,Benjamin B. Franklin,Benjamin B. Franklin,text,0.0,0.0,0.0,,
+TEST_00791,math,100,100,complete_number,,,,0.0,
+TEST_00792,math,13000,13000,complete_number,,,,0.0,
+TEST_00793,math,1296,1296,complete_number,,,,0.0,
+TEST_00794,rag,UNANSWERABLE.,UNANSWERABLE.,text,0.0,0.0,0.0,,False
+TEST_00795,qa,The Bible was written by multiple authors over many centuries.,The Bible was written by multiple authors over many centuries.,text,0.0,0.0,0.0,,
+TEST_00796,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00797,math,"12 + 3 = 15 people
+
+Each pizza serves 3 people, so 15 ÷ 3 = 5 pizzas
+
+5 pizzas × $15 = $75
+
+Final numeric answer: 75",75,explicit_final_number,,,,0.0,
+TEST_00798,rag,Chanakya,Chanakya,text,1.0,1.0,1.0,,False
+TEST_00799,math,150,150,complete_number,,,,0.0,
+TEST_00800,rag,2,2,text,0.0,0.0,0.0,,False
+TEST_00801,rag,1,1,text,0.0,0.0,0.0,,False
+TEST_00802,qa,Meredith Baxter,Meredith Baxter,text,0.0,0.0,0.0,,
+TEST_00803,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00804,math,10,10,complete_number,,,,0.0,
+TEST_00805,math,148 - (148 × 1/4) - 29 = 148 - 37 - 29 = 82,,unparseable,,,,0.0,
+TEST_00806,math,15,15,complete_number,,,,0.0,
+TEST_00807,qa,Purchase a membership through the Augusta National Golf Club website or by contacting their office.,Purchase a membership through the Augusta National Golf Club website or by contacting their office.,text,0.0,0.1111111111111111,0.0,,
+TEST_00808,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00809,qa,The Shawshank Redemption,The Shawshank Redemption,text,0.0,0.0,0.0,,
+TEST_00810,math,"167 - 89 = 78
+
+Final numeric answer: 78",78,explicit_final_number,,,,1.0,
+TEST_00811,qa,Ferrari,Ferrari,text,0.0,0.0,0.0,,
+TEST_00812,qa,juvenile kangaroo,juvenile kangaroo,text,0.0,0.0,0.0,,
+TEST_00813,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00814,qa,eau,eau,text,0.0,0.0,0.0,,
+TEST_00815,rag,The Solzinc process produces pure zinc.,The Solzinc process produces pure zinc.,text,0.0,0.4444444444444444,0.0,,False
+TEST_00816,qa,A songbird.,A songbird.,text,0.0,0.18181818181818182,0.0,,
+TEST_00817,qa,Praetorium,Praetorium,text,0.0,0.0,0.0,,
+TEST_00818,math,"34 + 18 = 52
+
+Final numeric answer only: 52",52,explicit_final_number,,,,1.0,
+TEST_00819,math,12,12,complete_number,,,,0.0,
+TEST_00820,rag,Chaillot,Chaillot,text,1.0,1.0,1.0,,False
+TEST_00821,math,"167 + 167 = 334
+
+Time to go: 167 / 17 = 9.823529411764706 hours
+
+Time to return: 167 / 23 = 7.260870173913043 hours
+
+Total time: 9.823529411764706 + 7.260870173913043 = 17.08439958567775 hours
+
+Convert to minutes: 17.08439958567775 * 60 = 1025.063975140665 minutes
+
+Final numeric answer: 1025",1025,explicit_final_number,,,,0.0,
+TEST_00822,math,12 + 3 + (12/2) + (2*3) = 12 + 3 + 6 + 6 = 27,,unparseable,,,,0.0,
+TEST_00823,math,10,10,complete_number,,,,1.0,
+TEST_00824,math,720,720,complete_number,,,,1.0,
+TEST_00825,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00826,math,"19*38=722
+
+The moose population of Canada is 722 million.",,unparseable,,,,0.0,
+TEST_00827,rag,Chihuahua,Chihuahua,text,0.0,0.5,0.0,,False
+TEST_00828,qa,Miley Cyrus,Miley Cyrus,text,0.0,0.0,0.0,,
+TEST_00829,math,1228800,1228800,complete_number,,,,0.0,
+TEST_00830,rag,1992,1992,text,1.0,1.0,1.0,,False
+TEST_00831,math,12.5,12.5,complete_number,,,,0.0,
+TEST_00832,qa,Aeromexico is a founding member of the OACI.,Aeromexico is a founding member of the OACI.,text,0.0,0.0,0.0,,
+TEST_00833,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00834,qa,The government pays the settlements on people's court.,The government pays the settlements on people's court.,text,0.0,0.0,0.0,,
+TEST_00835,rag,Spayed,Spayed,text,1.0,1.0,1.0,,False
+TEST_00836,math,3,3,complete_number,,,,1.0,
+TEST_00837,qa,Lord Kitchener,Lord Kitchener,text,0.0,0.0,0.0,,
+TEST_00838,qa,milk,milk,text,0.0,0.0,0.0,,
+TEST_00839,rag,2010,2010,text,0.0,0.0,0.0,,True
+TEST_00840,qa,Liam Neeson,Liam Neeson,text,0.0,0.0,0.0,,
+TEST_00841,math,1440 / (12 * 10) = 12,,unparseable,,,,0.0,
+TEST_00842,qa,KwaZulu,KwaZulu,text,1.0,1.0,1.0,,
+TEST_00843,rag,North_Carolina,North_Carolina,text,0.0,0.0,0.0,,False
+TEST_00844,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00845,math,"1/6 of 18kg is 3kg. So, Oliver's two bags weigh 3kg each, totaling 6kg. The combined weight of both Oliver’s bags is 6kg.",,unparseable,,,,0.0,
+TEST_00846,qa,Frank Herbert,Frank Herbert,text,1.0,1.0,1.0,,
+TEST_00847,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00848,rag,Sweden,Sweden,text,1.0,1.0,1.0,,False
+TEST_00849,qa,:Keanu Reeves,:Keanu Reeves,text,0.0,0.0,0.0,,
+TEST_00850,math,"18 people × 3 slices/person = 54 slices needed  
+54 slices ÷ 9 slices/pizza = 6 pizzas  
+
+Final numeric answer: 6",6,explicit_final_number,,,,1.0,
+TEST_00851,math,15,15,complete_number,,,,1.0,
+TEST_00852,math,100*3 + 200*3 + 300*3 = 300 + 600 + 900 = 1800,,unparseable,,,,0.0,
+TEST_00853,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00854,qa,"Beverly Hills, California.","Beverly Hills, California.",text,0.0,0.0,0.0,,
+TEST_00855,math,106 - (7 + 6) * 2 = 106 - 26 = 80,,unparseable,,,,0.0,
+TEST_00856,rag,"15,000","15,000",text,1.0,1.0,1.0,,False
+TEST_00857,math,325,325,complete_number,,,,0.0,
+TEST_00858,qa,pig's stomach,pig's stomach,text,0.0,0.0,0.0,,
+TEST_00859,rag,Continental Ranch is planned in the Northwest.,Continental Ranch is planned in the Northwest.,text,0.0,0.0,0.0,,False
+TEST_00860,qa,LeBron James,LeBron James,text,0.0,0.0,0.0,,
+TEST_00861,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00862,qa,George VI,George VI,text,0.0,0.0,0.0,,
+TEST_00863,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00864,rag,Members Business,Members Business,text,0.0,0.0,0.0,,True
+TEST_00865,qa,hyperemesis gravidarum is an extreme form of nausea and vomiting during pregnancy,hyperemesis gravidarum is an extreme form of nausea and vomiting during pregnancy,text,0.0,0.5882352941176471,0.0,,
+TEST_00866,math,12,12,complete_number,,,,0.0,
+TEST_00867,math,"155 - 140 = 15
+
+Final numeric answer only: 15",15,explicit_final_number,,,,1.0,
+TEST_00868,math,"13 + 8 = 21 litres per minute  
+Total rate = 21 litres per minute  
+Time = 6 minutes  
+Total pumped = 21 * 6 = 126 litres  
+Tank initially had 34 litres  
+Remaining = 34 - 126 = -92 litres  
+Since the tank has already emptied, the answer is 0.",,unparseable,,,,0.0,
+TEST_00869,rag,Eric Bloom,Eric Bloom,text,1.0,1.0,1.0,,False
+TEST_00870,math,15,15,complete_number,,,,0.0,
+TEST_00871,rag,Richard Hauptmann,Richard Hauptmann,text,1.0,1.0,1.0,,False
+TEST_00872,qa,"The song ""One Wing from Sparkle"" was written by John Prine.","The song ""One Wing from Sparkle"" was written by John Prine.",text,0.0,0.11764705882352941,0.0,,
+TEST_00873,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00874,rag,Larry Drake,Larry Drake,text,0.0,0.8,0.0,,False
+TEST_00875,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00876,qa,Bette Midler,Bette Midler,text,0.0,0.0,0.0,,
+TEST_00877,qa,confidence coefficient,confidence coefficient,text,0.0,0.4,0.0,,
+TEST_00878,qa,Ludvig Loefler,Ludvig Loefler,text,0.0,0.0,0.0,,
+TEST_00879,math,15000,15000,complete_number,,,,0.0,
+TEST_00880,qa,greenhouse gases,greenhouse gases,text,0.0,0.2222222222222222,0.0,,
+TEST_00881,rag,2B,2B,text,1.0,1.0,1.0,,False
+TEST_00882,qa,Joe Mauer,Joe Mauer,text,0.0,0.0,0.0,,
+TEST_00883,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00884,math,1500,1500,complete_number,,,,0.0,
+TEST_00885,rag,8B; Thinking,8B; Thinking,text,1.0,1.0,1.0,,False
+TEST_00886,qa,"['b', 'c']","['b', 'c']",text,1.0,1.0,1.0,,
+TEST_00887,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00888,qa,Maria Sharapova,Maria Sharapova,text,0.0,0.0,0.0,,
+TEST_00889,qa,Liverpool,Liverpool,text,0.0,0.0,0.0,,
+TEST_00890,qa,Pennsylvania Canal,Pennsylvania Canal,text,0.0,0.5,0.0,,
+TEST_00891,math,15 - 12 = 3,,unparseable,,,,0.0,
+TEST_00892,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00893,math,"10
+
+When Jayson is 10, his dad is 40 (10 × 4), and his mom is 38 (40 - 2). 
+
+To find how old Jayson's mom was when he was born, subtract Jayson's current age from his mom's current age: 38 - 10 = 28.
+
+Final numeric answer: 28",28,explicit_final_number,,,,1.0,
+TEST_00894,math,"12 + 6 = 18
+
+Jonathan has 18 utensils remaining.",,unparseable,,,,0.0,
+TEST_00895,math,10,10,complete_number,,,,0.0,
+TEST_00896,math,8,8,complete_number,,,,1.0,
+TEST_00897,rag,culé,culé,text,1.0,1.0,1.0,,False
+TEST_00898,math,"11 - 5 = 6
+
+Martha has 6 butterflies that are either blue or yellow. She has twice as many blue as yellow, so let the number of yellow butterflies be $ y $, and the number of blue butterflies be $ 2y $. Then:
+
+$$
+y + 2y = 6 \Rightarrow 3y = 6 \Rightarrow y = 2
+$$
+
+So, the number of blue butterflies is $ 2y = 2 \times 2 = 4 $.
+
+Final numeric answer: 4",4,explicit_final_number,,,,1.0,
+TEST_00899,rag,Lord Melbourne,Lord Melbourne,text,0.0,0.5714285714285714,0.0,,False
+TEST_00900,qa,LH and FSH are produced by the anterior pituitary.,LH and FSH are produced by the anterior pituitary.,text,0.0,0.0,0.0,,
+TEST_00901,math,"150 + 30 = 180  
+180 ÷ 2 = 90  
+
+Final numeric answer: 90",90,explicit_final_number,,,,0.0,
+TEST_00902,qa,Strait of Bass,Strait of Bass,text,0.0,0.8,0.0,,
+TEST_00903,math,16,16,complete_number,,,,1.0,
+TEST_00904,math,16830,16830,complete_number,,,,0.0,
+TEST_00905,qa,Belgium plays in the Round of 16 against Spain.,Belgium plays in the Round of 16 against Spain.,text,0.0,0.0,0.0,,
+TEST_00906,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00907,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00908,qa,1945,1945,text,0.0,0.5,0.0,,
+TEST_00909,qa,18 years of age,18 years of age,text,0.0,0.3333333333333333,0.0,,
+TEST_00910,rag,cleaning up food scraps,cleaning up food scraps,text,1.0,1.0,1.0,,False
+TEST_00911,qa,"Ilocos folk arts include traditional dances, music, and crafts such as weaving and pottery.","Ilocos folk arts include traditional dances, music, and crafts such as weaving and pottery.",text,0.0,0.1111111111111111,0.0,,
+TEST_00912,math,1050,1050,complete_number,,,,0.0,
+TEST_00913,math,1500 + (1500/5) + (300*2) = 1500 + 300 + 600 = 2400,,unparseable,,,,0.0,
+TEST_00914,math,"458 + 692 = 1150
+
+The total number of pupils in the school is 1150.",,unparseable,,,,0.0,
+TEST_00915,math,12 + 6 + 24 = 42,,unparseable,,,,0.0,
+TEST_00916,rag,Blue Ridge Parkway,Blue Ridge Parkway,text,0.0,0.0,0.0,,False
+TEST_00917,qa,"max(0,x)","max(0,x)",text,0.0,0.0,0.0,,
+TEST_00918,math,"7×12=84
+
+100−84=16
+
+16
+
+Final numeric answer only: 16",16,explicit_final_number,,,,1.0,
+TEST_00919,math,10 * (20 * (1 - 0.15)) = 10 * 17 = 170,,unparseable,,,,0.0,
+TEST_00920,qa,"[True, True, False]","[True, True, False]",text,0.0,0.25,0.0,,
+TEST_00921,qa,Boris Karloff,Boris Karloff,text,0.0,0.0,0.0,,
+TEST_00922,math,14,14,complete_number,,,,0.0,
+TEST_00923,qa,Marlene Hartley,Marlene Hartley,text,0.0,0.0,0.0,,
+TEST_00924,qa,Bond Street,Bond Street,text,0.0,0.0,0.0,,
+TEST_00925,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00926,math,121,121,complete_number,,,,0.0,
+TEST_00927,math,2 pairs,,unparseable,,,,0.0,
+TEST_00928,rag,The extracellular matrix surrounding eukaryotic cells is made of collagen and elastic glycoproteins.,The extracellular matrix surrounding eukaryotic cells is made of collagen and elastic glycoproteins.,text,0.0,0.4444444444444444,0.0,,False
+TEST_00929,math,140,140,complete_number,,,,0.0,
+TEST_00930,rag,Biological role,Biological role,text,0.0,0.0,0.0,,False
+TEST_00931,rag,Bathurst,Bathurst,text,0.0,0.3333333333333333,0.0,,False
+TEST_00932,math,12,12,complete_number,,,,0.0,
+TEST_00933,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00934,math,10,10,complete_number,,,,0.0,
+TEST_00935,math,"15 + 15 + 15 + 20 + 20 = 85
+
+Final numeric answer only: 85",85,explicit_final_number,,,,1.0,
+TEST_00936,math,120,120,complete_number,,,,0.0,
+TEST_00937,rag,273,273,text,0.0,0.0,0.0,,False
+TEST_00938,math,1200,1200,complete_number,,,,0.0,
+TEST_00939,qa,United States,United States,text,0.0,0.0,0.0,,
+TEST_00940,rag,Outside,Outside,text,1.0,1.0,1.0,,False
+TEST_00941,qa,New Zealand,New Zealand,text,1.0,1.0,1.0,,
+TEST_00942,math,160,160,complete_number,,,,0.0,
+TEST_00943,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00944,qa,W.G. Grace,W.G. Grace,text,0.0,0.0,0.0,,
+TEST_00945,rag,Robot Overlords,Robot Overlords,text,1.0,1.0,1.0,,False
+TEST_00946,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00947,qa,Everglades National Park,Everglades National Park,text,0.0,0.25,0.0,,
+TEST_00948,rag,Maxine,Maxine,text,0.0,0.0,0.0,,False
+TEST_00949,qa,1822,1822,text,0.0,0.0,0.0,,
+TEST_00950,rag,Rings,Rings,text,0.0,0.0,0.0,,False
+TEST_00951,qa,East Hampton,East Hampton,text,0.0,0.0,0.0,,
+TEST_00952,qa,temporal bone,temporal bone,text,0.0,0.5,0.0,,
+TEST_00953,qa,1886,1886,text,0.0,0.0,0.0,,
+TEST_00954,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00955,math,"16 - (9 + 18) = 16 - 27 = -11
+
+The answer is -11.",,unparseable,,,,0.0,
+TEST_00956,math,"15:5 is 30:10. Total parts = 30 + 10 = 40. Each part = 2580 / 40 = 64.5. First person has 15 parts = 15 * 64.5 = 967.5. After giving 5 credits, second person has 10 parts = 10 * 64.5 = 645. The second person has 645 credits.",,unparseable,,,,0.0,
+TEST_00957,qa,a faction of the Russian Social Democratic Workers' Party that advocated for a socialist revolution and the eventual establishment of a proletarian state,a faction of the Russian Social Democratic Workers' Party that advocated for a socialist revolution and the eventual establishment of a proletarian state,text,0.0,0.07407407407407407,0.0,,
+TEST_00958,math,"3 + 6 - 4 = 5
+
+The answer is 5.",,unparseable,,,,0.0,
+TEST_00959,math,80,80,complete_number,,,,0.0,
+TEST_00960,qa,"yoopers call residents of the lower peninsula ""lower peninsulares""","yoopers call residents of the lower peninsula ""lower peninsulares""",text,0.0,0.25,0.0,,
+TEST_00961,qa,Lleyton Hewitt,Lleyton Hewitt,text,0.0,0.0,0.0,,
+TEST_00962,qa,1935,1935,text,0.0,0.0,0.0,,
+TEST_00963,rag,County Louth,County Louth,text,1.0,1.0,1.0,,False
+TEST_00964,qa,De Havilland Mosquito,De Havilland Mosquito,text,0.0,0.5,0.0,,
+TEST_00965,qa,Oversampling,Oversampling,text,0.0,0.0,0.0,,
+TEST_00966,qa,Gilligan's Island: The Captain's Name is Jim.,Gilligan's Island: The Captain's Name is Jim.,text,0.0,0.0,0.0,,
+TEST_00967,math,13,13,complete_number,,,,0.0,
+TEST_00968,qa,"Taylor Swift's 2018 tour was supported by her band, The Taylor Swift Band, which included her husband, Joe Alwyn, and her close friends and collaborators.","Taylor Swift's 2018 tour was supported by her band, The Taylor Swift Band, which included her husband, Joe Alwyn, and her close friends and collaborators.",text,0.0,0.0,0.0,,
+TEST_00969,rag,"Beatrice transcribed and edited the diaries covering Victoria's accession onwards, and burned the originals in the process.","Beatrice transcribed and edited the diaries covering Victoria's accession onwards, and burned the originals in the process.",text,0.0,0.25,0.0,,False
+TEST_00970,math,15,15,complete_number,,,,0.0,
+TEST_00971,rag,rammed-earth,rammed-earth,text,1.0,1.0,1.0,,False
+TEST_00972,rag,Jane Stirling,Jane Stirling,text,1.0,1.0,1.0,,False
+TEST_00973,rag,3,3,text,0.0,0.0,0.0,,False
+TEST_00974,math,300,300,complete_number,,,,0.0,
+TEST_00975,math,5,5,complete_number,,,,0.0,
+TEST_00976,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00977,math,8,8,complete_number,,,,0.0,
+TEST_00978,qa,Babylon,Babylon,text,0.0,0.0,0.0,,
+TEST_00979,math,"10
+
+Mike will finish his reading in 20 days.",,unparseable,,,,0.0,
+TEST_00980,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00981,math,15,15,complete_number,,,,0.0,
+TEST_00982,rag,Louis Lefébure-Wély.,Louis Lefébure-Wély.,text,0.0,0.8888888888888888,0.0,,False
+TEST_00983,math,10 * 12 * 5 * 60 * 3,,unparseable,,,,0.0,
+TEST_00984,math,"150
+
+Jackson has 5 times more money than Williams, so if Williams has $x, Jackson has $5x. Together, they have $x + 5x = 6x = 150. Solving for x gives $x = 25. Therefore, Jackson has $5x = 125.",,unparseable,,,,0.0,
+TEST_00985,rag,UNANSWERABLE,UNANSWERABLE,text,1.0,1.0,1.0,,True
+TEST_00986,rag,long houses,long houses,text,0.0,0.0,0.0,,True
+TEST_00987,rag,25,25,text,1.0,1.0,1.0,,False
+TEST_00988,rag,600,600,text,0.0,0.0,0.0,,False
+TEST_00989,qa,Meryl Streep,Meryl Streep,text,0.0,0.0,0.0,,
+TEST_00990,qa,15-20 years,15-20 years,text,0.0,0.2857142857142857,0.0,,
+TEST_00991,qa,Clownfish,Clownfish,text,0.0,0.0,0.0,,
+TEST_00992,rag,UNANSWERABLE,UNANSWERABLE,text,0.0,0.0,0.0,,False
+TEST_00993,math,3,3,complete_number,,,,0.0,
+TEST_00994,rag,143th,143th,text,0.0,0.0,0.0,,False
+TEST_00995,qa,Ford,Ford,text,0.0,0.0,0.0,,
+TEST_00996,qa,"2018 America's Got Talent started on January 15, 2018.","2018 America's Got Talent started on January 15, 2018.",text,0.0,0.23529411764705882,0.0,,
+TEST_00997,qa,Gadsby,Gadsby,text,0.0,0.0,0.0,,
+TEST_00998,rag,20%,20%,text,1.0,1.0,1.0,,False
+TEST_00999,rag,Formal writing,Formal writing,text,0.0,0.6666666666666666,0.0,,False
+TEST_01000,math,1250,1250,complete_number,,,,0.0,
+TEST_01001,qa,1838,1838,text,0.0,0.0,0.0,,
+TEST_01002,math,1020,1020,complete_number,,,,0.0,
+TEST_01003,qa,"From the play ""The Cherry Orchard"" by Anton Chekhov.","From the play ""The Cherry Orchard"" by Anton Chekhov.",text,0.0,0.0,0.0,,
+TEST_01004,rag,1/2,1/2,text,0.0,0.0,0.0,,False
+TEST_01005,math,120,120,complete_number,,,,0.0,
+TEST_01006,qa,Burt Reynolds,Burt Reynolds,text,0.0,0.0,0.0,,
+TEST_01007,rag,Elevators in the mid 1800s were fueled by steam power.,Elevators in the mid 1800s were fueled by steam power.,text,0.0,0.3076923076923077,0.0,,False

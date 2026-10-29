@@ -1,0 +1,8 @@
+# Use the Colab-provided torch/CUDA recorded in environment.json.
+transformers==5.20.2
+accelerate==1.15.0
+huggingface-hub==1.33.0
+tokenizers==0.23.3
+safetensors==0.8.0
+# The verified FP16 baseline did not use bitsandbytes or PEFT.
+# C must record separate, actually tested training/adapter dependencies.

@@ -1,0 +1,45 @@
+{
+  "model_id": "Qwen/Qwen3-1.7B",
+  "model_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "revision_selection": "sole_cached_weight_snapshot",
+  "explicit_snapshot_load_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-1.7B/snapshots/70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "snapshot_config_sha256": {
+    "config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+    "generation_config.json": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  "tokenizer_id": "Qwen/Qwen3-1.7B",
+  "tokenizer_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "precision": "float16",
+  "quantized": false,
+  "gpu": "Tesla T4",
+  "gpu_capacity_gib": 14.56317138671875,
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "packages": {
+    "transformers": "5.20.2",
+    "accelerate": "1.15.0",
+    "bitsandbytes": "0.50.2",
+    "huggingface-hub": "1.33.0",
+    "tokenizers": "0.23.3",
+    "safetensors": "0.8.0"
+  },
+  "parameter_devices": [
+    "cuda:0"
+  ],
+  "model_parameter_and_buffer_gib": 3.2048211097717285,
+  "seed": 5494,
+  "enable_thinking": false,
+  "do_sample": false,
+  "batch_size": 1,
+  "max_new_tokens": 256,
+  "total_token_budget": 4096,
+  "padding_side": "left",
+  "truncation": "none; fail explicitly if budget exceeded",
+  "input_sha256": "c1cd1ffb09c3abec01c19503de8a99ca9c81b5078248a11861135b8a55c0b186",
+  "prompt_version": "task_output_rules_v2",
+  "script_sha256": "a5aa56e29fdbf613f43b6429fce02bb9caa9ead1e45ae084aebbff4b56b51a57",
+  "attention_implementation": "sdpa",
+  "status": "Round-2 candidate; final configuration still pending review"
+}

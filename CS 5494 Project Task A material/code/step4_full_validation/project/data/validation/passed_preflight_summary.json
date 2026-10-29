@@ -1,0 +1,102 @@
+{
+  "status": "STEP4_3_LENGTH_PREFLIGHT_PASSED",
+  "count": 907,
+  "gpu_required": false,
+  "model_weights_loaded": false,
+  "model_generation_performed": false,
+  "reference_answers_included": false,
+  "test_data_read": false,
+  "ready_for_generation": true,
+  "scope": "Baseline target prompts for validation only; no n-shot demonstrations",
+  "task_counts": {
+    "rag": 320,
+    "qa": 300,
+    "math": 287
+  },
+  "input_budget": 3840,
+  "output_budget": 256,
+  "total_token_budget": 4096,
+  "overall": {
+    "count": 907,
+    "min": 61,
+    "median": 117,
+    "mean": 205.81146637265712,
+    "p90": 452,
+    "p95": 496,
+    "p99": 573,
+    "max": 649
+  },
+  "per_task": {
+    "qa": {
+      "count": 300,
+      "min": 61,
+      "median": 66.0,
+      "mean": 68.52,
+      "p90": 77,
+      "p95": 83,
+      "p99": 93,
+      "max": 97,
+      "over_budget_count": 0
+    },
+    "rag": {
+      "count": 320,
+      "min": 172,
+      "median": 412.0,
+      "mean": 414.39375,
+      "p90": 519,
+      "p95": 551,
+      "p99": 614,
+      "max": 649,
+      "over_budget_count": 0
+    },
+    "math": {
+      "count": 287,
+      "min": 95,
+      "median": 117,
+      "mean": 116.7560975609756,
+      "p90": 130,
+      "p95": 133,
+      "p99": 141,
+      "max": 143,
+      "over_budget_count": 0
+    }
+  },
+  "percentile_definition": "Nearest rank: sorted[ceil(p*N)-1]; median uses statistics.median",
+  "over_budget_count": 0,
+  "over_budget_ids": [],
+  "inference_parity_verified_count": 907,
+  "target_truncation": false,
+  "smoke_parity": {
+    "matched": 10,
+    "expected": 10,
+    "sample_ids": [
+      "TRAIN_07446",
+      "TRAIN_05848",
+      "TRAIN_02807",
+      "TRAIN_03597",
+      "TRAIN_06431",
+      "TRAIN_00268",
+      "TRAIN_09043",
+      "TRAIN_04122",
+      "TRAIN_01506",
+      "TRAIN_00267"
+    ]
+  },
+  "profiling_seconds": 1.32344802300031,
+  "input_sha256": "5e163283fec18a1cc292f378a80e899fe8f3f94c22af75c748f3bca81b3f30cc",
+  "config_sha256": "da78ac569f643c5d8b83ea4351867f040d63e367253738c87f3c0f6c978fe4c8",
+  "tokenizer_id": "Qwen/Qwen3-1.7B",
+  "tokenizer_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "tokenizer_snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-1.7B/snapshots/70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "snapshot_config_sha256": {
+    "config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  "packages": {
+    "transformers": "5.20.2",
+    "tokenizers": "0.23.3",
+    "huggingface-hub": "1.33.0"
+  },
+  "blocked_reads": 0
+}

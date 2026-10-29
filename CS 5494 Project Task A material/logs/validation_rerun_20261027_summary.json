@@ -1,0 +1,73 @@
+{
+  "status": "STEP4_4_FULL_VALIDATION_BASELINE_PASSED",
+  "scope": "All 907 validation examples; no final test inference",
+  "count": 907,
+  "task_counts": {
+    "rag": 320,
+    "qa": 300,
+    "math": 287
+  },
+  "gpu_execution": "completed",
+  "test_data_read": false,
+  "final_test_frozen": false,
+  "bundle_reference_verified_after_generation": true,
+  "environment_checks": {
+    "status": "passed",
+    "critical_dependencies_match": true,
+    "fixed_snapshot_matches": true,
+    "fp16_cuda_baseline_verified": true
+  },
+  "prompt_parity_verified_count": 907,
+  "model_reused": false,
+  "reference_reads_during_inference": 0,
+  "completed_count": 907,
+  "blank_raw_answers": 0,
+  "empty_extracted_answers": 51,
+  "truncated_outputs": 2,
+  "max_input_tokens": 649,
+  "summed_generation_seconds": 405.39777769099646,
+  "generation_wall_seconds": 407.97421287299994,
+  "gpu_memory": {
+    "peak_allocated_gib": 3.375868797302246,
+    "peak_reserved_gib": 4.166015625,
+    "ending_allocated_gib": 3.2127695083618164
+  },
+  "per_task": {
+    "qa": {
+      "count": 300,
+      "empty_extracted_answers": 1,
+      "extraction_status_counts": {
+        "text": 299,
+        "truncated": 1
+      },
+      "exact_match": 13.0,
+      "token_f1": 19.588889487294388,
+      "strict_exact_match": 10.0
+    },
+    "rag": {
+      "count": 320,
+      "empty_extracted_answers": 0,
+      "extraction_status_counts": {
+        "text": 320
+      },
+      "exact_match": 34.6875,
+      "token_f1": 47.68207880853964,
+      "strict_exact_match": 34.6875,
+      "unanswerable_count": 56,
+      "unanswerable_accuracy": 76.78571428571429
+    },
+    "math": {
+      "count": 287,
+      "empty_extracted_answers": 50,
+      "extraction_status_counts": {
+        "complete_number": 195,
+        "unparseable": 49,
+        "explicit_final_number": 42,
+        "truncated": 1
+      },
+      "numeric_accuracy": 15.331010452961673
+    }
+  },
+  "macro_primary_score": 21.006170150987224,
+  "interpretation": "Complete validation baseline; incorrect/empty/truncated answers remain in the denominator"
+}

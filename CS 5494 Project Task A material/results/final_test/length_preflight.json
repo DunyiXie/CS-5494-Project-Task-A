@@ -1,0 +1,19 @@
+{
+  "status": "TASK_A_TEST_LENGTH_PREFLIGHT_PASSED",
+  "count": 1007,
+  "ready_for_generation": true,
+  "over_budget_count": 0,
+  "target_truncation": false,
+  "reference_answers_read": false,
+  "input_budget": 3840,
+  "output_budget": 256,
+  "min": 59,
+  "median": 117,
+  "mean": 204.59880834160873,
+  "max": 655,
+  "per_task_max": {
+    "rag": 655,
+    "math": 149,
+    "qa": 111
+  }
+}

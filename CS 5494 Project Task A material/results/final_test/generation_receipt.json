@@ -1,0 +1,21 @@
+{
+  "freeze_id": "TaskA_baseline_fp16_evaluation_v2_20261027_v1",
+  "freeze_manifest_sha256": "973123c9c7ef06780a2dfc9f3f77d2441d4ddd2fddc2d535296296aeca32c7f8",
+  "bundle_manifest_sha256": "4e9bbaa0e033a75047ba00c7924e352335ce61627015c15f5274eda2ff38d95c",
+  "input_sha256": "7e7f3d0e8a64338cdf3d56b936a258c0bfbb38e7b822fb1245c7205bb95e63ca",
+  "method": "baseline",
+  "sha256": {
+    "backend_environment.json": "e7d2376ace720c1e6b5d23c5ba75ad26bbdabf2b19fad8995aef59391e564f22",
+    "freeze_verification.json": "10f65b09e44cdb1e0bdd2a33cc745837df2df01d1a6bf5409d56349a12d07f70",
+    "input_manifest.json": "3e16ac687df0a6ee717de89d7c85a5b1f1ed9d237b4003963769145f4ee90c0c",
+    "length_preflight.json": "dbb043bf943b6579dddf6752faa4bdbbd9d7d39c18aab34f0097bfb812550e89",
+    "lengths.csv": "2fa147db6c059a92622cfe0133a53854ceeed6c1059df4ccabfa748d5acd9c79",
+    "inference/inputs.csv": "7e7f3d0e8a64338cdf3d56b936a258c0bfbb38e7b822fb1245c7205bb95e63ca",
+    "inference/config_snapshot.json": "81e6bbb20e08c90576a4c0a9f525bed499043ccf6e89f3f10890cd156d5f6863",
+    "inference/environment.json": "e7d2376ace720c1e6b5d23c5ba75ad26bbdabf2b19fad8995aef59391e564f22",
+    "inference/prompts.jsonl": "4ecc5f540b78be7af2d56d0c2f631d3c6ff4d918bc56f7023281607cb1bd7d80",
+    "inference/raw_outputs.jsonl": "dfeacbe7273945f5004d26ed2caf276091aa8c3d0a167de16b5caa2e71cd6054",
+    "inference/predictions.csv": "31039f82645e38819b6d3fd5b4ca9b349dc8f0d2c8b40e111299ae41d84fea06",
+    "inference/run_summary.json": "055f2bac758c479aab74ef51e4f019f86cfbc1fd17f243c4495a44db8633a7c7"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": "inference_v1",
+  "training_split_sha256": "62ba25c144ac185b2a17d94b60267c30d13fbc71d8477a2823105b95c19523bb",
+  "training_split_rows": 8160,
+  "demonstration_policy": "Same-task examples from the hash-verified training subset only; reject target IDs and duplicate examples; remove whole examples from the end if over budget",
+  "target_length_policy": "Preserve the complete target question and RAG context; fail before generation if the target alone exceeds the input budget",
+  "incomplete_generation": "No terminating EOS means incomplete, including a length-limited output; preserve raw output and extract an empty answer",
+  "completion": "Export predictions.csv only after every input has a trace; an exception preserves partial logs and records failed status",
+  "test_access": "Only explicit test mode plus final_test_frozen=true permits named test inputs"
+}

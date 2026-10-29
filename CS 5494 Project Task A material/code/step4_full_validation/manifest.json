@@ -1,0 +1,32 @@
+{
+  "purpose": "Complete 907-row validation baseline GPU inference followed by shared evaluation",
+  "gpu_required": true,
+  "validation_count": 907,
+  "method": "baseline",
+  "reference_files": [
+    "project/data/validation/validation_reference.csv"
+  ],
+  "references_parsed_only_after_generation": true,
+  "test_data_included": false,
+  "model_weights_included": false,
+  "sha256": {
+    "project/common/__init__.py": "4cee2171e78e6d0e90875df2c2d0cc914895216abd9d48a0b9ac60cea9b650eb",
+    "project/common/data_utils.py": "0482cf98fdb560ba812f128b5a5324d92ae6db61cecf5e53ea315fb9751f2ec6",
+    "project/common/evaluation.py": "15de338b0a3cd785f0d7f77d73901318c1b2cc652e7dcd4b292d53bdc303cc74",
+    "project/common/evaluate.py": "cb913c25c80206173341cfb471754f39a7afc7fb7daeecc356a2cbad2a2d68c5",
+    "project/common/evaluation_config.json": "f2a2bb9e11236eac12a3d5120995f20c3f6df9d9f46fd3e791dead3409201fa5",
+    "project/common/inference.py": "3f22c0b4f2c6cce32253b5f2cdd10d4c7bc9f680db629827350b4e3ab27a3bf0",
+    "project/common/inference_policy.json": "6881211297222a09a73a90b2ebaec48c99e6ac492acfb6c0185351ad950a3823",
+    "project/common/config.json": "da78ac569f643c5d8b83ea4351867f040d63e367253738c87f3c0f6c978fe4c8",
+    "project/common/environment_observed.json": "9714951955b7263915cdca42db4d34963d7cf1718ee019f90274be269d7b4b63",
+    "project/common/requirements_inference.txt": "3f03d5803bc0ed6193c2ac38b361f16e71dba3a1f62d2967f297b722e52e4b24",
+    "project/data/validation/validation_inputs.csv": "5e163283fec18a1cc292f378a80e899fe8f3f94c22af75c748f3bca81b3f30cc",
+    "project/data/validation/validation_reference.csv": "5fd39255521c5e3d00750c3cdb3a42084f3045eeb2d1227b195fb682392ac042",
+    "project/data/validation/full_validation_manifest.json": "eb0bda6504c179e68638996a1610816ed8fa1f90372a8f1c2b0d93a6ad2142e3",
+    "project/data/validation/passed_preflight_summary.json": "3f3d0192b20f6e526c9b9da99f9a37ea6ba5c3f1747a9f8066d2b46d026c5592",
+    "project/data/validation/passed_preflight_lengths.csv": "5c116775999fc3bd5afcea66236cfb930663294ad747b449c858aac7f4d0efd8",
+    "project/step4_baseline_validation/runner_helpers.py": "569e08c666d2eb4bbb7e28528fd550ae8ee6b24f150721bf1ce1784012240f4f",
+    "project/step4_baseline_validation/run_colab_full_validation.py": "d38760f9c98ccfae3b9ac048ac3ada72f22e11629edc79806bbffd4b23378d37",
+    "project/step4_baseline_validation/README.md": "5ad3e5356e5f050ca2ed4dcd07c7677fc44bc9f53b22cb682f7626773df241ee"
+  }
+}

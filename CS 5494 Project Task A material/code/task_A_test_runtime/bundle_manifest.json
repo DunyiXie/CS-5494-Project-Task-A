@@ -1,0 +1,43 @@
+{
+  "purpose": "Frozen Task A final test; phase 1 inference, phase 2 scoring after separate reference upload",
+  "freeze_id": "TaskA_baseline_fp16_evaluation_v2_20261027_v1",
+  "freeze_manifest_sha256": "973123c9c7ef06780a2dfc9f3f77d2441d4ddd2fddc2d535296296aeca32c7f8",
+  "method": "baseline",
+  "count": 1007,
+  "task_counts": {
+    "rag": 350,
+    "math": 327,
+    "qa": 330
+  },
+  "references_included": false,
+  "weights_included": false,
+  "sha256": {
+    "frozen/config_frozen.json": "81e6bbb20e08c90576a4c0a9f525bed499043ccf6e89f3f10890cd156d5f6863",
+    "frozen/environment_lock.json": "1664f840d6d3581f87665e3f7e8920473e198c6cfba3ee88d0321a663d661643",
+    "frozen/evidence/source_config_before_freeze.json": "da78ac569f643c5d8b83ea4351867f040d63e367253738c87f3c0f6c978fe4c8",
+    "frozen/evidence/validation_gpu_environment.json": "eca2aec254115dc6a42a606054aaf8ffd45adb88615d8f5a70f1b841a6cd723a",
+    "frozen/evidence/validation_gpu_review.json": "aa5377b17379a3c5f5366ea438399ae581954429b91bcb0b6ce7422c84e40a67",
+    "frozen/evidence/validation_metrics_v2.json": "cd9bc0222af0b59770f84e4f2815317fd43df9325ca6141a5f48f372831a6c70",
+    "frozen/evidence/validation_review_v2.json": "1e05c384c425b2473c0a75333f3cb4dfd2a887ad3ee121fdefd893fabadc51b5",
+    "frozen/freeze_manifest.json": "973123c9c7ef06780a2dfc9f3f77d2441d4ddd2fddc2d535296296aeca32c7f8",
+    "frozen/method_contract.json": "11b8c9beee925f2a7c9115b9e549916b1cf188905d3f72859480f33f55d678b7",
+    "frozen/project/common/__init__.py": "4cee2171e78e6d0e90875df2c2d0cc914895216abd9d48a0b9ac60cea9b650eb",
+    "frozen/project/common/config.json": "81e6bbb20e08c90576a4c0a9f525bed499043ccf6e89f3f10890cd156d5f6863",
+    "frozen/project/common/data_utils.py": "0482cf98fdb560ba812f128b5a5324d92ae6db61cecf5e53ea315fb9751f2ec6",
+    "frozen/project/common/environment_observed.json": "9714951955b7263915cdca42db4d34963d7cf1718ee019f90274be269d7b4b63",
+    "frozen/project/common/evaluate.py": "cb913c25c80206173341cfb471754f39a7afc7fb7daeecc356a2cbad2a2d68c5",
+    "frozen/project/common/evaluation.py": "15de338b0a3cd785f0d7f77d73901318c1b2cc652e7dcd4b292d53bdc303cc74",
+    "frozen/project/common/evaluation_config.json": "f2a2bb9e11236eac12a3d5120995f20c3f6df9d9f46fd3e791dead3409201fa5",
+    "frozen/project/common/inference.py": "3f22c0b4f2c6cce32253b5f2cdd10d4c7bc9f680db629827350b4e3ab27a3bf0",
+    "frozen/project/common/inference_policy.json": "6881211297222a09a73a90b2ebaec48c99e6ac492acfb6c0185351ad950a3823",
+    "frozen/project/common/requirements_inference.txt": "3f03d5803bc0ed6193c2ac38b361f16e71dba3a1f62d2967f297b722e52e4b24",
+    "frozen/README.md": "23933021f9be31235b6f7772cd8b0ad49bef324d812961bfef070d35c5fd804d",
+    "frozen/verify_freeze.py": "cf47da9602c0e042a4d74e1c24389965e70acfa360e053c3bffceabd8a1e30f2",
+    "input_manifest.json": "3e16ac687df0a6ee717de89d7c85a5b1f1ed9d237b4003963769145f4ee90c0c",
+    "inputs/test.csv": "7e7f3d0e8a64338cdf3d56b936a258c0bfbb38e7b822fb1245c7205bb95e63ca",
+    "README.md": "8b4ace73e18b4a943a9380d69dc23ff6bc9b3a7a836c782019f56d82a7ae8a9f",
+    "run_colab_task_A_test.py": "1bb7d647e732a736c2e45e5ade5e475dc59f84f2be2a80ac9bbd5962a8cbb3b7",
+    "runner_helpers.py": "607989eb9ecb9f75ded3b9b1458033dbd9cfb3ae3d5e4df0a4c081f5928397d0",
+    "score_task_A_test.py": "783e6d326d33e861aff11de65075bfa0c3f0d2a27963bca1c1c888df27871792"
+  }
+}

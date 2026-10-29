@@ -1,0 +1,66 @@
+{
+  "status": "TASK_A_FINAL_TEST_PASSED",
+  "freeze_id": "TaskA_baseline_fp16_evaluation_v2_20261027_v1",
+  "count": 1007,
+  "generation_completion_verified_before_reference_access": true,
+  "reference_answers_read": true,
+  "reference_sha256": "2b760d80e44ff18d399d14ddf97bedeebadf7221d54c3a89f7cb236838086fda",
+  "scope": "All 1007 test examples; frozen Task A baseline",
+  "final_test_frozen": true,
+  "gpu_execution": "completed",
+  "task_counts": {
+    "rag": 350,
+    "math": 327,
+    "qa": 330
+  },
+  "completed_count": 1007,
+  "freeze_manifest_sha256": "973123c9c7ef06780a2dfc9f3f77d2441d4ddd2fddc2d535296296aeca32c7f8",
+  "scoring_directory": "scoring_20261027_095659_433343_UTC",
+  "blank_raw_answers": 0,
+  "empty_extracted_answers": 65,
+  "truncated_outputs": 0,
+  "max_input_tokens": 655,
+  "generation_wall_seconds": 518.2690932479995,
+  "gpu_memory": {
+    "peak_allocated_gib": 3.37813663482666,
+    "peak_reserved_gib": 4.173828125,
+    "ending_allocated_gib": 3.2127695083618164
+  },
+  "per_task": {
+    "qa": {
+      "count": 330,
+      "empty_extracted_answers": 0,
+      "extraction_status_counts": {
+        "text": 330
+      },
+      "exact_match": 10.303030303030303,
+      "token_f1": 19.505922660557246,
+      "strict_exact_match": 8.484848484848484
+    },
+    "rag": {
+      "count": 350,
+      "empty_extracted_answers": 0,
+      "extraction_status_counts": {
+        "text": 350
+      },
+      "exact_match": 37.42857142857143,
+      "token_f1": 49.27490405540265,
+      "strict_exact_match": 36.857142857142854,
+      "unanswerable_count": 60,
+      "unanswerable_accuracy": 70.0
+    },
+    "math": {
+      "count": 327,
+      "empty_extracted_answers": 65,
+      "extraction_status_counts": {
+        "explicit_final_number": 59,
+        "complete_number": 203,
+        "unparseable": 65
+      },
+      "numeric_accuracy": 14.678899082568808
+    }
+  },
+  "macro_primary_score": 20.80350027139018,
+  "interpretation": "Complete final-test execution; all incorrect/empty/truncated outputs remain in the denominator"
+}
+Result ZIP: /content/task_A_test_20261027_094608_541686_UTC_scored_20261027_095659_433343_UTC.zip

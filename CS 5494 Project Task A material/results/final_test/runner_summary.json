@@ -1,0 +1,35 @@
+{
+  "status": "TASK_A_TEST_INFERENCE_COMPLETE_PENDING_SCORING",
+  "scope": "All 1007 final-test inputs; A frozen baseline",
+  "freeze_id": "TaskA_baseline_fp16_evaluation_v2_20261027_v1",
+  "count": 1007,
+  "completed_count": 1007,
+  "final_test_frozen": true,
+  "gpu_execution": "completed",
+  "reference_answers_read": false,
+  "reference_reads_during_inference": 0,
+  "task_counts": {
+    "rag": 350,
+    "math": 327,
+    "qa": 330
+  },
+  "environment_checks": {
+    "status": "passed",
+    "fresh_pinned_fp16_model": true,
+    "critical_dependencies_match": true,
+    "snapshot_matches": true,
+    "all_generation_parameters_match": true
+  },
+  "generation_receipt_sha256": "99448f3b8143002a892cfe48bc71c8e94063fc4519d53274d53f4b53d8398258",
+  "blank_raw_answers": 0,
+  "empty_extracted_answers": 65,
+  "truncated_outputs": 0,
+  "max_input_tokens": 655,
+  "summed_generation_seconds": 515.3765225099951,
+  "generation_wall_seconds": 518.2690932479995,
+  "gpu_memory": {
+    "peak_allocated_gib": 3.37813663482666,
+    "peak_reserved_gib": 4.173828125,
+    "ending_allocated_gib": 3.2127695083618164
+  }
+}
